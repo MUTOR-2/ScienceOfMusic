@@ -29,7 +29,7 @@ Much of the direction of this project was laid out in 2006 during the sabbatical
 ## Samples from the first edition of MUTOR
 
    <div align="center">
-    <video controls src="/MUTOR/assets/videos/David_Wessel.mp4">
+    <video controls src="{{ site.baseurl }}/assets/videos/David_Wessel.mp4">
       Your browser does not support the video element.
     </video>
    </div>
@@ -38,14 +38,14 @@ Excerpt of a video with David Wessel created in 2006 at CNMAT, UC Berkeley with 
 
 Screenshots of the Flash application:
 
-{% include img-figure url="/MUTOR/assets/images/MUTOR_Screenshots/sine_wave.png" description="Sine Wave" %}
-{% include img-figure url="/MUTOR/assets/images/MUTOR_Screenshots/search.png" description="Search" %}
-{% include img-figure url="/MUTOR/assets/images/MUTOR_Screenshots/oscilloscope.png" description="Oscilloscope" %}
-{% include img-figure url="/MUTOR/assets/images/MUTOR_Screenshots/people.png" description="People" %}
-{% include img-figure url="/MUTOR/assets/images/MUTOR_Screenshots/guide.png" description="Guide" %}
-{% include img-figure url="/MUTOR/assets/images/MUTOR_Screenshots/menue.png" description="Menue" %}
-{% include img-figure url="/MUTOR/assets/images/MUTOR_Screenshots/glossary.png" description="Glossary" %}
-{% include img-figure url="/MUTOR/assets/images/MUTOR_Screenshots/fft.png" description="FFT" %}
-{% include img-figure url="/MUTOR/assets/images/MUTOR_Screenshots/ear.png" description="Ear" %}
-{% include img-figure url="/MUTOR/assets/images/MUTOR_Screenshots/cochlea.png" description="Cochlea" %}
+{% include img-figure url="{{ site.baseurl }}/assets/images/MUTOR_Screenshots/sine_wave.png" description="Sine Wave" %}
+{% include img-figure url="{{ site.baseurl }}/assets/images/MUTOR_Screenshots/search.png" description="Search" %}
+{% include img-figure url="{{ site.baseurl }}/assets/images/MUTOR_Screenshots/oscilloscope.png" description="Oscilloscope" %}
+{% include img-figure url="{{ site.baseurl }}/assets/images/MUTOR_Screenshots/people.png" description="People" %}
+{% include img-figure url="{{ site.baseurl }}/assets/images/MUTOR_Screenshots/guide.png" description="Guide" %}
+{% include img-figure url="{{ site.baseurl }}/assets/images/MUTOR_Screenshots/menue.png" description="Menue" %}
+{% include img-figure url="{{ site.baseurl }}/assets/images/MUTOR_Screenshots/glossary.png" description="Glossary" %}
+{% include img-figure url="{{ site.baseurl }}/assets/images/MUTOR_Screenshots/fft.png" description="FFT" %}
+{% include img-figure url="{{ site.baseurl }}/assets/images/MUTOR_Screenshots/ear.png" description="Ear" %}
+{% include img-figure url="{{ site.baseurl }}/assets/images/MUTOR_Screenshots/cochlea.png" description="Cochlea" %}
 
