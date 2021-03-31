@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Data and Privacy
-permalink: /privacy/
 ---
 
 ## 1 Contact details of the data controller

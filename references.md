@@ -1,7 +1,6 @@
 ---
 layout: page
 title: References
-permalink: /references/
 ---
 
 {% for u in site.units %}

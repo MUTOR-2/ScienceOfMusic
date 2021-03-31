@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Contact
-permalink: /contact/
 ---
 
 Hochschule für Musik und Theater Hamburg

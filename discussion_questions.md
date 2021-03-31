@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Discussion Questions
-permalink: /discussion_questions/
 ---
 
 {% for u in site.units %}
