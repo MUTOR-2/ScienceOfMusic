@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+#permalink: /about/
 ---
 ## MUTOR
 
@@ -38,14 +38,14 @@ Excerpt of a video with David Wessel created in 2006 at CNMAT, UC Berkeley with 
 
 Screenshots of the Flash application:
 
-{% include img-figure url="{{ site.baseurl }}/assets/images/MUTOR_Screenshots/sine_wave.png" description="Sine Wave" %}
-{% include img-figure url="{{ site.baseurl }}/assets/images/MUTOR_Screenshots/search.png" description="Search" %}
-{% include img-figure url="{{ site.baseurl }}/assets/images/MUTOR_Screenshots/oscilloscope.png" description="Oscilloscope" %}
-{% include img-figure url="{{ site.baseurl }}/assets/images/MUTOR_Screenshots/people.png" description="People" %}
-{% include img-figure url="{{ site.baseurl }}/assets/images/MUTOR_Screenshots/guide.png" description="Guide" %}
-{% include img-figure url="{{ site.baseurl }}/assets/images/MUTOR_Screenshots/menue.png" description="Menue" %}
-{% include img-figure url="{{ site.baseurl }}/assets/images/MUTOR_Screenshots/glossary.png" description="Glossary" %}
-{% include img-figure url="{{ site.baseurl }}/assets/images/MUTOR_Screenshots/fft.png" description="FFT" %}
-{% include img-figure url="{{ site.baseurl }}/assets/images/MUTOR_Screenshots/ear.png" description="Ear" %}
-{% include img-figure url="{{ site.baseurl }}/assets/images/MUTOR_Screenshots/cochlea.png" description="Cochlea" %}
+{% include img-figure url="./assets/images/MUTOR_Screenshots/sine_wave.png" description="Sine Wave" %}
+{% include img-figure url="./assets/images/MUTOR_Screenshots/search.png" description="Search" %}
+{% include img-figure url="./assets/images/MUTOR_Screenshots/oscilloscope.png" description="Oscilloscope" %}
+{% include img-figure url="./assets/images/MUTOR_Screenshots/people.png" description="People" %}
+{% include img-figure url="./assets/images/MUTOR_Screenshots/guide.png" description="Guide" %}
+{% include img-figure url="./assets/images/MUTOR_Screenshots/menue.png" description="Menue" %}
+{% include img-figure url="./assets/images/MUTOR_Screenshots/glossary.png" description="Glossary" %}
+{% include img-figure url="./assets/images/MUTOR_Screenshots/fft.png" description="FFT" %}
+{% include img-figure url="./assets/images/MUTOR_Screenshots/ear.png" description="Ear" %}
+{% include img-figure url="./assets/images/MUTOR_Screenshots/cochlea.png" description="Cochlea" %}
 
