@@ -1,0 +1,9 @@
+[submodule "_includes"]
+	path = _includes
+	url = https://github.com/MUTOR-2/_includes
+[submodule "_layouts"]
+	path = _layouts
+	url = https://github.com/MUTOR-2/_layouts
+[submodule "_sass"]
+	path = _sass
+	url = https://github.com/MUTOR-2/_sass
