@@ -289,7 +289,7 @@ The cochlea is a coiled structure, contains the entire length of the basilar mem
 {% comment %} ALSO, IT IS LOOKING HORRIBLE! {% endcomment %}
 
 {% include img-figure url="./tonotopy.png" description="Tonotopy Basilar Membrane" width="400px" %}
- (Adapted from Watts, 1993) {% include cite ref="Watts" %}
+(Adapted from Watts, 1993) {% include cite ref="watts" %}
 {% comment %}  Schematic of the rolled-up basilar membrane, with its optimally sensitive frequencies marked along its length. {% endcomment %}
 
 {% include img-figure url="./tonotopy_bekesy.png" description="Data on Tonotopy from von Békésy " width="auto" height="500px" %}
@@ -337,7 +337,7 @@ The superior olivary complex include the medial and lateral superior olivary nuc
 
 The auditory system's ability to localize sounds depends to a certain extent on the shape of the pinna and the head (see Outer Ear), but the bulk of this amazing ability depends on the binaural system. When sounds arrive from a certain location, the wavefronts arrive at the closer ear first, and the time difference between the arrival times of sound to the closer ear and the further ear is known as interaural time difference, or ITD. Sounds from a certain location also contain more energy at the closer ear compared to the further ear, and this difference in sound levels is termed interaural level difference, or ILD. Since low-frequency sounds have longer wavelengths and are thus more likely to get around the head, ILDs tend to be a more helpful cue for higher frequencies whereas ITDs are more helpful for low frequencies.
 
-Jeffress (1948) proposed a model of how the auditory system computes interaural time differences so as to localize sounds. The model involved a coincidence detector in the brain, in the form of a set of neurons that fire when the two sounds from the left and right ears reach the neuron simultaneously. These coincidence detection neurons were later found in the Nucleus Leminaris of the owl {% include cite ref="Carr" %}, which corresponds to the Medial Superior Olive of mammals (Smith et al, 1998). The Lateral Superior Olive was found to be sensitive to level differences between the ears. Since the MSO is sensitive to ITDs and the LSO is sensitive to ILDs, together the superior olivary complex is responsible for much of binaural hearing.
+Jeffress (1948) proposed a model of how the auditory system computes interaural time differences so as to localize sounds. The model involved a coincidence detector in the brain, in the form of a set of neurons that fire when the two sounds from the left and right ears reach the neuron simultaneously. These coincidence detection neurons were later found in the Nucleus Leminaris of the owl {% include cite ref="carr_and_konishi" %}, which corresponds to the Medial Superior Olive of mammals (Smith et al, 1998). The Lateral Superior Olive was found to be sensitive to level differences between the ears. Since the MSO is sensitive to ITDs and the LSO is sensitive to ILDs, together the superior olivary complex is responsible for much of binaural hearing.
 
 {% include img-figure url="./mso_itd.jpg" description="Interaural Time Difference" width="500px" %}
 {% include img-figure url="./mso_ild.jpg" description="Interaural Level Difference" width="500px" %}
@@ -347,7 +347,7 @@ Jeffress (1948) proposed a model of how the auditory system computes interaural 
 (image source: http://www.physiology.wisc.edu A. Jeffress's (1948) model of coincidence detection.)
 
 {% include img-figure url="./mso_coincidence_physiology.png" description="B. Physiological Implementation of Coincidence Detection" width="300px" %}
-{% include cite ref="Joris" %}
+{% include cite ref="joris_et_al" %}
 {% comment %} B. Coincidence detectors for computing interaural time differences /yin/jorissmithyin98.pdf) {% endcomment %}
 {% comment %} LOOKS MOVED TO THE LEFT :/ {% endcomment %}
 
@@ -376,7 +376,7 @@ Modulation detection refers to the ability of the auditory system to detect rapi
 
 # Amplitude Modulation
 
-One of the roles of the inferior colliculus, and also the inferior colliculus, seems to be to reflect amplitude modulation {% include cite ref="McKinney" %} {% comment %}(McKinney et al, 2001) {% endcomment %}. Amplitude modulation refers to the change in amplitude levels, usually at periodic rates. In musical performance, playing tremolo typically results in amplitude modulation. AM radio also relies on the application of amplitude modulation.
+One of the roles of the inferior colliculus, and also the inferior colliculus, seems to be to reflect amplitude modulation {% include cite ref="mckinney_et_al" %} {% comment %}(McKinney et al, 2001) {% endcomment %}. Amplitude modulation refers to the change in amplitude levels, usually at periodic rates. In musical performance, playing tremolo typically results in amplitude modulation. AM radio also relies on the application of amplitude modulation.
 
 {% include img-figure url="./amplitudemodulation_tremolo.png" description="Tremolo" width="300px" %}
 {% comment %} Tremolo - a case of amplitude modulation
@@ -384,7 +384,7 @@ One of the roles of the inferior colliculus, and also the inferior colliculus, s
 
 Amplitude modulation can also result in the interaction of two or more tones that are close together in frequency. The interaction of two tones within a critical bandwidth will be discussed in detail in the next unit.
 
-The frequency of amplitude modulation can be represented by the modulation spectrum. The Atlas toolbox, which enables the analysis of the modulation spectrum by plotting the rate of amplitude modulation and its relation to acoustic frequency, is a useful tool to help visualize the rate of change of sounds in both frequency and amplitude. The modulation spectrum plays an important role in speech understanding. Much of the useful information in speech is contained in the modulation spectrum. This is shown by the observation that speech recognition is impaired in an individual with lesions in the inferior colliculus {% include cite ref="Hoistad" %} {% comment %}(Hoistad & Hain, 2003){% endcomment %}.
+The frequency of amplitude modulation can be represented by the modulation spectrum. The Atlas toolbox, which enables the analysis of the modulation spectrum by plotting the rate of amplitude modulation and its relation to acoustic frequency, is a useful tool to help visualize the rate of change of sounds in both frequency and amplitude. The modulation spectrum plays an important role in speech understanding. Much of the useful information in speech is contained in the modulation spectrum. This is shown by the observation that speech recognition is impaired in an individual with lesions in the inferior colliculus {% include cite ref="hoistad_and_hain" %} {% comment %}(Hoistad & Hain, 2003){% endcomment %}.
 
 ## Medial Geniculate Nucleus
 
@@ -405,7 +405,7 @@ The auditory cortex is located just under the sylvian fissure, which is the fold
 {% include img-figure url="./anatomy_auditorycortex.png" description="The Sylvian fissure, with the Auditory Cortex below it." width="500px" %}
 (image source: http://serous.med.buffalo.edu/hearing/auditory_cortex.html)
 
-The auditory cortex includes primary and secondary auditory cortices. The PrimaryAuditoryCortex (also known as A1) is located on the temporal plane, which is delineated by the Sylvian fissure on the top surface of the temporal lobe. The SecondaryAuditoryCortex (A2) surrounds the primary auditory cortex. The primary auditory cortex is tonotopically organized, with the lateral edge of the Sylvian fissure being sensitive to lower frequencies and the medial part of the cortex being sensitive to high frequencies. The primary auditory cortex is responsible for the perception of pitch, rhythm and duration, whereas the secondary auditory cortex is responsible for pattern perception, which includes the perception of speech and melodies. Persons with lesioned auditory cortices have trouble perceiving music; this is a condition known as amusia. {% include cite ref="Peretz" %} 
+The auditory cortex includes primary and secondary auditory cortices. The PrimaryAuditoryCortex (also known as A1) is located on the temporal plane, which is delineated by the Sylvian fissure on the top surface of the temporal lobe. The SecondaryAuditoryCortex (A2) surrounds the primary auditory cortex. The primary auditory cortex is tonotopically organized, with the lateral edge of the Sylvian fissure being sensitive to lower frequencies and the medial part of the cortex being sensitive to high frequencies. The primary auditory cortex is responsible for the perception of pitch, rhythm and duration, whereas the secondary auditory cortex is responsible for pattern perception, which includes the perception of speech and melodies. Persons with lesioned auditory cortices have trouble perceiving music; this is a condition known as amusia. {% include cite ref="peretz" %} 
 {% comment %}(Peretz et al, 2003)
 {% endcomment %}
 
@@ -417,7 +417,7 @@ Primary and secondary auditory cortices. A1 is shown here in blue and A2 is in r
 
 ## Primary Auditory Cortex
 
-The primary auditory cortex (A1) is located in the temporal lobe of the cerebral cortex, and is below the Sylvian fissure. A1 is responsive to pitch and duration. Evidence suggest that the left A1 is more sensitive to temporal modulation, thus giving rise to speech perception, whereas the right A1 is more sensitive to spectral modulation, thus giving rise to pitch and music perception. {% include cite ref="Zatorre" %}{% comment %}(Zatorre, Penhune et al, 2002){% endcomment %}.
+The primary auditory cortex (A1) is located in the temporal lobe of the cerebral cortex, and is below the Sylvian fissure. A1 is responsive to pitch and duration. Evidence suggest that the left A1 is more sensitive to temporal modulation, thus giving rise to speech perception, whereas the right A1 is more sensitive to spectral modulation, thus giving rise to pitch and music perception. {% include cite ref="zatorre_and_belin" %}{% comment %}(Zatorre, Penhune et al, 2002){% endcomment %}.
 
 Stroke may occasionally (but infrequently) lead to lesions in the primary auditory cortex. People with bilateral A1 lesions can still detect sound, but cannot discriminate between different sounds with the normal level of accuracy. Speech perception, which relies on fine discriminations of sound signals, is severely disrupted in persons with A1 lesions.
 
@@ -443,7 +443,7 @@ response to a sound stimulus. OAE recording, in combination with the recording o
 # Evolution Of The Auditory System
 So far we have comprehensively discussed the anatomy and physiology of the human auditory system. It is important to consider how such a complex system has evolved to enable music perception for humans today. A comparison of the auditory system between humans and other species reveal that various nonhuman mammals do have auditory system analogous to humans. Monkeys, cats, chinchillas, marmosets, rats, and various other mammals all make use of pathways in their peripheral and central nervous system, from the ear to the brain, to analyze and react to sounds, although the precise points along these pathways may differ slightly among species. Birds, fish, and amphibians are also known to have auditory pathways and to analyze sounds in a reasonably similar manner. Taken together, auditory systems in all these animals probably share the same evolutionary origins as the human auditory system.
 
-Fay and Popper {% include cite ref="Fay" %} argued that all vertebrate auditory systems are required to do certain basic tasks including acoustic feature discrimination, sound source localization, frequency analysis, and auditory scene analysis, among others. These sorts of capabilities arose very early in the evolution of the vertebrates and have been modified by selection in different species.
+Fay and Popper {% include cite ref="fay_and_popper" %} argued that all vertebrate auditory systems are required to do certain basic tasks including acoustic feature discrimination, sound source localization, frequency analysis, and auditory scene analysis, among others. These sorts of capabilities arose very early in the evolution of the vertebrates and have been modified by selection in different species.
 While various animals are able to hear and have auditory systems, only a few species have evolved to make music.
 
 # Music in Other Species
