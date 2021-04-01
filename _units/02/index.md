@@ -263,7 +263,7 @@ When the cochlea is excited by sound coming in, vibrations are sent through the 
 {% include img-figure url="./anatomy_organofcorti.png" description="Organ of Corti" %}
 {%comment %} Organ of Corti {% endcomment %}
 
-{% include img-figure url="/MUTOR/assets/images/anatomy_organofcorti_states.png" description="States of the Organ of Corti" %}
+{% include img-figure url="/MUTOR/assets/images/organofcorti_states.png" description="States of the Organ of Corti" %}
 
 In its resting state, the basilar and tectorial membranes are parallel, the stereocilia (tiny hairs on the surface of the inner and outer hair cells) are relaxed and close together, and the ion channels between the stereocilia are closed. When sound excites the cochlea, its vibrations are sent down the fluid of the cochlea so that the basilar membrane is deflected. When the basilar membrane moves, the inner hair cells in the basilar membrane change shape, and the stereocilia on the inner hair cells are stretched, thus opening up the ion channels in the inner hair cells and causing a chemical transduction to occur within the cells. The chemical transduction of the inner hair cells results in the generation of the nerve impulse, which passes down the nerve fibers of the auditory nerve as neural firings. Thus the Organ of Corti is responsible for transducing sound signals into biological nerve impulses, so that hearing can occur.
 
@@ -378,7 +378,7 @@ Modulation detection refers to the ability of the auditory system to detect rapi
 
 One of the roles of the inferior colliculus, and also the inferior colliculus, seems to be to reflect amplitude modulation {% include cite ref="mckinney_et_al" %} {% comment %}(McKinney et al, 2001) {% endcomment %}. Amplitude modulation refers to the change in amplitude levels, usually at periodic rates. In musical performance, playing tremolo typically results in amplitude modulation. AM radio also relies on the application of amplitude modulation.
 
-{% include img-figure url="./amplitudemodulation_tremolo.png" description="Tremolo" width="300px" %}
+{% include img-figure url="./score_tremolo.png" description="Tremolo" width="300px" %}
 {% comment %} Tremolo - a case of amplitude modulation
 {% endcomment %}
 
@@ -581,7 +581,7 @@ Presbyacusis is the loss of hearing as a result of old age. The hearing loss qui
 Normal versus damaged hair cells 
 {% endcomment %}
 
-{% include img-figure url="./audiogram_presby.jpg" description="Presbyacusis Audiogram" %}
+{% include img-figure url="./audiogram_damage_presbyacusis.jpg" description="Presbyacusis Audiogram" %}
 Presbyacusis is commonly observed as a "ski-slope" hearing loss, where "ski-slope" refers to the shape of the audiometry function, which is relatively intact at low frequencies, but falls off rapidly at high frequencies.
 (image source: http://www.hearinglife.com.au)
 
