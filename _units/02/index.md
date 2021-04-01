@@ -539,7 +539,7 @@ Ranges of hearing loss:
 
 ## Examples of Audiograms
 
-{% include p/xwaveform-spectroscope-small src="./damage_audiogram.mp3" gain="1.0" %}
+{% include p/xwaveform-spectroscope-small src="./audiogram_damage.mp3" gain="1.0" %}
 
 Demo Normal Hearing vs. High-Frequency Hearing loss (Source: Truax, B., [Handbook for Acoustic Ecology](https://www.sfu.ca/sonic-studio-webdav/handbook/Audiogram.html))
 
