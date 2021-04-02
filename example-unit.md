@@ -653,13 +653,18 @@ and check it into the repo.
 
 You can leave a note in the text using the following syntax:
 `{% raw %}{% include note author="jm" text="a note from john" %}{% endraw %}`, 
-where the "author" field should be your first and last initials (I didn't know
-what Xiao prefers, so XF and FX both work...).
+where the "author" field should be your first and last initials. You
+may add your initials and other details to the `contributors` dictionary
+in `_config.yml`, where you can also set the color of the text of your
+notes.
 
 This is useful for making editorial comments to each other, for example:
 
-So, the cochlea is located behind the right knee
-{% include note author="GH" text="John, I think you should double-check this..." %},
+So, the cochlea is located behind the right knee{% 
+include note author="GH" text="John, I think you should double-check this..." %},
 where it can be excited by striking the knee with great force.
+
+Display of the notes may be globally switched off by setting `notes: false`
+in `_config.yml`.
 
 {% include unit_postamble.md %}

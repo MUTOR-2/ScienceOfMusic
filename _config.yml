@@ -48,3 +48,26 @@ exclude:
 collections:
  units:
   output: true
+
+contributors:
+ jm:
+  fullname: John MacCallum
+  email: john.maccallum@hfmt-hamburg.de
+  color: "#0000FF"
+ gh:
+  fullname: Georg Hajdu
+  color: "#FF0000"
+ pl:
+  fullname: Psyche Loui
+  color: "#00FF00"
+ vg:
+  fullname: Victor Gutiérrez
+  color: "#9900FF"
+ jl:
+  fullname: Janina Luckow
+  color: "#FF9900"
+ fx:
+  fullname: Fu Xiao
+  color: "#0099FF"
+
+notes: false
