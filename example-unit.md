@@ -4,19 +4,79 @@
 # Fill out with relevant information for this unit
 ###
 title: Formatting Examples and Stylesheet for MUTOR Units
-number: -1
+number: 1
 short_description: A style guide and formatting examples to be used when 
   designing MUTOR units
 summary: This page contains examples of the basic formatting options 
   available when creating a MUTOR unit. The rendered document 
-  (_site/units/example.html) contains information about how to 
-  format your unit, and is itself, along with its source file example.md, 
+  (_site/units/example-unit.html) contains information about how to 
+  format your unit, and is itself, along with its source file example-unit.md, 
   an example of how to construct a unit.
 authors: 
  - John MacCallum
-topics: [Markdown, Liquid, HTML, MUTOR Units]
-test_questions: []
-
+topics: [Jekyll, GitHub, Markdown, Liquid, YAML, HTML, Javascript, MUTOR Units]
+test_questions: 
+ - How do you format a link in markdown?
+ - What does liquid code do?
+ - What are the different languages used throughout a unit file (hint: there are as many as 6!)
+ 
+references:
+ jekyll:
+  authors:
+   - firstname: Contributers
+     lastname: Jekyll
+  title: 'Jekyll: Simple, blog-aware, static sites'
+  publication: '[https://jekyllrb.com](https://jekyllrb.com)'
+  year: 2021
+  
+ github:
+  authors:
+   - firstname: Bill
+     lastname: Gates
+  title: 'GitHub'
+  publication: '[https://github.com/](https://github.com/)'
+  year: 2021
+  
+ git:
+  authors:
+   - firstname: Linus
+     lastname: Torvalds
+  title: 'git --local-branching-on-the-cheap (aka the "redbook")'
+  publication: '[https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2)'
+  year: 2021
+  
+ kramdown:
+  authors:
+   - firstname: Contributers
+     lastname: Kramdown
+  title: 'Kramdown: fast, pure-ruby, markdown-superset converter'
+  publication: '[https://kramdown.gettalong.org](https://kramdown.gettalong.org)'
+  year: 2021
+  
+ yaml:
+  authors:
+   - firstname: Contributers
+     lastname: YAML
+  title: "YAML Ain't Markup Language"
+  publication: '[https://yaml.org](https://yaml.org)'
+  year: 2021
+  
+ liquid:
+  authors:
+   - firstname: Team
+     lastname: Liquid
+  title: 'Safe, customer-facing template language for flexible web apps.'
+  publication: '[https://shopify.github.io/liquid/](https://shopify.github.io/liquid/)'
+  year: 2021
+  
+ weisstein_fourier_transform:
+  authors:
+   - firstname: E.W.
+     lastname: Weisstein
+  title: 'Fourier Transform.'
+  publication: 'From MathWorld--A Wolfram Web Resource. [http://mathworld.wolfram.com/FourierTransform.html](http://mathworld.wolfram.com/FourierTransform.html)'
+  year: 2020
+  
 ###
 # page layout:
 # don't change
@@ -24,7 +84,6 @@ test_questions: []
 layout: unit
 citations: ""
 mathjax: true
-# published: false
 ---
 
 {% include unit_preamble.md %}
@@ -43,13 +102,21 @@ Each unit document begins with a header:
 	title: Title of the unit
 	number: 0
 	short_description: short description of the unit
-	summary: brief summary of the unit
+	summary: abstract for the unit
 	authors: 
 	- author 1
 	topics: [topic 1, topic 2]
 	test_questions:
 	- question 1
 	- question 2
+    references: 
+     zongker2002:
+      authors:
+       - firstname: D.
+         lastname: Zongker
+      title: 'Chicken Chicken Chicken: Chicken Chicken'
+      publication: 'https://isotropic.org/papers/chicken.pdf'
+      year: 2002
 
 	###
 	# page layout:
@@ -57,13 +124,13 @@ Each unit document begins with a header:
 	###
 	layout: unit
 	citations: ""
-	# published: false
+    mathjax: true
 	---
 
 The first part of the header contains unit-specific information that
 should be filled out by the author of the unit. The syntax is 
-[YAML](https://yaml.org/refcard.html). Note the two equivalent ways
-of making a list:
+[YAML](https://yaml.org/refcard.html) {% include cite ref='yaml' %}. 
+Note the two equivalent ways of making a list:
 
 	authors:
 	 - author 1
@@ -114,21 +181,17 @@ To create a new paragraph, you must include a blank line.
 
 You can divide your unit up into multiple files, for example, one containing
 the contents of each section. In order to do that, make a folder in the 
-_units directory and give it a name that begins with an underscore. If you are 
-working on unit 4, you could call it _04, for example. Let's say your unit
-consists of three sections, and they're all contained in their own files: 
-_04/04S1.md, _04/04S2.md, and _04/04S3.md. Your entire 04.md file would then 
-look like this (after the header):
+directory for your unit and give it a name that begins with an underscore. 
+Let's say you're working on unit 4, and you'd like to break it up into three 
+files, you could organize them like this: 
+_units/04/_sec1.md, _units/04/_sec2.md, _units/04/_sec3.md.
+Your entire index.md file would then look like this (after the header):
 
 	{% raw %}
 	{% include unit_preamble.md %}
-	
-	{% include_relative _04/04S1.md %}
-	
-	{% include_relative _04/04S2.md %}
-	
-	{% include_relative _04/04S3.md %}
-	
+	{% include_relative _sec1.md %}
+	{% include_relative _sec2.md %}
+	{% include_relative _sec3.md %}
 	{% include unit_postamble.md %}
 	{% endraw %}
 	
@@ -139,7 +202,8 @@ included in them, and they should not begin with a preamble or end with a postam
 
 Basic text formatting is done using [Markdown](https://en.wikipedia.org/wiki/Markdown) 
 syntax. There are many different *flavors* of Markdown, and the one Jekyll
-uses is called [kramdown](https://kramdown.gettalong.org/quickref.html). 
+uses is called [kramdown](https://kramdown.gettalong.org/quickref.html)
+{% include cite ref='kramdown' %}. 
 
 All Markdown syntax used in the document gets translated into HTML, and it is 
 perfectly fine to write inline HTML code directly in the document, although,
@@ -154,7 +218,7 @@ underscores or asterisks, and **stronger** __emphasis__ by doubling them.
 	You can place *emphasis* around _words_ by surrounding them with either
 	underscores or asterisks, and **stronger** __emphasis__ by doubling them.
 	
-## Block Quotes and Preformatted Code and Inline HTML
+## Block Quotes, Preformatted Code, and Inline HTML
 
 ### Block Quotes
 
@@ -172,7 +236,7 @@ Preformatted code can be created by simply indenting the text by one tab, or
 at least four spaces. It can also be done by `surrounding text in backticks.`
 
 Preformatted code will not be processed by the Markdown interpreter
-and will be rendered as a stylized differently than the other text, 
+and will be rendered stylized differently than the other text, 
 as shown in the code blocks throughout this document.
 
 ### Inline HTML
@@ -282,12 +346,15 @@ produces [clickme](http://www.google.com).
 
 ### Relative Links to MUTOR files
 
-Linking to other files on the MUTOR site should be done using relative paths.
-The root of the site is `/MUTOR`, and the contents of the site are organized
-in the folder _site (which you do not include in a relative link). So, to
+Linking to other files on the site should be done using relative paths.
+In order to refer to the root of the site, you can use the global liquid
+tag `{% raw %}{{ site.baseurl }}{% endraw %}` (which produces "{{ site.baseurl }}"), 
+and if you need the host, you can 
+use `{% raw %}{{ site.url }}{% endraw %}` (which produces "{{ site.url }}").
+So, to
 link from here to the 6th unit, you would write 
-`[click here for unit 6](/MUTOR/units/06.html)`, which produces
-[click here for unit 6](/MUTOR/units/06.html).
+`[click here for unit 6]({% raw %}{{ site.baseurl }}{% endraw %}/units/06/index.html)`, which produces
+[click here for unit 6]({{ site.baseurl }}/units/06/index.html).
 
 ## Typesetting Mathematical Formulas
 
@@ -341,10 +408,10 @@ Instead, images can be included using the
 or the slightly simpler syntax below:
 
 	{% raw %}
-	{% include img-figure url="/MUTOR/assets/images/sin-amp-period.png" description="Descriptive text" %}
+	{% include img-figure url="my_image.png"  description="Descriptive text" %}
 	{% endraw %}
 	
-{% include img-figure url="/MUTOR/assets/images/sin-amp-period.png" description="Descriptive text" %}
+{% include img-figure url="assets/images/hfmt_logo_black.png" description="HfMT logo" width=""%}
 
 ## Tables
 
@@ -365,76 +432,6 @@ format it as a figure with a table number and caption:
 
 See [here](https://kramdown.gettalong.org/syntax.html#tables) for all the 
 table formatting options.
-
-## Interactive Examples
-
-Interactive examples are planned for the future, but not currently available.
-For the moment, where you feel there should be an interactive example,
-please post a screenshot of a Max patch that shows the basic functionality.
-
-Here's a simple test of drawing SVG directly in the browser.
-
-{% include begin-figure description="SVG test" %}
-<div id="svg-axis-test">
-
-<svg width="220" height="220">
- <line x1="100" y1="0" x2="100" y2="200" style="stroke:black;stroke-width:1"/>
- <line x1="0" y1="100" x2="200" y2="100" style="stroke:black;stroke-width:1"/>
-</svg>
-
-</div>
-{% include end-figure %}
-
-{% include begin-figure description="SVG test" %}
-<div id="svg-axis-test-js">
-<svg width="200" height="200"></svg>
-</div>
-<script type="text/javascript">
-var xxx = document.getElementById("svg-axis-test-js").children[0];
-var width = 200;
-var height = 200;
-
-var xaxis = document.createElementNS("http://www.w3.org/2000/svg", "line");
-
-xaxis.setAttribute('x1', 0);
-xaxis.setAttribute('y1', height / 2);
-
-xaxis.setAttribute('x2', width);
-xaxis.setAttribute('y2', height / 2);
-
-xaxis.setAttribute('style', "stroke:black;stroke-width:1");
-
-xxx.appendChild(xaxis);
-
-var yaxis = document.createElementNS("http://www.w3.org/2000/svg", "line");
-
-yaxis.setAttribute('x1', width / 2);
-yaxis.setAttribute('y1', 0);
-
-yaxis.setAttribute('x2', width / 2);
-yaxis.setAttribute('y2', height);
-
-yaxis.setAttribute('style', "stroke:black;stroke-width:1");
-
-xxx.appendChild(yaxis);
-
-for(i = 1; i <= 200; i++){
-var x1 = ((i - 1) / (width / 2)) - 1;
-var y1 = Math.sin(2. * Math.PI * x1);
-var x2 = (i / (width / 2)) - 1;
-var y2 = Math.sin(2. * Math.PI * x2);
-
-var line = document.createElementNS("http://www.w3.org/2000/svg", "line");
-line.setAttribute('x1', i - 1);
-line.setAttribute('x2', i);
-line.setAttribute('y1', height - (((y1 + 1) / 2) * height));
-line.setAttribute('y2', height - (((y2 + 1) / 2) * height));
-line.setAttribute('style', "stroke:black;stroke-width:1");
-xxx.appendChild(line);
-}
-
-</script>
-{% include end-figure %}
 
 ## Refering to Figures
 
@@ -459,6 +456,10 @@ The variable `fignum` is defined by the code in `img-figure` and `begin-figure`,
 and will be changed by the next use of either of those includes, so if you 
 intend to use it, you should assign it to a variable and use the variable. Note that the
 figure must come before the reference for this to work.
+
+## Interactive Examples
+
+
 
 # End Matter
 

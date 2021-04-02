@@ -886,7 +886,8 @@ Reverberation (or reverb) is the result of sounds reflecting off of the surfaces
 {% include img-figure url="./reverb_direct.png" description="The first sound to hit the listener is called the direct sound." width="650px" %}
 {% assign reverb2 = fignum %}
 
-{% include img-figure url="./reverb_direct_graph.png" description="The direct sound from figure reverb2." width="450px" %}
+{% capture desc %}The direct sound from figure {{ reverb2 }}{% endcapture %}
+{% include img-figure url="./reverb_direct_graph.png" description=desc width="450px" %}
 {% assign reverb3 = fignum %}
 
 The direct sound is followed by a number of early reflections that arive at the listener after some delay and loss of energy (figures {{reverb4}}-{{reverb5}}). The length of the delay and the amount of energy lost are dependant on the size of the room and the type of material used to make the surfaces (the walls, floor, and ceiling).
@@ -918,7 +919,7 @@ d=\frac{r}{344\mathrm{m/s}}
 \label{eq:delay-formula}
 \end{equation}
 
-where $d$ is the delay time in milliseconds and $r$ is the distance in meters. This delay from source to listener has important consequences for sound amplification—see the section on the precedence effect.
+where $d$ is the delay time in seconds and $r$ is the distance in meters. This delay from source to listener has important consequences for sound amplification—see the section on the precedence effect.
 
 The intensity of the direct sound as experienced by a listener decreases with distance and can be calculated by
 
@@ -927,10 +928,9 @@ I=\frac{P}{4\pi r^2}
 \label{eq:inverse-square}
 \end{equation}
 
-where $P$ is the initial power of the signal, $r$ is the distance from the source in meters, and $I$ is the intensity in $\mathrm{W/m^2}$. Notice that the denominator in the above equation is the area of a sphere due to the fact that sound radiates out in all directions in a spherical pattern. As sound continues to propagate away from the source, it diffuses over a larger and larger area (figure {{inversesquare}}). Imagine that you are standing one meter away from a sound source and the intensity of the sound when it reaches you is 100 dB. If you move 10 meters away from the source, the sound will be spread over 100 times the area and the resulting intensity will be 1/100 of the original or 80 dB.
+where $P$ is the initial power of the signal, $r$ is the distance from the source in meters, and $I$ is the intensity in $\mathrm{W/m^2}$. Notice that the denominator in the above equation is the area of a sphere due to the fact that sound radiates out in all directions in a spherical pattern. As sound continues to propagate away from the source, it diffuses over a larger and larger area (figure {% include nextfignum %}). Imagine that you are standing one meter away from a sound source and the intensity of the sound when it reaches you is 100 dB. If you move 10 meters away from the source, the sound will be spread over 100 times the area and the resulting intensity will be 1/100 of the original or 80 dB.
 
 {% include img-figure url="/MUTOR/assets/images/unit3_inverse-square-diagram.png" description="Sound propagating away from a source diffuses over a larger and larger area." width="500px" %}
-{% assign inversesquare = fignum %}
 
 The later reflections also depend on the absorptive quality of the surfaces they bounce off of and can be calculated by
 
