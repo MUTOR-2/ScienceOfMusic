@@ -71,3 +71,43 @@ contributors:
   color: "#0099FF"
 
 notes: false
+
+# affiliate information used to create the footer.
+# these will be processed in order, the top one being placed on the left
+affiliates:
+ uhh:
+  url: "https://www.uni-hamburg.de"
+  logo: "assets/images/uhh-logo-web.gif"
+  width: "auto"
+  height: "76px"
+  style: "margin-bottom: -10px"
+ mmkh:
+  url: "https://www.mmkh.de"
+  logo: "assets/images/mmkh_logo.png"
+  width: "auto"
+  height: "48px"
+  style: ""
+ neu:
+  url: "https://music.neu.edu"
+  logo: "assets/images/nu_logo.png"
+  width: "auto"
+  height: "48px"
+  style: ""
+ cnmat:
+  url: "https://cnmat.berkeley.edu"
+  logo: "assets/images/cnmat_logo.png"
+  width: "auto"
+  height: "48px"
+  style: ""
+ hoou:
+  url: "https://www.hoou.de/institutions/hochschule-fur-musik-und-theater"
+  logo: "assets/images/hoou_logo.png"
+  width: "auto"
+  height: "48px"
+  style: ""
+ hfmt:
+  url: "https://www.hfmt-hamburg.de/start/"
+  logo: "assets/images/hfmt_logo_black.png"
+  width: "auto"
+  height: "80px"
+  style: ""
