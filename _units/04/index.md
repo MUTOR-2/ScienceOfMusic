@@ -310,7 +310,7 @@ e^{-2\pi bt \mathrm{ERB}(f_c)}
 \mathrm{cos}(2\pi f_c t + \phi)
 \label{eq:basilar_membrane_fb}
 \end{equation}
-{% include img-figure url="./basilar_gammatonefilter.gif"
+{% include img-figure url="./basilar_gammatone.gif"
 description="Overlapping bank of gammatone filters used to model
 the frequency response of the basilar membrane." %}
 
