@@ -18,9 +18,29 @@ topics: [Jekyll, GitHub, Markdown, Liquid, YAML, HTML, Javascript, MUTOR Units]
 test_questions: 
  - How do you format a link in markdown?
  - What does liquid code do?
- - What are the different languages used throughout a unit file (hint: there are as many as 6!)
+ - "What are the different languages used throughout a unit file 
+    (hint: there are as many as 6!)"
  
 references:
+ bekesy_nobel:
+  authors: 
+   - firstname: G.
+     lastname: "von B&eacute;k&eacute;sy"
+  title: 'Concerning the pleasures of observing, and the mechanics of the inner ear'
+  publication: 'Nobel Lecture'
+  year: 1961
+    
+ plomp_and_levelt_tonal_consonance:
+  authors:
+   - firstname: R.
+     lastname: Plomp
+   - firstname: W. J. M.
+     lastname: Levelt
+  title: 'Tonal Consonance and Critical Bandwidth'
+  publication: 'The Journal of the Acoustical Society of America 38, 548'
+  year: 1965
+  doi: 'https://doi.org/10.1121/1.1909741'
+    
  jekyll:
   authors:
    - firstname: Contributers
@@ -155,8 +175,8 @@ and the final line of the file should be:
 	{% endraw %}
 	
 These [Liquid](https://shopify.github.io/liquid/) _tags_ (called _statements_
-in other programming languages) paste the text found in _includes/unit_preamble.md
-and _includes/unit_preamble.md respectively.
+in other programming languages) paste the text found in 
+_includes/unit_preamble.md and _includes/unit_preamble.md respectively.
 
 ## Sections and Subsections
 
@@ -196,11 +216,13 @@ Your entire index.md file would then look like this (after the header):
 	{% endraw %}
 	
 Note that these files will be copied exactly as is, so no header should be 
-included in them, and they should not begin with a preamble or end with a postamble.
+included in them, and they should not begin with a preamble or end with a 
+postamble.
 
 # Text Formatting
 
-Basic text formatting is done using [Markdown](https://en.wikipedia.org/wiki/Markdown) 
+Basic text formatting is done using 
+[Markdown](https://en.wikipedia.org/wiki/Markdown) 
 syntax. There are many different *flavors* of Markdown, and the one Jekyll
 uses is called [kramdown](https://kramdown.gettalong.org/quickref.html)
 {% include cite ref='kramdown' %}. 
@@ -226,8 +248,8 @@ underscores or asterisks, and **stronger** __emphasis__ by doubling them.
 until the next blank line.
 > > Nested block quotes are possible too
 
-	> Block quotes begin with a single > character followed by a space, and continue
-	until the next blank line.
+	> Block quotes begin with a single > character followed by a space, and 
+    continue until the next blank line.
 	> > Nested block quotes are possible too
 
 ### Preformatted Code
@@ -255,9 +277,10 @@ For example, we might want to create a "hint" box that appears throughout,
 providing tips for the reader as they navigate the text. One way to do it 
 would be to use the `<div>` tag with the appropriate style elements. We might
 want to decide later how to style those boxes, and if they're spread throughout
-all of the unit files, we would have to change them everywhere. A better solution
-is for one of us to create a custom Liquid tag in the _includes directory that all
-of us can use, and then there's only one place to change that code.
+all of the unit files, we would have to change them everywhere. A better 
+solution is for one of us to create a custom Liquid tag in the _includes 
+directory that all of us can use, and then there's only one place to change 
+that code.
 
 ## Lists
 
@@ -348,12 +371,14 @@ produces [clickme](http://www.google.com).
 
 Linking to other files on the site should be done using relative paths.
 In order to refer to the root of the site, you can use the global liquid
-tag `{% raw %}{{ site.baseurl }}{% endraw %}` (which produces "{{ site.baseurl }}"), 
+tag `{% raw %}{{ site.baseurl }}{% endraw %}` 
+(which produces "{{ site.baseurl }}"), 
 and if you need the host, you can 
 use `{% raw %}{{ site.url }}{% endraw %}` (which produces "{{ site.url }}").
 So, to
 link from here to the 6th unit, you would write 
-`[click here for unit 6]({% raw %}{{ site.baseurl }}{% endraw %}/units/06/index.html)`, which produces
+`[click here for unit 6]({% raw %}{{ site.baseurl }}{% endraw %}/units/06/index.html)`, 
+which produces
 [click here for unit 6]({{ site.baseurl }}/units/06/index.html).
 
 ## Typesetting Mathematical Formulas
@@ -411,7 +436,10 @@ or the slightly simpler syntax below:
 	{% include img-figure url="my_image.png"  description="Descriptive text" %}
 	{% endraw %}
 	
-{% include img-figure url="assets/images/hfmt_logo_black.png" description="HfMT logo" width=""%}
+{% include img-figure 
+           url="assets/images/hfmt_logo_black.png" 
+           description="HfMT logo" 
+           width=""%}
 
 ## Tables
 
@@ -440,11 +468,14 @@ the value of the variable `fignum` (or `tabnum` in the case of a table)
 immediately after the liquid code for the figure:
 
 	{% raw %}
-	{% include img-figure url="/MUTOR/assets/images/sin-amp-period.png" description="Descriptive text" %}
+	{% include img-figure url="my_image.png" description="Descriptive text" %}
 	{% assign myfigref = fignum %}
 	{% endraw %}
 	
-{% include img-figure url="/MUTOR/assets/images/sin-amp-period.png" description="Descriptive text" %}
+{% include img-figure 
+           url="assets/images/hfmt_logo_black.png" 
+           description="Descriptive text" 
+           width="" %}
 {% assign myfigref = fignum %}
 
 <pre>
@@ -454,91 +485,30 @@ Then you can refer to the figure above as figure {{ myfigref }}.
 
 The variable `fignum` is defined by the code in `img-figure` and `begin-figure`, 
 and will be changed by the next use of either of those includes, so if you 
-intend to use it, you should assign it to a variable and use the variable. Note that the
-figure must come before the reference for this to work.
+intend to use it, you should assign it to a variable and use the variable. 
+Note that the figure must come before the reference for this to work.
+
+### Forward References to Figures
+
+Unlike typesetting systems like LaTeX, Jekyll processes its files in 
+a single pass, which means that variables aren't usable until they've been
+defined. So, you can't assign `fignum` to a variable as described above,
+and use it _before_ that point in the text. In some cases, however, 
+you will want to refer to a figure that comes immediately after the text,
+in which case you can use the `nextfignum` include, for example, to refer
+to figure {% include nextfignum %} just below.
+
+{% include img-figure 
+           url="assets/images/hfmt_logo_black.png" 
+           description="Descriptive text" 
+           width="" %}
 
 ## Interactive Examples
 
-
-
-# End Matter
-
-## Quiz
-
-A quiz section is automatically produced at the end of the unit by simply
-listing the elements of the `test_questions` field in the header in order.
-If that list is empty, no quiz section will be produced.
-
-## Citations and References
-
-Bibliographic entries that can be used to cite works are contained in the 
-_references folder. There should be one file per reference, and the file should
-contain the following fields in a YAML header (starting and ending with three
-dashes):
-
-	ref: 
-	authors: 
-	title: 
-	year:
-	
-`ref`
-: a short, descriptive name that will be used to cite the work inline in the text
-
-`authors`
-: a list of objects, each of which contains `lastname:` and `firstname:` entries
-
-`title`
-: the title of the work, preformatted according to the type of publication
-  it is, i.e. if it is an article, it should contain all volume and issue information,
-  etc.
-  
-`year`
-: the year of publication
-
-Example:
-
-	---
-	ref: weisstein_fourier_transform
-	authors: [
-	 {firstname: Eric W., 
-	  lastname: Weisstein},
-	]
-	title: \"Fourier Transform.\" From MathWorld--A Wolfram Web Resource. <a href="http://mathworld.wolfram.com/FourierTransform.html">http://mathworld.wolfram.com/FourierTransform.html</a>
-	year: 2020
-	---
-	
-You may then use the `ref` field to cite this publication inline like this:
-`{% raw %}{% include cite ref="weisstein_fourier_transform" %}{% endraw %}`, 
-which will produce this: 
-{% include cite ref="weisstein_fourier_transform" %}.
-
-# Misc
-
-## Assets
-
-All assets go in the assets folder, organized by type (images, video, audio,
-js, etc). If you need to add something and there isn't a folder for it,
-go ahead and create it. 
-
-The assets folder is different form the _includes folder. The _includes folder
-contains only text file snippets that will get copied and pasted directly
-into a Markdown file, while assets are more complex objects that can be referred
-to while the page is running.
-
-## Editorial Notes
-
-You can leave a note in the text using the following syntax:
-`{% raw %}{% include note author="jm" text="a note from john" %}{% endraw %}`, 
-where the "author" field should be your first and last initials (I didn't know
-what Xiao prefers, so XF and FX both work...).
-
-This is useful for making editorial comments to each other, for example:
-
-So, the cochlea is located behind the right knee
-{% include note author="GH" text="John, I think you should double-check this..." %},
-where it can be excited by striking the knee with great force.
-
-# Audio Examples
+The folder `_includes/p` contains a number of includes for building 
+interactive audio examples in the browser. In addition to a small
+collection of "objects" (scope, spectroscope, transport, etc),
+there are a few premade examples that begin with the letter "x".
 
 ## xwaveform
 
@@ -561,7 +531,9 @@ where it can be excited by striking the knee with great force.
 ## xwaveform-spectroscope
 
 {% include begin-figure description="A waveform (top) and a spectrum (bottom)" %}
-{% include p/xwaveform-spectroscope src="/MUTOR/assets/audios/trombone.mp3" gain="1.0" %}
+{% include p/xwaveform-spectroscope 
+           src="/MUTOR/assets/audios/trombone.mp3" 
+           gain="1.0" %}
 {% include end-figure %}
 
 ## xwaveform-sonogram
@@ -572,396 +544,122 @@ where it can be excited by striking the knee with great force.
 
 ## xwaveform-spectrogram-sonogram
 
-{% include begin-figure description="A waveform (top), a spectrum (bottom left), and a sonogram (bottom right)" %}
-{% include p/xwaveform-spectroscope-sonogram src="/MUTOR/assets/audios/trombone.mp3" gain="1.0" %}
+{% include begin-figure 
+           description="A waveform (top), a spectrum (bottom left), 
+                        and a sonogram (bottom right)" %}
+{% include p/xwaveform-spectroscope-sonogram 
+           src="/MUTOR/assets/audios/trombone.mp3" 
+           gain="1.0" %}
 {% include end-figure %}
 
 ## waveform-scope-spectroscope
 
-{% include begin-figure description="A Waveform (top), a time-domain scope (middle), and a spectroscope (bottom)" %}
-{% include p/xwaveform-scope-spectroscope src="/MUTOR/assets/audios/noisebursts.wav" gain="1.0" %}
+{% include begin-figure 
+           description="A Waveform (top), a time-domain scope (middle), 
+                        and a spectroscope (bottom)" %}
+{% include p/xwaveform-scope-spectroscope 
+           src="/MUTOR/assets/audios/noisebursts.wav" 
+           gain="1.0" %}
 {% include end-figure %}
 
 ## xwaveform-spectroscope-small
 
-{% include p/xwaveform-spectroscope-small src="/MUTOR/assets/audios/trombone.mp3" gain="1.0" %}
-
-## testing...
-
-{% include begin-figure description="Two sinusoids, one with variable phase with respect to the other." %}
-{% include p/begin %}
-{% assign fixedoscillatorname = mutor_patch_pfx | append: "fixedoscillator" %}
-{% assign moveableoscillatorname = mutor_patch_pfx | append: "moveableoscillator" %}
-{% assign transportname = mutor_patch_pfx | append: "transport" %}
-{% assign freqnumberboxname = mutor_patch_pfx | append: "freqnumberbox" %}
-{% assign phasenumberboxname = mutor_patch_pfx | append: "phasenumberbox" %}
-{% assign phaseslidername = mutor_patch_pfx | append: "phaseslider" %}
-{% assign fixedscopename = mutor_patch_pfx | append: "fixedscope" %}
-{% assign moveablescopename = mutor_patch_pfx | append: "moveablescope" %}
-{% assign sumscopename = mutor_patch_pfx | append: "sumscope" %}
-{% assign fixedspectname = mutor_patch_pfx | append: "fixedspect" %}
-{% assign moveablespectname = mutor_patch_pfx | append: "moveablespect" %}
-{% assign sumspectname = mutor_patch_pfx | append: "sumspect" %}
-{% assign fixedmultname = mutor_patch_pfx | append: "fixedmult" %}
-{% assign moveablemultname = mutor_patch_pfx | append: "moveablemult" %}
-
-{% include p/oscillator name=fixedoscillatorname freq="344.53125" type="sine" %}
-{% include p/oscillator name=moveableoscillatorname freq="344.53125" type="sine" %}
-{% include p/multiply name=fixedmultname factor=".5" %}
-{% include p/multiply name=moveablemultname factor=".5" %}
-<table><tr><td style="text-align:left;">
-{% include p/number name=freqnumberboxname max="880" def="344.53125" label="frequency in Hz: " %}
-{% include p/number name=phasenumberboxname def="0" label="phase (0-360): " %}
-{% include p/slider name=phaseslidername min="0" max="360" width="200px" height="20px" %}
-</td></tr><tr><td>
-{% include p/scope name=fixedscopename samps_per_pixel=1 width="290px" %}
-{% include p/spectroscope name=fixedspectname gain="1.0" width="290px" %}
-</td></tr><tr><td>
-{% include p/scope name=moveablescopename samps_per_pixel=1 width="290px" %}
-{% include p/spectroscope name=moveablespectname gain="1.0" width="290px" %}
-</td></tr><tr><td>
-{% include p/scope name=sumscopename samps_per_pixel=1 width="290px" %}
-{% include p/spectroscope name=sumspectname gain="1.0" width="290px" %}
-</td></tr><tr><td>
-{% include p/transport name=transportname %}
-</td></tr></table>
-{% include p/connect outlet=fixedoscillatorname inlet=fixedmultname %}
-{% include p/connect outlet=moveableoscillatorname inlet=moveablemultname %}
-{% include p/connect outlet=fixedmultname inlet=fixedscopename %}
-{% include p/connect outlet=fixedmultname inlet=fixedspectname %}
-{% include p/connect outlet=moveablemultname inlet=moveablescopename %}
-{% include p/connect outlet=moveablemultname inlet=moveablespectname %}
-{% include p/connect outlet=fixedmultname inlet=sumscopename %}
-{% include p/connect outlet=moveablemultname inlet=sumscopename %}
-{% include p/connect outlet=fixedmultname inlet=sumspectname %}
-{% include p/connect outlet=moveablemultname inlet=sumspectname %}
-<script type="text/javascript">
-{{ freqnumberboxname }}.addEventListener('change', (e)=>{
-	{{ fixedoscillatorname }}.frequency.value = parseFloat(e.target.value);
-});
-{{ phasenumberboxname }}.addEventListener('change', (e)=>{
-	const f = parseFloat(e.target.value);
-	{{ moveableoscillatorname }}.phase = f;
-	{{ phaseslidername }}_set(f);
-});
-function phasesliderevent(e)
-{
-	{{ phasenumberboxname }}.value = {{ phaseslidername }}_value.toString();
-	{{ moveableoscillatorname }}.phase = {{ phaseslidername }}_value;
-}
-{{ phaseslidername }}.addEventListener('mousedown', phasesliderevent);
-{{ phaseslidername }}.addEventListener('mousemove', phasesliderevent);
-</script>
-
-{% include p/end %}
+{% include begin-figure 
+           description="A small visual display of a buffer 
+                        and its realtime spectrum" %}
+{% include p/xwaveform-spectroscope-small 
+           src="/MUTOR/assets/audios/trombone.mp3" 
+           gain="1.0" %}
 {% include end-figure %}
 
-### does phase matter 2
+# End Matter
 
-{% include begin-figure description="Changes in phase do not always produce changes in our perception of a sound." %}
-{% include p/begin %}
+## Quiz
 
-{% assign nosc = 6 %}
+A quiz section is automatically produced at the end of the unit by simply
+listing the elements of the `test_questions` field in the header in order.
+If that list is empty, no quiz section will be produced.
 
-{% for i in (1..nosc) %}
-{% capture oname %}{{ mutor_patch_pfx }}oscillator{{ i }}{% endcapture %}
-{% capture freq %}{% cycle "344.53125", "689.0625", "1033.59375", "1378.125", "1722.65625", "2067.1875" %}{% endcapture %}
-{% include p/oscillator name=oname freq=freq type="sine" %}
+## Citations and References
 
-{% capture gname %}{{ mutor_patch_pfx }}gain{{ i }}{% endcapture %}
-{% comment %}
-{% capture gain %}{% cycle 1. | divided_by: nosc, "0", "0", "0", "0", "0" %}{% endcapture %}
-{% endcomment %}
-{% assign gain = 0.5 | divided_by: nosc %}
-{% include p/gain name=gname gain=gain type="sine" %}
-{% endfor %}
+Bibliographic references should be added to the `references` object
+in the YAML header for the unit. For example: 
 
-{% assign scopename = mutor_patch_pfx | append: "scope" %}
-{% assign spectname = mutor_patch_pfx | append: "spect" %}
-{% assign transportname = mutor_patch_pfx | append: "transport" %}
+    references:
+     bekesy_nobel:
+      authors: 
+       - firstname: G.
+         lastname: "von B&eacute;k&eacute;sy"
+      title: 'Concerning the pleasures of observing, and the mechanics of the inner ear'
+      publication: 'Nobel Lecture'
+      year: 1961
 
-<table>
-<tr><td style="text-align:left;">
-Gains:
-</td><td style="text-align:right;">
-Phases (0-360):
-</td></tr>
-<tr><td style="text-align:left;">
-{% for i in (1..nosc) %}
-{% capture gsname %}{{ mutor_patch_pfx }}gainslider{{ i }}{% endcapture %}
-{% include p/slider name=gsname min="0." max=".16666667" %}
-{% endfor %}
-</td><td style="text-align:right;">
-{% for i in (1..nosc) %}
-{% capture psname %}{{ mutor_patch_pfx }}phaseslider{{ i }}{% endcapture %}
-{% include p/slider name=psname min="0" max="360" %}
-{% endfor %}
-</td></tr>
-<tr><td colspan="2">
-{% include p/scope name=scopename samps_per_pixel=1 %}
-</td></tr><tr><td colspan="2">
-{% include p/spectroscope name=spectname gain="1.0" %}
-</td></tr><tr><td colspan="2">
-{% include p/transport name=transportname %}
-</td></tr>
-</table>
+     plomp_and_levelt_tonal_consonance:
+      authors:
+       - firstname: R.
+         lastname: Plomp
+       - firstname: W. J. M.
+         lastname: Levelt
+      title: 'Tonal Consonance and Critical Bandwidth'
+      publication: 'The Journal of the Acoustical Society of America 38, 548'
+      year: 1965
+      doi: 'https://doi.org/10.1121/1.1909741'
 
-{% for i in (1..nosc) %}
-{% capture oname %}{{ mutor_patch_pfx }}oscillator{{ i }}{% endcapture %}
-{% capture gname %}{{ mutor_patch_pfx }}gain{{ i }}{% endcapture %}
-{% capture gsname %}{{ mutor_patch_pfx }}gainslider{{ i }}{% endcapture %}
-{% capture psname %}{{ mutor_patch_pfx }}phaseslider{{ i }}{% endcapture %}
-{% include p/connect outlet=oname inlet=gname %}
-{% include p/connect outlet=gname inlet=scopename %}
-{% include p/connect outlet=gname inlet=spectname %}
-<script type="text/javascript">
-{{ gsname }}.addEventListener('mousedown', (e)=>{
-	{{ gname }}.gain.rampTo({{ gsname }}_value, .1);
-});
-{{ gsname }}.addEventListener('mousemove', (e)=>{
-	{{ gname }}.gain.rampTo({{ gsname }}_value, .1);
-});
+The first thing to note is that the indentation is semantic--it is what 
+signifies that items are part of an object 
+(see {% include cite ref='yaml' %}. 
+In this case, `references` is
+a dictionary that contains two entries: 
+`bekesy_nobel`, and `plomp_and_levelt_tonal_consonance`, both of which are
+also dictionaries.
 
-{{ psname }}.addEventListener('mousedown', (e)=>{
-	{{ oname }}.phase = {{ psname }}_value;
-});
-{{ psname }}.addEventListener('mousemove', (e)=>{
-	{{ oname }}.phase = {{ psname }}_value;
-});
+A bibliographic entry must contain the following keys: `authors`, `title`,
+`publication`, and `year`. Further, the `authors` entry must consist of 
+a list of at least one dictionary (the `-` that preceedes `firstname`
+denotes that this is a list), each of which must contain the entries
+`firstname` and `lastname`. Finally, if your reference has a Document
+Object Identifier, you can add a `doi` key for it, as seen in the second
+entry.
 
-{{ gname }}.toDestination();
-{{ gsname }}_set({{ 0.5 | divided_by: nosc }});
-</script>
-{% endfor %}
+The order of the entries for a given reference doesn't matter, but
+consistency, at least in a single file, is encouraged.
 
-<script type="text/javascript">
-// function gainsliderevent(e)
-// {
-// 	// if(e.srcElement.id === "{{ gainslider1name }}"){
-// 	// 	{{ gain1name }}.gain.rampTo({{ gainslider1name }}_value, .1);
-// 	// }
-// }
-// {{ gainslider1name }}.addEventListener('mousedown', gainsliderevent);
-// {{ gainslider1name }}.addEventListener('mousemove', gainsliderevent);
+Once these entries are in place, they may be referred to in the 
+text using the `cite` include. For example,
+`{% raw %}{% include cite ref='bekesy_nobel' %}{% endraw %}`
+will produce this: {% include cite ref='bekesy_nobel' %}.
 
-// {{ oscillator1name }}.toDestination();
+Each of the entries in the `references` object in the header will
+be included automatically in the References section at the end of the unit.
 
-// {{ gainslider1name }}_set(0.16666667);
+# Misc
 
-// function phasesliderevent(e)
-// {
-// 	if(e.srcElement.id === "{{ phaseslider1name }}"){
-// 		{{ oscillator1name }}.phase = {{ phaseslider1name }}_value;
-// 	}
-// }
-// {{ phaseslider1name }}.addEventListener('mousedown', phasesliderevent);
-// {{ phaseslider1name }}.addEventListener('mousemove', phasesliderevent);
-</script>
+## Assets
 
-{% include p/end %}
-{% include end-figure %}
+All materials for your unit should go in your unit's folder, alongside
+the `index.md` or `index.html` file for your unit. The top-level
+`assets` folder is generally for top-level files (`about.md`, `index.md`, etc),
+and should be reserved for that.
 
-### loudness 1
+## Copyrighted Material
 
-{% include begin-figure description="Despite having the same amplitude, we perceive these two frequencies as having different loudness. Which tone sounds louder to you?" %}
-{% include p/begin %}
+**Copyrighted materials must NEVER be checked into the repository.**
 
-{% assign rbuttonname = mutor_patch_pfx | append: "rbutton" %}
-{% include p/rbutton name=rbuttonname items="Low Tone (344.53 Hz), High Tone (2756.25 Hz)" values="1,2" %}
+If you need to use a copyrighted image, audiofile, or whatever, link
+to it remotely, but under no circumstances should you make a copy of it
+and check it into the repo. 
 
-{% assign nosc = 2 %}
+## Editorial Notes
 
-{% for i in (1..nosc) %}
-{% capture o1name %}{{ mutor_patch_pfx }}oscillator1{{ i }}{% endcapture %}
-{% capture o2name %}{{ mutor_patch_pfx }}oscillator2{{ i }}{% endcapture %}
-{% capture freq1 %}{% cycle "344.53125", "400", "344.53125", "2756.25" %}{% endcapture %}
-{% capture freq2 %}{% cycle "344.53125", "400", "344.53125", "2756.25" %}{% endcapture %}
-{% include p/oscillator name=o1name freq=freq1 type="sine" %}
-{% include p/oscillator name=o2name freq=freq2 type="sine" %}
+You can leave a note in the text using the following syntax:
+`{% raw %}{% include note author="jm" text="a note from john" %}{% endraw %}`, 
+where the "author" field should be your first and last initials (I didn't know
+what Xiao prefers, so XF and FX both work...).
 
-{% capture gname1 %}{{ mutor_patch_pfx }}gain1{{ i }}{% endcapture %}
-{% capture gname2 %}{{ mutor_patch_pfx }}gain2{{ i }}{% endcapture %}
-{% assign gain = 0.5 | divided_by: nosc %}
-{% include p/gain name=gname1 gain=gain %}
-{% include p/gain name=gname2 gain=0.0 %}
-{% endfor %}
+This is useful for making editorial comments to each other, for example:
 
-{% comment %}
-{% assign scopename = mutor_patch_pfx | append: "scope" %}
-{% assign spectname = mutor_patch_pfx | append: "spect" %}
-{% endcomment %}
-{% assign transportname = mutor_patch_pfx | append: "transport" %}
-
-<table>
-<tr>
-{% for i in (1..nosc) %}
-<td>
-{% capture name %}{{ mutor_patch_pfx }}scope{{ i }}{% endcapture %}
-{% include p/scope name=name samps_per_pixel=1 width="290px" %}
-</td>
-{% endfor %}
-</tr>
-<tr>
-{% for i in (1..nosc) %}
-<td>
-{% capture name %}{{ mutor_patch_pfx }}spect{{ i }}{% endcapture %}
-{% include p/spectroscope name=name gain="1.0" width="290px" %}
-</td>
-{% endfor %}
-</tr>
-<tr><td colspan="2">
-{% include p/transport name=transportname %}
-</td></tr>
-</table>
-
-<script type="text/javascript">
-let {{ mutor_patch_pfx }}gains = new Array({{ nosc }});
-</script>
-{% for i in (1..nosc) %}
-{% capture o1name %}{{ mutor_patch_pfx }}oscillator1{{ i }}{% endcapture %}
-{% capture o2name %}{{ mutor_patch_pfx }}oscillator2{{ i }}{% endcapture %}
-{% capture gname1 %}{{ mutor_patch_pfx }}gain1{{ i }}{% endcapture %}
-{% capture gname2 %}{{ mutor_patch_pfx }}gain2{{ i }}{% endcapture %}
-<script type="text/javascript">
-{{ mutor_patch_pfx }}gains[{{ i | minus: 1 }}] = {{ gname2 }};
-</script>
-{% capture scopename %}{{ mutor_patch_pfx }}scope{{ i }}{% endcapture %}
-{% capture spectname %}{{ mutor_patch_pfx }}spect{{ i }}{% endcapture %}
-
-{% include p/connect outlet=o1name inlet=gname1 %}
-{% include p/connect outlet=o2name inlet=gname1 %}
-{% include p/connect outlet=gname1 inlet=gname2 %}
-{% include p/connect outlet=gname1 inlet=scopename %}
-{% include p/connect outlet=gname1 inlet=spectname %}
-<script type="text/javascript">
-{{ gname2 }}.toDestination();
-{{ gsname }}_set({{ 0.5 | divided_by: nosc }});
-</script>
-{% endfor %}
-<script type="text/javascript">
-for(i = 0; i < {{ rbuttonname }}.length; i++){
-	{{ rbuttonname }}[i].addEventListener('click', (e)=>{
-		for(i = 0; i < {{ rbuttonname }}.length; i++){
-			if({{ rbuttonname }}[i].value === e.target.value){
-				{{ mutor_patch_pfx }}gains[i].gain.rampTo(1, .05);
-			}else{
-				{{ mutor_patch_pfx }}gains[i].gain.rampTo(0, .05);
-			}
-		}
-	});
-}
-</script>
-
-{% include p/end %}
-{% include end-figure %}
-
-### loudness 3
-
-{% include begin-figure description="Despite having the same amplitude, we perceive these two tones as having different loudness. Which one sounds louder to you?" %}
-{% include p/begin %}
-
-{% assign rbuttonname = mutor_patch_pfx | append: "rbutton" %}
-{% include p/rbutton name=rbuttonname items="Low Tone (344.53 Hz),High Tone (2756.25 Hz)" values="1,2" %}
-
-{% assign nosc = 2 %}
-
-{% for i in (1..nosc) %}
-{% capture oname %}{{ mutor_patch_pfx }}oscillator{{ i }}{% endcapture %}
-{% capture freq %}{% cycle "344.53125", "344.53125"", "1033.59375", "1378.125", "1722.65625", "2067.1875" %}{% endcapture %}
-{% include p/oscillator name=oname freq=freq type="sine" %}
-
-{% capture gname1 %}{{ mutor_patch_pfx }}gain1{{ i }}{% endcapture %}
-{% capture gname2 %}{{ mutor_patch_pfx }}gain2{{ i }}{% endcapture %}
-{% assign gain = 0.5 | divided_by: nosc %}
-{% include p/gain name=gname1 gain=gain %}
-{% include p/gain name=gname2 gain=0.0 %}
-{% endfor %}
-
-<script type="text/javascript">
-let {{ mutor_patch_pfx }}partials = new Array(50);
-for(i = 0; i < 50; i++){
-	{{ mutor_patch_pfx }}partials[i] = 1.0 / (i + 1);
-}
-{{ mutor_patch_pfx }}oscillator2.partials = {{ mutor_patch_pfx }}partials;
-</script>
-
-{% comment %}
-{% assign scopename = mutor_patch_pfx | append: "scope" %}
-{% assign spectname = mutor_patch_pfx | append: "spect" %}
-{% endcomment %}
-{% assign transportname = mutor_patch_pfx | append: "transport" %}
-
-<table>
-<tr>
-{% for i in (1..nosc) %}
-<td>
-{% capture name %}{{ mutor_patch_pfx }}scope{{ i }}{% endcapture %}
-{% include p/scope name=name samps_per_pixel=1 width="290px" %}
-</td>
-{% endfor %}
-</tr>
-<tr>
-{% for i in (1..nosc) %}
-<td>
-{% capture name %}{{ mutor_patch_pfx }}spect{{ i }}{% endcapture %}
-{% include p/spectroscope name=name gain="1.0" width="290px" %}
-</td>
-{% endfor %}
-</tr>
-<tr><td colspan="2">
-{% include p/transport name=transportname %}
-</td></tr>
-</table>
-
-<script type="text/javascript">
-let {{ mutor_patch_pfx }}gains = new Array({{ nosc }});
-</script>
-{% for i in (1..nosc) %}
-{% capture oname %}{{ mutor_patch_pfx }}oscillator{{ i }}{% endcapture %}
-{% capture gname1 %}{{ mutor_patch_pfx }}gain1{{ i }}{% endcapture %}
-{% capture gname2 %}{{ mutor_patch_pfx }}gain2{{ i }}{% endcapture %}
-<script type="text/javascript">
-{{ mutor_patch_pfx }}gains[{{ i | minus: 1 }}] = {{ gname2 }};
-</script>
-{% capture scopename %}{{ mutor_patch_pfx }}scope{{ i }}{% endcapture %}
-{% capture spectname %}{{ mutor_patch_pfx }}spect{{ i }}{% endcapture %}
-{% comment %}
-{% capture gsname %}{{ mutor_patch_pfx }}gainslider{{ i }}{% endcapture %}
-{% capture psname %}{{ mutor_patch_pfx }}phaseslider{{ i }}{% endcapture %}
-{% endcomment %}
-{% include p/connect outlet=oname inlet=gname1 %}
-{% include p/connect outlet=gname1 inlet=gname2 %}
-{% include p/connect outlet=gname1 inlet=scopename %}
-{% include p/connect outlet=gname1 inlet=spectname %}
-<script type="text/javascript">
-{{ gname2 }}.toDestination();
-{{ gsname }}_set({{ 0.5 | divided_by: nosc }});
-</script>
-{% endfor %}
-<script type="text/javascript">
-for(i = 0; i < {{ rbuttonname }}.length; i++){
-	{{ rbuttonname }}[i].addEventListener('click', (e)=>{
-		for(i = 0; i < {{ rbuttonname }}.length; i++){
-			if({{ rbuttonname }}[i].value === e.target.value){
-				{{ mutor_patch_pfx }}gains[i].gain.rampTo(1, .05);
-			}else{
-				{{ mutor_patch_pfx }}gains[i].gain.rampTo(0, .05);
-			}
-		}
-	});
-}
-</script>
-
-{% include p/end %}
-{% include end-figure %}
-
-### Probe Tone
-
-{% include p/begin %}
-{% assign ptsynthname = mutor_patch_pfx | append: "ptsynth" %}
-
-{% include p/ptsynth name=ptsynthname %}
-
-{% include p/end %}
+So, the cochlea is located behind the right knee
+{% include note author="GH" text="John, I think you should double-check this..." %},
+where it can be excited by striking the knee with great force.
 
 {% include unit_postamble.md %}
