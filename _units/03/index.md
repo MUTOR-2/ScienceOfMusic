@@ -886,7 +886,7 @@ Reverberation (or reverb) is the result of sounds reflecting off of the surfaces
 {% include img-figure url="./reverb_direct.png" description="The first sound to hit the listener is called the direct sound." width="650px" %}
 {% assign reverb2 = fignum %}
 
-{% include img-figure url="./reverb_direct_graph.png" description="The direct sound from figure {{reverb2}}." width="450px" %}
+{% include img-figure url="./reverb_direct_graph.png" description="The direct sound from figure reverb2." width="450px" %}
 {% assign reverb3 = fignum %}
 
 The direct sound is followed by a number of early reflections that arive at the listener after some delay and loss of energy (figures {{reverb4}}-{{reverb5}}). The length of the delay and the amount of energy lost are dependant on the size of the room and the type of material used to make the surfaces (the walls, floor, and ceiling).
