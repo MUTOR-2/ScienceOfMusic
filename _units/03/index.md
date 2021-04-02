@@ -237,7 +237,7 @@ I=\frac{P}{A}
 \label{eq:Intensity-formula}
 \end{equation}
 
-where $I$ is intensity ($W/m^2$), $P$ is power in watts, and $A$ is area in square meters.
+where $I$ is intensity ($\mathrm{W/m^2}$), $P$ is power in watts, and $A$ is area in square meters.
 
 ## Decibels
 
@@ -255,7 +255,7 @@ dB=10log_{10}(\frac{I}{I_0})
 \label{eq:dB-intensity}
 \end{equation}
 
-for intensity. As we an see from these equations, the decibel is not an absolute measure, but rather a comparison against a reference. In acoustics, the measure dB (SPL—Sound Pressure Level) is often used which indicates that the reference is $10^{-9}$ of atmospheric pressure, $2\times 10^{-5}N/m^2$ at 1000Hz, or $10^{-12}$ watts for power. Although this may seem complicated, the decibel is really a convenient measure of loudness since our ears work on something closer to a logarithmic scale. See figure {{commonsounds}} for a common sounds and their dB levels.
+for intensity. As we an see from these equations, the decibel is not an absolute measure, but rather a comparison against a reference. In acoustics, the measure dB (SPL—Sound Pressure Level) is often used which indicates that the reference is $10^{-9}$ of atmospheric pressure, $2\times 10^{-5} \mathrm{N/m^2}$ at 1000Hz, or $10^{-12}$ watts for power. Although this may seem complicated, the decibel is really a convenient measure of loudness since our ears work on something closer to a logarithmic scale. See figure {{commonsounds}} for a common sounds and their dB levels.
 
 {% include begin-figure description="Some common sounds and their volumes represented in dB ([wikipedia](http://en.wikipedia.org/wiki/Decibel))" %}
 {% assign commonsounds = fignum %}
@@ -298,8 +298,8 @@ for intensity. As we an see from these equations, the decibel is not an absolute
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
   <p class=MsoNormal>Rocket engine at 30 m;<span style='mso-ansi-language:EN-US'>
-  </span>Krakatoa explosion at 100 miles (160 km) in air<span lang=EN-US
-  style='mso-ansi-language:EN-US'><o:p></o:p></span></p>
+  </span>Krakatoa explosion at 100 miles (160 km) in air<!--<span lang=EN-US
+  style='mso-ansi-language:EN-US'><o:p></o:p></span>--></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:3'>
@@ -617,7 +617,7 @@ One sone is equal to 40 phones (i.e. the loudness level of a 1000 Hz sine tone a
 \end{equation}
 
 
-where Psi is the measure of loudness of a single tone, I is the intensity (W/m^2—see above), and k and p are constants. The value if k is 1/15.849 and the current international standard for p is 0.3.
+where $\Psi$ is the measure of loudness of a single tone, $I$ is the intensity ($\mathrm{W/m^2}$—see above), and $k$ and $p$ are constants. The value if $k$ is $1/15.849$ and the current international standard for $p$ is $0.3$.
 
 ## Loudness Of Multiple Pitches
 
@@ -878,25 +878,32 @@ An interesting experiment was carried out at the Center for New Music and Audio 
 
 ## Reverberation Introduction
 
-Reverberation (or reverb) is the result of sounds reflecting off of the surfaces of an enclosed space. Imagine that we make a loud noise (by firing a starter's pistol or poping a balloon) in a cathedral or a hall. The first sound that a listener would hear is called the direct sound (figures 3.12-3.14).
+Reverberation (or reverb) is the result of sounds reflecting off of the surfaces of an enclosed space. Imagine that we make a loud noise (by firing a starter's pistol or poping a balloon) in a cathedral or a hall. The first sound that a listener would hear is called the direct sound (figures {{reverb1}}-{{reverb3}}).
 
 {% include img-figure url="./reverb_bang.png" description="A listener in a room in which a loud short sound is made." width="650px" %}
+{% assign reverb1 = fignum %}
 
 {% include img-figure url="./reverb_direct.png" description="The first sound to hit the listener is called the direct sound." width="650px" %}
+{% assign reverb2 = fignum %}
 
-{% include img-figure url="./reverb_direct_graph.png" description="The direct sound from figure 3.13." width="450px" %}
+{% include img-figure url="./reverb_direct_graph.png" description="The direct sound from figure {{reverb2}}." width="450px" %}
+{% assign reverb3 = fignum %}
 
-The direct sound is followed by a number of early reflections that arive at the listener after some delay and loss of energy (figures 3.15-3.16). The length of the delay and the amount of energy lost are dependant on the size of the room and the type of material used to make the surfaces (the walls, floor, and ceiling).
+The direct sound is followed by a number of early reflections that arive at the listener after some delay and loss of energy (figures {{reverb4}}-{{reverb5}}). The length of the delay and the amount of energy lost are dependant on the size of the room and the type of material used to make the surfaces (the walls, floor, and ceiling).
 
 {% include img-figure url="./reverb_earlyreflections.png" description="The early reflections arrive at the listener after a short delay and with some loss of energy." width="650px" %}
+{% assign reverb4 = fignum %}
 
 {% include img-figure url="./reverb_earlyreflections_graph.png" description="The early reflections from figure 4 plotted against time." width="450px" %}
+{% assign reverb5 = fignum %}
 
-As these early reflections continue to bounce off the surfaces they begin to pile up and overlap creating reverb (figures 3.17-3.18).
+As these early reflections continue to bounce off the surfaces they begin to pile up and overlap creating reverb (figures {{reverb6}}-{{reverb7}}).
 
 {% include img-figure url="./reverb_reverb.png" description="Reverb is as the original sound continues to bounce around the room, we perceive reverb." width="650px" %}
+{% assign reverb6 = fignum %}
 
 {% include img-figure url="./reverb_reverb_graph.png" description="The reverb in a room tends to decay exponentially." width="450px" %}
+{% assign reverb7 = fignum %}
 
 (Figures adapted from Howard, D.M., and Angus, J., Acoustics and Psychoacoustics, Focal Press, 1996.)
 
