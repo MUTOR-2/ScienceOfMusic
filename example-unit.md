@@ -513,33 +513,33 @@ there are a few premade examples that begin with the letter "x".
 ## xwaveform
 
 {% include begin-figure description="A waveform" %}
-{% include p/xwaveform src="/MUTOR/assets/audios/trombone.mp3" %}
+{% include p/xwaveform src="assets/audio/sather-0.7.bell.mn.wav" %}
 {% include end-figure %}
 
 ## xspectroscope
 
 {% include begin-figure description="A spectrum" %}
-{% include p/xspectroscope src="/MUTOR/assets/audios/trombone.mp3" gain="1.0" %}
+{% include p/xspectroscope src="assets/audio/sather-0.7.bell.mn.wav" gain="1.0" %}
 {% include end-figure %}
 
 ## xsonogram
 
 {% include begin-figure description="A sonogram" %}
-{% include p/xsonogram src="/MUTOR/assets/audios/trombone.mp3" %}
+{% include p/xsonogram src="assets/audio/sather-0.7.bell.mn.wav" %}
 {% include end-figure %}
 
 ## xwaveform-spectroscope
 
 {% include begin-figure description="A waveform (top) and a spectrum (bottom)" %}
 {% include p/xwaveform-spectroscope 
-           src="/MUTOR/assets/audios/trombone.mp3" 
+           src="assets/audio/sather-0.7.bell.mn.wav" 
            gain="1.0" %}
 {% include end-figure %}
 
 ## xwaveform-sonogram
 
 {% include begin-figure description="A waveform (top) and a sonogram (bottom)" %}
-{% include p/xwaveform-sonogram src="/MUTOR/assets/audios/trombone.mp3" %}
+{% include p/xwaveform-sonogram src="assets/audio/sather-0.7.bell.mn.wav" %}
 {% include end-figure %}
 
 ## xwaveform-spectrogram-sonogram
@@ -548,17 +548,17 @@ there are a few premade examples that begin with the letter "x".
            description="A waveform (top), a spectrum (bottom left), 
                         and a sonogram (bottom right)" %}
 {% include p/xwaveform-spectroscope-sonogram 
-           src="/MUTOR/assets/audios/trombone.mp3" 
+           src="assets/audio/sather-0.7.bell.mn.wav" 
            gain="1.0" %}
 {% include end-figure %}
 
-## waveform-scope-spectroscope
+## xwaveform-scope-spectroscope
 
 {% include begin-figure 
            description="A Waveform (top), a time-domain scope (middle), 
                         and a spectroscope (bottom)" %}
 {% include p/xwaveform-scope-spectroscope 
-           src="/MUTOR/assets/audios/noisebursts.wav" 
+           src="assets/audio/sather-0.7.bell.mn.wav" 
            gain="1.0" %}
 {% include end-figure %}
 
@@ -568,7 +568,7 @@ there are a few premade examples that begin with the letter "x".
            description="A small visual display of a buffer 
                         and its realtime spectrum" %}
 {% include p/xwaveform-spectroscope-small 
-           src="/MUTOR/assets/audios/trombone.mp3" 
+           src="assets/audio/sather-0.7.bell.mn.wav" 
            gain="1.0" %}
 {% include end-figure %}
 

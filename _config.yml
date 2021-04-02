@@ -49,6 +49,9 @@ collections:
  units:
   output: true
 
+# add the names of the contributors here.
+# email is optional
+# color will be used to color the text of a note (see example-unit.md)
 contributors:
  jm:
   fullname: John MacCallum
@@ -111,3 +114,13 @@ affiliates:
   width: "auto"
   height: "80px"
   style: ""
+
+# add the names of any files you want to appear in the menu.
+# the value "units" is a keyword that will cause the units
+# submenu to appear in the menu. 
+menu:
+ - units
+ - references.md
+ - discussion_questions.md
+ - about.md
+ - team.md
