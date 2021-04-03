@@ -1,57 +1,24 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# This is the global config file for this site. All variables set here
+# are available throughout the site via the "site" object, for example,
+# {{ site.baseurl }}, {{ site.contributors.shortname.email }}, and so on.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: MUsic Technology Online Repository
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: /ScienceOfMusic # the subpath of your site, e.g. /blog
-url: https://mutor-2.github.io # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-github_username: mutor-2
+# Note that if you are running a local Jekyll server (bundle exec jekyll serve),
+# this file will not be reloaded when it is edited--you must restart the server.
 
-# Build settings
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+title: "MUsic Technology Online Repository : Science Of Music"
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+email: xiao.fu@hfmt-hamburg.de
 
-exclude:
- - _units/_*
+description: ""
 
-collections:
- units:
-  output: true
+url: https://mutor-2.github.io
 
-# add the names of the contributors here.
+baseurl: /ScienceOfMusic 
+
+# add the names of the contributors to the website here.
+# this is for people who actively work on the website, not for authors of units.
 # email is optional
-# color will be used to color the text of a note (see example-unit.md)
+# color will be used to color the text of editorial notes (see example-unit.md)
 contributors:
  jm:
   fullname: John MacCallum
@@ -73,6 +40,8 @@ contributors:
   fullname: Fu Xiao
   color: "#0099FF"
 
+# set this to true or false in order to display or
+# hide editorial comments in the text
 notes: false
 
 # affiliate information used to create the footer.
@@ -124,3 +93,15 @@ menu:
  - discussion_questions.md
  - about.md
  - team.md
+
+# these files will be excluded from processing
+exclude:
+ - _units/*/_*
+
+# add other collections
+collections:
+ units:
+  output: true
+
+# do not change this.
+markdown: kramdown

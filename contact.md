@@ -34,4 +34,4 @@ Authority for Science, Research, Equal Opportunities and Districts of the Free a
 
 ### Questions / Help
 
-xiao.fu[at]hfmt-hamburg.de</a>
+{{ site.email }}
