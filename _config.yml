@@ -85,10 +85,13 @@ affiliates:
   style: ""
 
 # add the names of any files you want to appear in the menu.
-# the value "units" is a keyword that will cause the units
-# submenu to appear in the menu. 
+# the values "units" and "events" are keywords that will cause
+# the units and events submenus to appear in the menu.
+# the order of the items in the menu will be the same as they
+# are listed here
 menu:
  - units
+ # - events
  - references.md
  - discussion_questions.md
  - about.md
