@@ -543,18 +543,17 @@ Ranges of hearing loss:
 
 ## Examples of Audiograms
 
-{% include p/xwaveform-spectroscope-small src="./audiogram_damage.mp3" gain="1.0" %}
+{% include p/xwaveform-spectroscope-small src="./audiogram_damage_noise.mp3" gain="1.0" %}
 
-Demo Normal Hearing vs. High-Frequency Hearing loss (Source: Truax, B., [Handbook for Acoustic Ecology](https://www.sfu.ca/sonic-studio-webdav/handbook/Audiogram.html))
+Demo Normal Hearing vs. High-Frequency Hearing loss 
 
 The first part of this sentence is played normally, whereas the second part is filtered so as to simulate the percept of an individual with high-frequency hearing loss.
 
-{% include img-figure url="./audiogram_damage_loudnoise.jpg" description="Audiogram comparison: Normal hearing impairment due to Loud Noise" %}
+{% include img-figure url="./audiogram_damage_noise.gif" description="Audiogram comparison: Normal hearing impairment due to Loud Noise" %}
 
-{% comment %} An audiogram comparing normal hearing with hearing impairment due to loud noise.  {% endcomment %}
-{% comment %} (wrong image source:http://www.sfu.ca/sonic-studio/handbook/Audiogram.html) {% endcomment %}
+(Audio and image source: Truax, B., [Handbook for Acoustic Ecology](https://www.sfu.ca/sonic-studio-webdav/handbook/Audiogram.html))
 
-{% include img-figure url="./audiogram_damage_presbyacusis.jpg" description="Audiogram Presbyacusis or Ski-Slope Hearing" %}
+{% include img-figure url="./audiogram_damage_comparison.jpg" description="Audiogram comparison between different hearing impairments." %}
 
 {% include img-figure url="/MUTOR/assets/images/audiogram_familiar.jpg" description="Auditory Familiar Sounds" %}
 {% comment %} Sample audiograms: a) audiogram showing presbyacusis, commonly observed as a "ski-slope" hearing loss (see TypesofHearingLoss). b) Audiograms of other types of hearing loss caused by sudden sounds. Curves are normalized according to the equal-loudness contours (see Fletcher-Munson curves from the previous unit). {% endcomment %}
@@ -581,7 +580,7 @@ Presbyacusis is the loss of hearing as a result of old age. The hearing loss qui
 Normal versus damaged hair cells 
 {% endcomment %}
 
-{% include img-figure url="./audiogram_damage_presbyacusis.jpg" description="Presbyacusis Audiogram" %}
+{% include img-figure url="./audiogram_damage_presbyacusis.jpg" description="Audiogram Presbyacusis or Ski-Slope Hearing" %}
 Presbyacusis is commonly observed as a "ski-slope" hearing loss, where "ski-slope" refers to the shape of the audiometry function, which is relatively intact at low frequencies, but falls off rapidly at high frequencies.
 (image source: http://www.hearinglife.com.au)
 
