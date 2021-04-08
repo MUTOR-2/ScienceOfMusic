@@ -69,7 +69,7 @@ references:
     title: 'Tonal Consonance and Critical Bandwidth'
     publication: 'The Journal of the Acoustical Society of America 38, 548'
     year: 1965
-    doi: 'https://doi.org/10.1121/1.1909741'
+    doi: '10.1121/1.1909741'
 
   fletcher_auditory_patterns:
     authors:
@@ -78,7 +78,7 @@ references:
     title: 'Auditory Patterns'
     publication: 'Rev. Mod. Phys. 12, 47'
     year: 1940
-    doi: 'https://doi.org/10.1103/RevModPhys.12.47'
+    doi: '10.1103/RevModPhys.12.47'
 
   maccallum_roughness:
     authors:

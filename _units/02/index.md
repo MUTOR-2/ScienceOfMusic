@@ -94,7 +94,7 @@ references:
         lastname: Hain
     title: 'Central hearing loss with a bilateral inferior colliculus lesion'
     publication: 'Audiol and Neurootol 8(2): 111-113'
-    doi: 'https://doi.org/10.1159/000068999'
+    doi: '10.1159/000068999'
     year: 2003
 
   hauser_and_mcdermott:
@@ -135,7 +135,7 @@ references:
         lastname: Yin
     title: 'Coincidence Detection in the Auditory System'
     publication: 'Neuron, 21(6): 1235-1238'
-    doi: 'https://doi.org/10.1016/S0896-6273(00)80643-1'
+    doi: '10.1016/S0896-6273(00)80643-1'
     year: 1998
     
   zatorre_and_belin:
@@ -158,7 +158,7 @@ references:
         lastname: Pierce
     title: 'Afferent and efferent innervation of the cat cochlea: quantitative analysis with light and electron microscopy'
     publication: 'Journal of Computational Neurology, 301(3): 443-460'
-    doi: 'https://doi.org/10.1002/cne.903010309'
+    doi: '10.1002/cne.903010309'
     year: 1990
 
 layout: unit
