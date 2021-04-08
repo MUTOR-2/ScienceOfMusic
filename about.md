@@ -27,12 +27,12 @@ Much of the direction of this project was laid out in 2006 during the sabbatical
 
 ## Samples from the first edition of MUTOR
 
-   <div align="center">
-    <video controls src="{{ site.baseurl }}/assets/videos/David_Wessel.mp4">
-      Your browser does not support the video element.
-    </video>
-   </div>
-   
+<div style="display: block; text-align: center; float: center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WzMHlo1R8Kg" 
+frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
+picture-in-picture" allowfullscreen></iframe>
+</div>
+
 Excerpt of a video with David Wessel created in 2006 at CNMAT, UC Berkeley with David explaining the potential of including a class on music perception and cognition in a composition curriculum.
 
 Screenshots of the Flash application:
