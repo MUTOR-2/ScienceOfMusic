@@ -96,6 +96,7 @@ menu:
  - discussion_questions.md
  - about.md
  - team.md
+ - downloads.md
 
 # these files will be excluded from processing
 exclude:
