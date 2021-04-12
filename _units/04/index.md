@@ -356,7 +356,7 @@ like thirds, can sound rough and dissonant (muddy) in the low register.
 {% comment %}
 {% include mov-figure src="/MUTOR/assets/videos/unit4_criticalband.mp4" type="mp4" description="Maxpatch example: critical band." width="600px" %}
 {% endcomment %}
-_you can have access to all MUTOR interacive maxpatches when you download the [MUTOR github repository](https://github.com/MUTOR-2/MUTOR) inside the maxpatches folder._
+_you can have access to all MUTOR interacive maxpatches when you download the [MUTOR github repository](https://github.com/MUTOR-2/ScienceOfMusic) inside the maxpatches folder._
 
 # Complex Tones
 
