@@ -5,7 +5,8 @@
 # Note that if you are running a local Jekyll server (bundle exec jekyll serve),
 # this file will not be reloaded when it is edited--you must restart the server.
 
-title: "MUsic Technology Online Repository : Science Of Music"
+title: "MUsic Technology Online Repository"
+course-title: "Science of Music"
 
 email: xiao.fu@hfmt-hamburg.de
 
