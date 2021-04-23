@@ -25,7 +25,7 @@ another plays a strong role in our qualitative experience of the musical
 interval between these pitches, and likewise, these relationships form the 
 basis of our notions of musical keys."
 
-animation: <iframe width="560" height="315" src="https://www.youtube.com/embed/IC5q4O3JnIE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+animation: <iframe width="560" height="315" src="https://www.youtube.com/embed/bakZ1tWn-SY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 authors:
  - Georg Hajdu
  - Psyche Loui
