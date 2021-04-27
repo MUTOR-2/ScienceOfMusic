@@ -207,7 +207,7 @@ The fundamental frequency of a sound is also known as its periodicity pitch, and
 ## Virtual Pitch
 
 Sometimes, pitch is perceived at a fundamental frequency even when energy is nonexistent at the frequency of the fundamental. This is known as virtual pitch. Virtual pitch, also known as the missing fundamental, is a classic phenomenon in audition where sound is perceived at a frequency where no energy is present. When energy from harmonic components other than the fundamental is present at integer multiples of the fundamental frequency, the brain is able to infer a virtual pitch at the missing fundamental. Mechanisms that the brain may be using to infer virtual pitch is still an issue of debate, although various models of pitch perception (see below) have been proposed to explain this perceptual phenomenon which is akin to subjective contour in vision.
-Virtual pitch is only perceived if the missing fundamental frequency lies within the existence region for pitch, which is approximately the frequency range of 30Hz to 3.2 kHz (Pressnitzer et al, 2001).
+Virtual pitch is only perceived if the missing fundamental frequency lies within the existence region for pitch, which is approximately the frequency range of 30Hz to 3.2 kHz {% include cite ref="pressnitzer_et_al" %}.
 
 Virtual pitch demonstrations (from ASA demonstration CD):
 
@@ -250,11 +250,11 @@ In contrast, temporal models make use of the periodicity of waveforms comprising
 
 ## Template Theory
 
-Modern theories of pitch perception take into account both spectral and temporal components of sound. Two types of modern pitch perception theories which receive the most support today are the pattern matching models and the autocorrelation models. Pattern-matching models of pitch perception, such as the harmonic template matching model (e.g. Lin & Hartmann, 1998), postulate that we have stored in our brains a set of templates which, when frequency components are activated, we overlay onto the pattern of activation in order to calculate the fundamental pitch.
+Modern theories of pitch perception take into account both spectral and temporal components of sound. Two types of modern pitch perception theories which receive the most support today are the pattern matching models and the autocorrelation models. Pattern-matching models of pitch perception, such as the harmonic template matching model {% include cite ref="lin_and_hartmann" %}, postulate that we have stored in our brains a set of templates which, when frequency components are activated, we overlay onto the pattern of activation in order to calculate the fundamental pitch.
 
 ## Autocorrelation Models
 
-The autocorrelation models (Licklider, 1959, further developed by Lyon / Slaney and Patterson) use a measure of self-similarity of a waveform in order to derive its fundamental. It is based on the idea that a periodic waveform, when phase-shifted to exactly one period of its fundamental away from a starting point, should correlate perfectly with itself. By comparing the time lag between perfectly correlated frequency components, the model can derive the period of the complex sound, and thus the fundamental frequency. These models give credibility by being capable of explaining typical miscalculations of the auditory system which, by instance, arise when detuning lower partials of a harmomic sound or transposing down sounds consisting of odd partials only.
+The autocorrelation models {% include cite ref="licklider" %}, further developed by Lyon, Slaney and Patterson {% include cite ref="slaney_and_lyon" %}  use a measure of self-similarity of a waveform in order to derive its fundamental. It is based on the idea that a periodic waveform, when phase-shifted to exactly one period of its fundamental away from a starting point, should correlate perfectly with itself. By comparing the time lag between perfectly correlated frequency components, the model can derive the period of the complex sound, and thus the fundamental frequency. These models give credibility by being capable of explaining typical miscalculations of the auditory system which, by instance, arise when detuning lower partials of a harmomic sound or transposing down sounds consisting of odd partials only.
 
 {% include img-figure url="/MUTOR/assets/images/The-autocorrelogram-A-for-a-200-Hz-fundamental-harmonic-complex-computed-by-taking-the_W640.jpg" description="Autocorrelogram (top) and summary autocorrelogram (bottom)" width="400px" %}
 
@@ -268,6 +268,8 @@ American psychologist Roger Shepard has developed a cognitive psychological mode
 
 {% include img-figure url="./helix.jpeg" description="Shepard's pitch helix. A similar model was already created in the mid-1800s." width="350px" %}
 
+{% include cite ref="shepard" %}
+
 Taking the importance of fifths into consideration, Shepard extended his model to a double helix.
 
 {% include img-figure url="/MUTOR/assets/images/Helix-Fifths-Relationsship.jpg" description="Shepard's double helix of pitch" width="200px" %}
@@ -276,7 +278,7 @@ A five-dimensional model projecting the helix onto a torus accounts for third-re
 
 {% include img-figure url="/MUTOR/assets/images/unit5_chromatorus.png" description="Double Helix winding a torus" width="400px"%}
 
-Evidence that pitch chroma and pitch height activate different parts of the brain come from Warren et al (2003) who showed that changes in both chroma and height activate the auditory cortex, but changes in pitch chroma activate regions anterior to the regions activated by pitch height changes.
+Evidence that pitch chroma and pitch height activate different parts of the brain come from {% include cite ref="warren_et_al" %} who showed that changes in both chroma and height activate the auditory cortex, but changes in pitch chroma activate regions anterior to the regions activated by pitch height changes.
 
 Research in gerbils (a small rodent) and humans also found a double-helical structure in the lateral lemniscus (VNLL, a region located in the brainstem) that "might play an important role in peridiocity analysis" (Langner, 2015) and has thus been labeled the _auditory double helix_.
 
@@ -350,7 +352,7 @@ Original figure description: 'Listeners ratings of stability of each pitch class
 
 # Key Space
 
-Another view of pitch and tonal material looks at harmony and key changes in addition to single pitches. Krumhansl, Kessler & Bharucha (1983) found that dissimilarity judgments of pairs of chords map best onto a torus. The toroidal representation allows different tonal relations to map along the different planes of the torus, such that the C major key, for instance, is closely related to G major (circle of fifths), a minor (relative minor), and c minor (parallel minor).
+Another view of pitch and tonal material looks at harmony and key changes in addition to single pitches. Krumhansl, Kessler & Bharucha {% include cite ref="krumhansl" %} found that dissimilarity judgments of pairs of chords map best onto a torus. The toroidal representation allows different tonal relations to map along the different planes of the torus, such that the C major key, for instance, is closely related to G major (circle of fifths), a minor (relative minor), and c minor (parallel minor).
 
 The arrangement of the 24 keys on the surface of a torus can now be derived from the experimentally obtained data by [Multidimensional Scaling](https://en.wikipedia.org/wiki/Multidimensional_scaling). Multidimensional scaling is a process capable of constructing a two-dimensional map from a list of distances (such as the route New York - Tokyo or Melbourne - Berlin). Taking now the tonality profiles as the starting point for all 24 major and minor keys, the comparison of the profiles yields a map depicting the distances (i.e., degree of relationship) of the keys as points on the surface of a torus (“donut"). It is noticeable that the two fifths (major = red, minor = blue) spiral around the torus.
 
