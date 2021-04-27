@@ -221,9 +221,11 @@ Criterion adoption (i.e. how liberal you are at labelling a trial as "signal") d
 $d\prime$ scores - the higher the $d\prime$, the more discriminable the two types of trials are; thus, the better the performance.
 
 In addition to Signal Detection Theory, modern psychophysics and psychacoustics also makes use of the staircase method. Staircase methods are used to find a stable perceptual threshold of discriminability given a unidimensionally varying object. Staircase methods are self-adjusting trials of same-different judgments, where stimuli presented in each trial are selected so as to converge upon some criterion of performance. For example, the two-up-one-down method converges to a threshold of 75% correct performance.
+{% include cite ref="wickens" %}
 
+{% comment %}
 Wickens, Thomas D. 2001. Elementary Signal Detection Theory. Oxford University Press.
-
+{% endcomment %}
 # Loudness Perception
 
 Very often, we need to know how loud a sound is; although this seems like a very simple question, it proves to be more complex than one might think. Let's begin by defining some of the more common units used in the literature to describe the loudness of a sound.
@@ -906,7 +908,7 @@ As these early reflections continue to bounce off the surfaces they begin to pil
 {% include img-figure url="./reverb_reverb_graph.png" description="The reverb in a room tends to decay exponentially." width="450px" %}
 {% assign reverb7 = fignum %}
 
-(Figures adapted from Howard, D.M., and Angus, J., Acoustics and Psychoacoustics, Focal Press, 1996.)
+(Figures adapted from {% include cite ref="howard_and_angus" %}
 
 ## A More Indepth Look At Reverb
 
@@ -1007,7 +1009,7 @@ Perceptual illusions like this one often rely on the unconscious inference of co
 
 The effects of Top-Down processing are not limited to the perception of visual illusions. Top-Down, cognitively-driven processing of sounds is equally important in auditory perception. Psychoacoustical studies have shown that the perception of loudness depends on top-down factors. For example, shouting from afar is perceived as being louder than whispering from nearby, even if the absolute levels of the sound signals are the same. This is because the auditory system makes use of cues such as timbre, source location (which may include reverb), and any visual information available (see AudioVisualInteraction), in order to adjust the experience of the sound signal coming from Bottom-Up processes. The Top-Down modulation of Bottom-Up processing serves important evolutionary advantage, as some knowledge of the relative importance of sounds is necessary for the mind to effectively process and prioritze information so to ensure survival.
 
-Top-Down influences also play important roles in the perception of more complex musical attributes. In his Implication-Realization model, Narmour (1990) laid out various principles of top-down influences on melodic perception, in which our top-down expectations for how melodies tend to sound may influence our experience of melodies. Narmour specifically discusses these top-down expectations in terms of intervals in a melody. Based on the general knowledge of perceptual organization, we tend to expect small intervals in one direction to follow large intervals in the opposite direction. The melodic process of large intervals being followed by smaller intervals in the opposite direction, also known as gap fill, is found in most popular tunes.
+Top-Down influences also play important roles in the perception of more complex musical attributes. In his Implication-Realization model, Narmour {% include cite ref="narmour" %} laid out various principles of top-down influences on melodic perception, in which our top-down expectations for how melodies tend to sound may influence our experience of melodies. Narmour specifically discusses these top-down expectations in terms of intervals in a melody. Based on the general knowledge of perceptual organization, we tend to expect small intervals in one direction to follow large intervals in the opposite direction. The melodic process of large intervals being followed by smaller intervals in the opposite direction, also known as gap fill, is found in most popular tunes.
 
 {% include note author="gh" text="In some papers I-R is described as bottom-up process. This needs to be clarified" %}
 
@@ -1027,6 +1029,7 @@ Precedence Effect Demonstration (requires stereo headphones)
 {% endcomment %}
 
 The precedence effect may be due to top-down influences on the auditory system. As it is ecologically unlikely for two very similar sound sources to be coming from opposite directions, the second click (the "lag") is perceived not as a new source of sound, but as an echo of the first click (the "lead"). The fact that echoes are not perceived as sound sources is known as echo suppression.
+{% include cite ref="clifton" %}
 
 {% comment %}
 see also: Franssen Effect, Clifton Effect
@@ -1041,7 +1044,10 @@ Audio engineers make use of the precedence effect in the design of concert halls
 Like the PrecedenceEffect, the FranssenEffect has to do with perceived sound sources. In a two-channel speaker system, if a tone is presented with rapid onset to one speaker, and this tone is ramped off at the same time as when another tone in the opposite speaker is ramped on and sustained, this combination of tones is perceived as just one tone coming from the first speaker (i.e. the speaker that played the onset). The effect is obtained with narrow-band sounds, and only in echoic environments.
 
 {% include img-figure url="./effect_franssen.png" description="Franssen Effect" width="450px" %}
+{% include cite ref="dent_et_al" %}
+{% comment %}
 (adapted from Dent, Tollin, & Yin, 2004.)
+{% endcomment %}
 
 The Franssen Effect. If a rapid-onset tone is presented at the left speaker and then decays slowly while another tone at the right is presented with slowly increasing amplitude, the percept is of a single stimulus coming from the left.
 
@@ -1064,7 +1070,7 @@ In the Clifton demonstration the two clicks are always seperated by 12 ms and th
 
 So far we have discussed the auditory system's processing of sounds and its various dimensions, such as frequency and amplitude. We have also started to touch on the interactions between different auditory dimensions, such as the interaction between frequency and loudness as shown by the Fletcher-Munson curves. However, music is not just a series of auditory stimuli. Information from other modalities, such as vision and touch, also play important roles in the musical experience. What is seen can influence what is heard, and this is especially true from a Top-Down perspective.
 
-Soundtracks in movies offer one case of auditory perception enhancing visual perception. The use of sound effects and soundtracks in the film industry relies heavily on AudioVisualInteraction, and much research has shown that auditory, visual, and tactile sensations influence each other in perceptual as well as cognitive processing. In one particular study by Marilyn Boltz (2001), video clips were paired with positive, neutral, and negative soundtracks and shown to study participants. After viewing the films, participants were asked to rate how well certain adjectives described the content of the video (e.g. "What adjective best describes the man's intentions for following the womann? benevolent / malevolent")
+Soundtracks in movies offer one case of auditory perception enhancing visual perception. The use of sound effects and soundtracks in the film industry relies heavily on AudioVisualInteraction, and much research has shown that auditory, visual, and tactile sensations influence each other in perceptual as well as cognitive processing. In one particular study by Marilyn Boltz {% include cite ref="boltz" %}, video clips were paired with positive, neutral, and negative soundtracks and shown to study participants. After viewing the films, participants were asked to rate how well certain adjectives described the content of the video (e.g. "What adjective best describes the man's intentions for following the womann? benevolent / malevolent")
 Participants rated videos with positive soundtracks as being better described by positive adjectives, and videos with negative soundtracks using negative adjectives. Videos with no soundtracks were rated as relatively neutral. This study shows strong effects of musical stimuli on the perception of meaning and emotional content of visual scenes.
 
 {% include img-figure url="./effect_boltz.png" description="Boltz soundtrack study" %}
@@ -1113,7 +1119,10 @@ The video clip consists of a video of the person saying "ga ga", dubbed with a v
 doneear "ba ba". Interestingly, in the fused condition when both looking and listening, most people report hearing "da da", which is a fusion of "ba ba" and "ga ga".
 
 The McGurkEffect was first report in 1976 by McGurk and MacDonald, who propose the following explanation for their finding:
-... in a ga-lips/ba-voice representation, there is visual information for [a] and [da] and auditory information with features common to [ba] and [da]. By responding to the common information in both modalities, a subject would arrive at the unifying percept /da/. (McGurk & MacDonald, Nature, 1976).
+... in a ga-lips/ba-voice representation, there is visual information for [a] and [da] and auditory information with features common to [ba] and [da]. By responding to the common information in both modalities, a subject would arrive at the unifying percept /da/. {% include cite ref="mcgurk_and_macdonald" %}
+{% comment %}
+(McGurk & MacDonald, Nature, 1976).
+{% endcomment %}
 
 {% comment %}
 # Links And Downloads
