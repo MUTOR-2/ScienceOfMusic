@@ -196,8 +196,8 @@ Thus, the contour of the Entertainer melody can be represented as:
 
 {% include img-figure url="./melody_entertainer_contour.png" description="Contour" width="400px" %}
 
-Contour is shown to be very important to the perception of melody. Deutsch (2003) demonstrates that when the contour of a melody is intact, melodies can be heard even if the pitches themselves are incorrect. (This explains why a tune is often still recognizable even when performed grossly out of tune.) If the contour is disrupted, then the melodic recognition is impaired, even when the pitch classes are retained.
-The following demonstration (from Deutsch's 2003 CD Musical Illusions and Paradoxes) illustrates the importance of melodic contour. In the first sound file, a familiar melody is played in the correct pitch classes but in scrambled octaves, such that the melodic contour is disrupted. Can you recognize the melody?
+Contour is shown to be very important to the perception of melody. {% include cite ref="deutsch_audio_illusions" %} demonstrates that when the contour of a melody is intact, melodies can be heard even if the pitches themselves are incorrect. (This explains why a tune is often still recognizable even when performed grossly out of tune.) If the contour is disrupted, then the melodic recognition is impaired, even when the pitch classes are retained.
+The following demonstration (from {% include cite ref="deutsch_audio_illusions" %} CD Musical Illusions and Paradoxes) illustrates the importance of melodic contour. In the first sound file, a familiar melody is played in the correct pitch classes but in scrambled octaves, such that the melodic contour is disrupted. Can you recognize the melody?
 
 {% include p/xwaveform-spectroscope-small src="melody_star_scrambled.wav" gain="1.0" %}
 scrambled melody
@@ -207,7 +207,7 @@ original melody
 
 ## Implication Realization Model
 
-Eugene Narmour's Implication Realization Model (1989, 1990) provides a set of predictions for melodic structure. In particular, the I-R model looks at interval sizes and directions between notes of a melody.
+Eugene Narmour's Implication Realization Model {% include cite ref="narmour" %} provides a set of predictions for melodic structure. In particular, the I-R model looks at interval sizes and directions between notes of a melody.
 (PDF) Simplifying the Implication-Realization Model of Melodic Expectancy. Available from: https://www.researchgate.net/publication/230746009_Simplifying_the_Implication-Realization_Model_of_Melodic_Expectancy [accessed Aug 30 2020].
 In the I-R model, when given three notes making two intervals, the first interval is defined as the Implication interval, whereas the second interval is the Realization interval.  
 
@@ -237,7 +237,7 @@ Schellenberg (1997) showed via principle component analysis that only two princi
 Quantification of principles of the revised two-factor model of the implication-realization model. Because larger intervals are assigned higher values, negative associations between the principle and expectancy data are presumed.
 
 #### Gap-Fill
-Gap-fill was first proposed by Leonard B. Meyer in 1973 (von Hippel & Huron, 1998). The basic principle of gap-fill states that large intervals in a melody imply smaller intervals in the opposite direction. Schellenberg demonstrates that gap-fill is the logical outcome when a melody violates the pitch-proximity principle and pitch-reversal is applied.
+Gap-fill was first proposed by Leonard B. Meyer in 1973 {% include cite ref="hippel_and_huron" %} The basic principle of gap-fill states that large intervals in a melody imply smaller intervals in the opposite direction. Schellenberg demonstrates that gap-fill is the logical outcome when a melody violates the pitch-proximity principle and pitch-reversal is applied.
 
 {% include img-figure url="./melody_gapfill.png" description="An illustration of gap-fill processes." %}
 
@@ -277,7 +277,7 @@ _you can have access to all MUTOR interactive maxpatches when you download the [
 
 ## Texture Space
 
-The combination of melodic material gives rise to musical texture. Huron (1989) proposes a two-dimensional space for musical texture, where the x-axis represents semblant motion whereas the y-axis represents onset asynchrony.
+The combination of melodic material gives rise to musical texture. Huron {% include cite ref="huron" %} proposes a two-dimensional space for musical texture, where the x-axis represents semblant motion whereas the y-axis represents onset asynchrony.
 
 Here are some examples of the way melodies fit in each corner of the texture space:
 1. high semblant motion, high onset synchrony (e..g Gregorian chant)
