@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 117.0, 138.0, 1180.0, 507.0 ],
+		"rect" : [ 53.0, 253.0, 1180.0, 507.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -365,7 +365,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -555,7 +555,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1328,7 +1328,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1556,15 +1556,15 @@
 											}
 , 											{
 												"key" : 3,
-												"value" : [ "unit2-HumpbackWhale.mp3" ]
+												"value" : [ "SpectrumaAndSonogram_HumpbackWhale.mp3" ]
 											}
 , 											{
 												"key" : 4,
-												"value" : [ "unit2-Siamang.mp3" ]
+												"value" : [ "SpectrumaAndSonogram_Siamang.mp3" ]
 											}
 , 											{
 												"key" : 5,
-												"value" : [ "unit2-Swallow.mp3" ]
+												"value" : [ "SpectrumaAndSonogram_Swallow.mp3" ]
 											}
  ]
 									}
@@ -1633,8 +1633,8 @@
 										"followglobaltempo" : 0,
 										"formantcorrection" : 0,
 										"mode" : "basic",
-										"originallength" : [ 2219.080272108843474, "ticks" ],
-										"originaltempo" : 120.0,
+										"originallength" : [ 3339.319727891157527, "ticks" ],
+										"originaltempo" : 120.000000000000043,
 										"pitchcorrection" : 0,
 										"quality" : "basic",
 										"timestretch" : [ 0 ]
@@ -1881,7 +1881,7 @@
 					"patching_rect" : [ 324.5, 218.0, 17.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1033.5, 88.5, 17.0, 17.0 ],
-					"uncheckedcolor" : [ 0.396078431372549, 0.396078431372549, 0.396078431372549, 1.0 ],
+					"uncheckedcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "toggle"
 				}
 
@@ -1898,7 +1898,7 @@
 					"patching_rect" : [ 560.0, 331.0, 17.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 981.5, 88.5, 17.0, 17.0 ],
-					"uncheckedcolor" : [ 0.396078431372549, 0.396078431372549, 0.396078431372549, 1.0 ]
+					"uncheckedcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
 			}

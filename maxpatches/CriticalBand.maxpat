@@ -1813,12 +1813,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-74",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 1068.0, 726.0, 204.0, 22.0 ],
-					"text" : "buffer~ criticalbandwithsin jam.sin.aif"
+					"patching_rect" : [ 1068.0, 726.0, 150.0, 35.0 ],
+					"text" : "buffer~ criticalbandwithsin CriticalBand_jam.sin.aif"
 				}
 
 			}
@@ -2438,7 +2439,7 @@
 			}
 , 			{
 				"box" : 				{
-					"filename" : "JM_CBdemo",
+					"filename" : "CriticalBand_JM-CBdemo",
 					"id" : "obj-52",
 					"maxclass" : "jsui",
 					"numinlets" : 2,
@@ -3022,7 +3023,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "JM_CBdemo.js",
-				"bootpath" : "~/Desktop/mutor final/allpatches",
+				"bootpath" : "~/Documents/GitHub/ScienceOfMusic/maxpatches",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
