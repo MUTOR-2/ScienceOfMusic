@@ -178,7 +178,7 @@ To date, a number of theories have been proposed to describe and understand our 
 
 Meyer's student Narmour (1990) proposed a more formal theory to account for expectation for melody. Narmour's Implication Realization Model defined a formal set of rules, mainly relating each interval to the next.
 
-More recently, Huron (2006) proposed that Gap Fill and Regression To The Mean may be a parsimonious account for expectancy in music, which makes similar predictions as Narmour's theory (parsimony in psychology entails identifying the simplest and most accurate explanation for brain processes and human behaviors). The relative predictive powers of the Implication Realization Model and Gap Fill are as yet unclear. 
+More recently, {% include cite ref="huron" %} proposed that Gap Fill and Regression To The Mean may be a parsimonious account for expectancy in music, which makes similar predictions as Narmour's theory (parsimony in psychology entails identifying the simplest and most accurate explanation for brain processes and human behaviors). The relative predictive powers of the Implication Realization Model and Gap Fill are as yet unclear. 
 
 In another line of research, Jones (2002) proposed the Dynamic Attention Theory to account for Expectancies For Rhythm. Their model is mostly used to account for rhythmic expectancies such as our internal anticipation for regularities in rhythm and meter.
 
@@ -204,7 +204,7 @@ The following graph represents musically trained and untrained subjects' prefere
  
 # Expectation For Melody
 
-To date, the most well-specified models for musical expectation mostly refer to expectation for melody. The Implication Realization Model, first proposed by Narmour (1989), is a formal set of rules defining interval directions and sizes in melodies. In contrast, Huron (2006) has discussed Gap Fill and Regression To The Mean (or more precisely Post-Skip Reversal) as parsimonious theories to account for melodic structures. See chapter 8.2 in Unit 8 (Melody and Gestalt) for an in-depth look at Implication Realization Model and Gap Fill.
+To date, the most well-specified models for musical expectation mostly refer to expectation for melody. The Implication Realization Model, first proposed by Narmour (1989), is a formal set of rules defining interval directions and sizes in melodies. In contrast, {% include cite ref="huron" %} has discussed Gap Fill and Regression To The Mean (or more precisely Post-Skip Reversal) as parsimonious theories to account for melodic structures. See chapter 8.2 in Unit 8 (Melody and Gestalt) for an in-depth look at Implication Realization Model and Gap Fill.
 
 # Expectancies For Rhythm
 
@@ -221,12 +221,12 @@ In the Jones et al (2002) experiment, melodies were played with the last note's 
 A diagram of the Jones et al paradigm: 
 
 {% include img-figure url="./rhythmic_jones_diagram.png" description="Jones 1" width="400px" %}
-(Adapted from: Huron, 2006) 
+(Adapted from: {% include cite ref="huron" %}) 
 
 Cartoon of results from Jones et al, showing heightened perceptual accuracy at the expected onset time:
 
 {% include img-figure url="./rhythmic_jones_onset.png" description="Jones 2" width="300px" %}
-(Adapted from: Huron, 2006)
+(Adapted from: {% include cite ref="huron" %})
 
 Rhythmic Expectancy Curve showing optimal perceptual performance when the target note is at the expected downbeat. 
 
@@ -263,7 +263,7 @@ While the production paradigm may seem to be a most direct way to investigate on
 
 ## Betting Paradigm
 
-In contrast to the production paradigm, the betting paradigm (Huron, 2006) eliminates confounds associated with production limitations (such as voice registers and piano skills). In the betting paradigm, participants are given a musical surface such as a keyboard. They listen to a melody and their task is to place bets (chips) on where the melody will end. 
+In contrast to the production paradigm, the betting paradigm {% include cite ref="huron" %} eliminates confounds associated with production limitations (such as voice registers and piano skills). In the betting paradigm, participants are given a musical surface such as a keyboard. They listen to a melody and their task is to place bets (chips) on where the melody will end. 
 
 The following is a demonstration of the betting paradigm: 
 
@@ -282,7 +282,7 @@ Click [here for the demo patch](https://github.com/MUTOR-2/MUTOR/raw/master/asse
 Some typical profiles are shown here (see also sections 6 and 7 in [Unit 5](../05/index.html): Pitch, Intervals and Key Areas):
 
 {% include img-figure url="./probetone_profiles.png" description="Probe Tone profiles1" width="500px" %}
-(image source: Krumhansl, 1990)
+(image source: {% include cite ref="krumhansl1990" %}
 
 {% include p/begin %}
 {% assign ptsynthname = mutor_patch_pfx | append: "ptsynth" %}
@@ -305,10 +305,10 @@ _you can have access to all MUTOR interactive maxpatches when you download the [
 
 Notice that when the melodies given to the subjects are in related keys (e.g. C major and a minor scales, as shown in the top panel), the average ratings are highly correlated. In contrast, in response to melodies in unrelated keys such as C major and F# major (bottom panel), the correlations between rating profiles are low, or even negatively correlated. 
 
-Probe tone profiles obtained for Western music are also shown to reflect the statistics of musical compositions (Krumhansl, 1990). 
+Probe tone profiles obtained for Western music are also shown to reflect the statistics of musical compositions {% include cite ref="krumhansl1990" %}. 
 
 {% include img-figure url="/MUTOR/assets/images/unit10_probetoneprofiles2.png" description="Probe tone profiles2" %}
-(image source: Krumhansl, 1990)
+image source: {% include cite ref="krumhansl1990" %}
 
 Probe tone profiles for major (top) and minor (bottom) keys are highly correlated with the relative frequency at which pitch classes appear in corpuses of classical music. 
 
@@ -319,9 +319,9 @@ To gain a full understanding of musical expectation, it is not enough to only us
 In a study using melodies from the Balinese slendro scale (Castellno et al, 1984), Indonesian and Western subjects Results from probe tone profiles obtained from Balinese music were correlated with tones heard in the Balinese slendro scale. For Indonesian subjects with long-term exposure to Balinese music, correlational strengths reflected a sensitivity to the hierarchy of the scale; i.e. tones that fitted the tonal hierarchy were rated as most fitting, whereas atypical tones in the Balinese scale structure were rated as poorly fitting. In contrast, after listening to Balinese melodies, Westerners demonstrated a significant correlation with the occurrence of the Balinese music; that is, Westerners rated anything they had heard in the Balinese music as being well-fitting. 
 
 {% include img-figure url="./probetone_balinese.png" description="balinese correlations" width="500px" %}
-(image adapted from Huron, 2006) Results from probe tone profiles obtained from North Indian music.
+(image adapted from {% include cite ref="huron" %} Results from probe tone profiles obtained from North Indian music.
 
-The ethnomusicologist Simha Arom (1991) has investigated rhythm and polyrhythm in Central African music using cognitive principles. His results show that while African music seems to have incredibly complex rhythmic structures, where each member of an ensemble operates at a different metric pattern, these complex polyrhythms could in fact be broken down into simple time ratios such as 2+2+3. These results suggest that expectancy for complex rhythms could also operate on simple cognitive structures. 
+The ethnomusicologist Simha Arom {% include cite ref="arom" %} has investigated rhythm and polyrhythm in Central African music using cognitive principles. His results show that while African music seems to have incredibly complex rhythmic structures, where each member of an ensemble operates at a different metric pattern, these complex polyrhythms could in fact be broken down into simple time ratios such as 2+2+3. These results suggest that expectancy for complex rhythms could also operate on simple cognitive structures. 
 
 ## Reaction Time Paradigm
 

@@ -295,7 +295,7 @@ The term microtonality refers to the systematic exploration of relationships tha
 Amongst the practitioners of microtonality, we can distinguish at least two main schools of thought:
 
 ## Just Intonation
-Representatives of this movement, which American composer Harry Partch ("Genesis of a Music") had a large impact on, focus on intervals that can be derived from the overtone series and its inversion, the undertone series. Parth refers to this as O-Tonality and U-Tonality. In his music and theoretical writings, hitherto uncommon intervals such as 11/7 or 7/3 came to the foreground.
+Representatives of this movement, which American composer Harry Partch {% include cite ref="partch" %} had a large impact on, focus on intervals that can be derived from the overtone series and its inversion, the undertone series. Parth refers to this as O-Tonality and U-Tonality. In his music and theoretical writings, hitherto uncommon intervals such as 11/7 or 7/3 came to the foreground.
 
 {% include img-figure url="./microtonality_partch.png" description="Arrangement of the bars in Harry Partch's Diamond Marimba in 11-limit just intonation" %}
 
@@ -325,7 +325,7 @@ _you can have access to all MUTOR interactive maxpatches when you download the [
 
 In turn, 19TET (approximation of 1/3 comma meantone tuning) and 31TET (approximation of 1/4 comma meantone tuning) feature excellent major thirds and have even been considered by 20th century scholars such as Joseph Yasser and Adriaan Fokker as contenders for the replacement of 12TET.
 
-In 1980 American composer Easley Blackwood wrote Twelve Microtonal Etudes for Electronic Music Media, the first systematic exploration of equidistant tunings from 13TET to 24TET.
+In 1980 American composer Easley Blackwood {% include cite ref="blackwood" %} wrote Twelve Microtonal Etudes for Electronic Music Media, the first systematic exploration of equidistant tunings from 13TET to 24TET.
 
 Many tunings such as at 17TET, 19TET, 22TET, 31TET, 41TET and 53TET also feature a __diatonic__ sub set of pitches and therefore be used as alternative tunings for tonal music.  
 
@@ -357,7 +357,7 @@ The Bohlen-Pierce scale, first discovered and described in 1970s by German engin
 
 {% include img-figure url="./microtonality_bp_clarinets.png" description="Bohlen-Pierce clarinets in three sizes" width="300px" %}
 
-Odd integer frequency ratios arise in the spectrum of the clarinet, which is one of the few wind instruments that blow over at the twelfth. What could be more appropriate than developing a clarinet with the Bohlen-Pierce tuning? In 2004, the Hamburg University of Music and Drama (HfMT) instigated the Bohlen-Pierce Clarinet project focussing on the design of particular Bohlen-Pierce clarinets in close collaboration with Canadian clarinet maker [Stephen Fox](http://www.sfoxclarinets.com/bpclar.html), with the first clarinet being finished in 2007. In this context, [Müller, Orlandatou and Hajdu](http://georghajdu.de/wp-content/uploads/Starting-over.pdf) have proposed a novel music theory based on the specifics of the scale, including new note names (N - Z), new clefs, a chromatic six-line staff (with no need of accidentals) as well as the establishment of a BP theory of harmony, counterpoint and ear training (see figure 9.10 for different representations of the Bohlen-Pierce scale). MUTOR co-author Psyche Loui, in her Ph.D. work, has asked the question whether or not humans can rapidly learn grammatical structure in a new musical scale. She used the Bohlen-Pierce scale as a point of departure and had, from the perpective of a cognitive psychologist, encouraging results which were in line with the outcomes of the empirical research conducted at the HfMT.
+Odd integer frequency ratios arise in the spectrum of the clarinet, which is one of the few wind instruments that blow over at the twelfth. What could be more appropriate than developing a clarinet with the Bohlen-Pierce tuning? In 2004, the Hamburg University of Music and Drama (HfMT) instigated the Bohlen-Pierce Clarinet project focussing on the design of particular Bohlen-Pierce clarinets in close collaboration with Canadian clarinet maker [Stephen Fox](http://www.sfoxclarinets.com/bpclar.html), with the first clarinet being finished in 2007. In this context, [Müller, Orlandatou and Hajdu](http://georghajdu.de/wp-content/uploads/Starting-over.pdf), {% include cite ref="muller_et_all" %} have proposed a novel music theory based on the specifics of the scale, including new note names (N - Z), new clefs, a chromatic six-line staff (with no need of accidentals) as well as the establishment of a BP theory of harmony, counterpoint and ear training (see figure 9.10 for different representations of the Bohlen-Pierce scale). MUTOR co-author Psyche Loui, in her Ph.D. work, has asked the question whether or not humans can rapidly learn grammatical structure in a new musical scale. She used the Bohlen-Pierce scale as a point of departure and had, from the perpective of a cognitive psychologist, encouraging results which were in line with the outcomes of the empirical research conducted at the HfMT.
 
 {% include img-figure url="./microtonality_bp_notation.png" description="Different representations of the Bohlen-Pierce scale" %}
 
@@ -382,7 +382,7 @@ Another classes of tunings cannot be classified into neither group. It includes 
 A comprehensive list of tunings and temperaments (currently more than 4600 files) can be found in the [Scala Archive](http://www.huygens-fokker.org/microtonality/scales.html).
 
 # Tuning, Timbre, Spectrum, Scale
-In 1998, the American music theorist and professor of electrical engineering Richard Sethares wrote a book titled Tuning, Timbre, Spectrum, Scale in which he focussed on the interdependence of consonance/dissonance and timbre. A strinking example for this is how the structure of a scale depends on the spectral content of the sonorities employed. If a sound features a stretched spectrum obtained by this formula (S being the stretch factor; 2 for harmonic series),
+In 1998, the American music theorist and professor of electrical engineering Richard Sethares wrote a book titled Tuning, Timbre, Spectrum, Scale {% include cite ref="sethares" %} in which he focussed on the interdependence of consonance/dissonance and timbre. A strinking example for this is how the structure of a scale depends on the spectral content of the sonorities employed. If a sound features a stretched spectrum obtained by this formula (S being the stretch factor; 2 for harmonic series),
 
 \begin{equation}
 f_n(stretched) = f_0 S^{(\frac{n}{log(2)})}
@@ -408,7 +408,7 @@ Intervals and chords are often related to the harmonic series. The major triad h
 
 ## Tension and Release
 
-The progression of harmony from consonance through dissonance and back to consonance can be abstracted and seen as a buildup of tension and a release of that tension.  The serialist composers of the post-war period (Boulez, Stockhausen, etc.) gave up the ability to create tension and release through harmonic progression as they abandoned the sonorities and harmonic syntax of the past.  The generation to follow (Grisey, Murail, Saariaho) sought new ways of creating tension and release without returning to the rules of the past.  In her article Timbre and harmony: interpolations of timbral structures, Kaija Saariao proposes a "sound / noise axis" that could replace the tonal system of consonance / dissonance as a way of creating tension and release.  This is heared clearly in the opening seconds of her composition Nymphea for string quartet and electronics—here, the performers alternate between normal playing and noisy extended techniques such as playing on the bridge (listening example 3).  
+The progression of harmony from consonance through dissonance and back to consonance can be abstracted and seen as a buildup of tension and a release of that tension.  The serialist composers of the post-war period (Boulez, Stockhausen, etc.) gave up the ability to create tension and release through harmonic progression as they abandoned the sonorities and harmonic syntax of the past.  The generation to follow (Grisey, Murail, Saariaho) sought new ways of creating tension and release without returning to the rules of the past.  In her article Timbre and harmony: interpolations of timbral structures, Kaija Saariao proposes a "sound / noise axis" that could replace the tonal system of consonance / dissonance as a way of creating tension and release {% include cite ref="saariaho" %}.  This is heared clearly in the opening seconds of her composition Nymphea for string quartet and electronics—here, the performers alternate between normal playing and noisy extended techniques such as playing on the bridge (listening example 3).  
 
 
 <div style="display: block; text-align: center; float: center">
@@ -419,7 +419,7 @@ Listening example 3. The opening minute of Kaija Saariaho's Nymphea for string q
 
 [PAGE FROM SCORE HERE]
 
-In works such as Gérard Grisey's Partiels and Tristan Murail's Gondwana, the composers create a relationship between harmonicity and inharmonicity.  In this case, the concept of harmonicity refers to similarity to the harmonic series. In Partiels, the opening sonority - a harmonic series derived from the acoustical analysis of a bass trombone - is gradually transformed into an increasingly inharmonic sonority by gradually placing the highest pitches into lower octaves.  In figure 9.14, the top graph is a sonogram of the opening 2'30" of Partiels and the bottom is a plot of the roughness (see the unit on consonance and dissonance) of the sonority over time created using a modified version of Richard Parncutt's algorithm.  
+In works such as Gérard Grisey's Partiels and Tristan Murail's Gondwana, the composers create a relationship between harmonicity and inharmonicity.  In this case, the concept of harmonicity refers to similarity to the harmonic series. In Partiels, the opening sonority - a harmonic series derived from the acoustical analysis of a bass trombone - is gradually transformed into an increasingly inharmonic sonority by gradually placing the highest pitches into lower octaves.  In figure 9.14, the top graph is a sonogram of the opening 2'30" of Partiels and the bottom is a plot of the roughness (see the unit on consonance and dissonance) of the sonority over time created using a modified version of Richard Parncutt's algorithm {% include cite ref="parncutt" %}.  
 
 
 {% include img-figure url="./roughness_grisey.png" description="The top plot is a sonogram of the first 3'40&quot; of Grisey's Partiels and the bottom plot is roughness against time." %}

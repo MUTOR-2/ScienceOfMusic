@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -267,7 +267,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -719,8 +719,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 728.0, 112.0, 188.0, 22.0 ],
-									"text" : "buffer~ illution-g marimba-sol.wav"
+									"patching_rect" : [ 728.0, 112.0, 271.0, 22.0 ],
+									"text" : "buffer~ illution-g WesselIllusion_Marimba-sol.wav"
 								}
 
 							}
@@ -731,8 +731,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 728.0, 85.0, 185.0, 22.0 ],
-									"text" : "buffer~ illution-e marimba-mi.wav"
+									"patching_rect" : [ 728.0, 85.0, 268.0, 22.0 ],
+									"text" : "buffer~ illution-e WesselIllusion_Marimba-mi.wav"
 								}
 
 							}
@@ -743,8 +743,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 728.0, 58.0, 185.0, 22.0 ],
-									"text" : "buffer~ illution-c marimba-do.wav"
+									"patching_rect" : [ 728.0, 58.0, 269.0, 22.0 ],
+									"text" : "buffer~ illution-c WesselIllusion_Marimba-do.wav"
 								}
 
 							}
@@ -844,7 +844,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2418,7 +2418,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2825,7 +2825,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}

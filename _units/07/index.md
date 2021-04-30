@@ -218,7 +218,7 @@ expressive timing
 {% include p/xwaveform-spectroscope-small src="./traeumerei_betts.mp3" gain="1.0" %}
 (performance by [Donald Betts](https://musopen.org/music/2326-scenes-from-childhood-op-15/))
 
-(source: Penel & Drake, 2000. Rhythm in music performance and perceived structure. In Desain & Windsor, Ed.)
+(source: Penel & Drake, 2000. Rhythm in music performance and perceived structure. In {% include cite ref="desain_and_windsor" %}
 
 Above, in the section on the TatuM, along with the parameters of probability of occurence, duration, etc., we also defined a deviation vector. This deviation in timing is meant to mimic the microtiming found in human performance.
 
@@ -231,9 +231,10 @@ Two kinds of time maps we introduce here are the rhythmogram and the maps of per
 In addition to the rhythmogram and the score vs performance time map, various other rhythmic representations deserve mention. Desain and Honing describe a triangular space that represents all possible expressive deviations given a four-note rhythm.
 
 {% include img-figure url="./time_desain_honing.jpg" description="Desain & Honing" %}
-(image source: Desain & Honing, 2003. Perception.)
+(image source: {% include cite ref="desain_and_honing" %} Perception.)
 
 Other statistical methods to analyze rhythm and expressive microtiming are also widely used. Benadon uses histograms, which are graphs plotting the occurrence frequencies of events, to diagram the beat-upbeat ratios (BURs) of the swing rhythm in jazz.
+{% include cite ref="benadon" %}
 
 ## Score Time Vs Performance Time
 Given the discussion of microtiming above, it should be clear by now that there is not necessarily a 1:1 correlation between the printed score and what a performer plays. A simple score may only contain pitches, rhythms, some dynamics, and information about the tempo and meter. Although it may lack direction about how to vary the timing expressively, we are not necessarily meant to interpret that lack of direction as an indication that we should play the music as straight and precisely as possible. When directions are given, they are often vague at best, as in the term rubato. As we mentioned above, a computer simulation that lacks microtiming and is based only on what we might call score time tends to feel cold and mechanical. We can begin to understand what a performer brings to the piece with respect to expressive timing by plotting the score time against the performance time as in figure 1.
@@ -247,7 +248,7 @@ By modelling the relationship between score and performance time, one can create
 
 ## Rhythmogram
 The rhythmogram is an effective way to visualize rhythmic structure in a musical score or performance. First used by Neil Todd
-(mentioned in E. Clarke in Deutsch, 1999), the rhythmogram is a graph of musical performances with time on the x axis and a low-frequency filterbank on the y axis.
+{% include cite ref="todd" %} (mentioned in E. Clarke in Deutsch, 1999), the rhythmogram is a graph of musical performances with time on the x axis and a low-frequency filterbank on the y axis.
 
 To visualize the low-frequency filterbank, consider a set of very low-frequency bandpass filters arranged logarithmically. For instance, several filters along the filterbank could be: 0.125Hz, 0.25Hz, 0.5Hz, 1Hz, 2Hz, and 4Hz. The rhythmogram plots musical time on the x axis and these filters on the y axis.
 
@@ -293,7 +294,7 @@ Humans seem to have remarkable ability to perceive and produce rhythm. How do we
 Here we present two models of rhythm perception and production: the interval timing model and the coupled oscillator model. The interval timing model predicts the inter-onset interval between two events by viewing
 Again, it is not clear that the answer must be one or the other; the truth may well lie somewhere in between, or it may be a third model which differs from both interval timing and coupled oscillator models.
 
-An alternate model that relates rhythmic perception and production uses the Bayesian prediction framework, which predicts the probability of an event based on its prior probability, via the BayesRule. This framework has been applied to rhythm to predict rhythm production based on rhythm perception (Sadakata & Desain, 2006).
+An alternate model that relates rhythmic perception and production uses the Bayesian prediction framework, which predicts the probability of an event based on its prior probability, via the BayesRule. This framework has been applied to rhythm to predict rhythm production based on rhythm perception {% include cite ref="sadakata_et_all" %}.
 
 ## Interval Timing
 Interval timing models of rhythmic perception and production posit that each rhythmic event is related to its previous event via a pacemaker, or accumulator. The pacemaker is a central timekeeper that sets an overall speed, or tempo, controlling the series of rhythmic events. The accumulator receives pulses from the pacemaker, and compares each interval to the interval immediately before it.
@@ -349,7 +350,7 @@ Coupled pendulum oscillators (image source: [http://xeon.concord.org:8080/modele
 Can you make the two pendulum images right next to each other? (left and right, not up and down)
 {% endcomment %}
 
-Applied to rhythm, the coupled oscillator model states that rhythm is the result of a set of internal oscillators which entrain towards the expected rhythm. Large and Kolen (1994) and McAuley (1996) have modeled the perception and production of rhythm using coupled oscillators, where the placement of each beat within a metric structure is set by the phase of the oscillator, and individual oscillators entrain towards the recurrent beat. The use of coupled oscillators has led to some successful beat-finding algorithms. Coupled oscillator theories are computationally attractive as they can predict many observations, including the perception of meter as a recurrent rhythmic pattern, using relatively elegant mathematical models. Unfortunately, we are not yet sure of physiological bases of coupled oscillator models.
+Applied to rhythm, the coupled oscillator model states that rhythm is the result of a set of internal oscillators which entrain towards the expected rhythm. Large and Kolen {% include cite ref="large_and_kohlen" %} and McAuley (1996) have modeled the perception and production of rhythm using coupled oscillators, where the placement of each beat within a metric structure is set by the phase of the oscillator, and individual oscillators entrain towards the recurrent beat. The use of coupled oscillators has led to some successful beat-finding algorithms. Coupled oscillator theories are computationally attractive as they can predict many observations, including the perception of meter as a recurrent rhythmic pattern, using relatively elegant mathematical models. Unfortunately, we are not yet sure of physiological bases of coupled oscillator models.
 
 # A Mathematical Model of Meter: Clarence Barlow's Indispensability Function
 

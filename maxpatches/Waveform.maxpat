@@ -954,8 +954,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 145.5, 210.0, 174.0, 22.0 ],
-					"text" : "replace MUTOR_welcome.wav"
+					"patching_rect" : [ 145.5, 210.0, 187.0, 22.0 ],
+					"text" : "replace Waveform_Welcome.wav"
 				}
 
 			}
