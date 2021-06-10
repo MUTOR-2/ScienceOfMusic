@@ -535,7 +535,7 @@ X(k)=\sum^{N-1}_{n=0}x(n)e^{-i2\pi\frac{kn}{N}}
 This may or may not look familiar, but just bear with me. $x(n)$ is our
 digitally-sampled time-domain signal, and $X(k)$ is the resulting 
 frequency-domain representation of it. $e^{-i2\pi\frac{kn}{N}}$ can
-be rewritten using the (trigonometric) $sin$ and $cosine$ functions:
+be rewritten using the (trigonometric) $\sin$ and $\cos$ functions:
 \begin{equation}
 e^{-i2\pi\frac{kn}{N}} = \cos\left(2\pi \frac{kn}{N}\right) - i \sin\left(2\pi \frac{kn}{N}\right)
 \label{eq:trig}
@@ -566,19 +566,21 @@ x(k)=\frac{1}{N}\sum^{N-1}_{n=0}X(n)e^{i2\pi\frac{kn}{N}}
 \label{eq:idft}
 \end{equation}
 <!---The above equation had been in error and is altered to correct the domain inputs, and normalization--->
-(Note that the X(n) and x(n) are swapped relative to the DFT, by convention there 
-is a 1/N normalization, and, if you missed it, there is a little missing "-" sign 
+(Note that the $X(n)$ and $x(n)$ are swapped relative to the DFT, by convention there 
+is a $1/N$ normalization, and, if you missed it, there is a little missing "-" sign 
 in the exponent towards the   right-hand side).
 
 It can be difficult to form an intuition for the FT and DFT based on the 
 equations alone.  The following video provides a really nice visual demonstration
 of how this all works:
 
+{% include begin-figure description="Fourier Transform" %}
 <div style="display: block; text-align: center; float: center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/spUNpyF58BY" 
 frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
 picture-in-picture" allowfullscreen></iframe>
 </div>
+{% include end-figure %}
 
 While that is probably more math than you might normally come into contact with 
 in a course on music psychology, the FT allows us to perform very clever types of 
