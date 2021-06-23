@@ -307,7 +307,7 @@ Notice that when the melodies given to the subjects are in related keys (e.g. C 
 
 Probe tone profiles obtained for Western music are also shown to reflect the statistics of musical compositions {% include cite ref="krumhansl1990" %}. 
 
-{% include img-figure url="/MUTOR/assets/images/unit10_probetoneprofiles2.png" description="Probe tone profiles2" %}
+{% include img-figure url="./probetone_western.png" description="Probe tone profiles from western music (Krumhansl, 1990)" %}
 image source: {% include cite ref="krumhansl1990" %}
 
 Probe tone profiles for major (top) and minor (bottom) keys are highly correlated with the relative frequency at which pitch classes appear in corpuses of classical music. 
