@@ -556,6 +556,7 @@ The first part of this sentence is played normally, whereas the second part is f
 {% include img-figure url="./audiogram_damage_comparison.jpg" description="Audiogram comparison between different hearing impairments." %}
 
 {% include img-figure url="./audiogram_familiar.png" description="Auditory Familiar Sounds" %}
+(Adapted from: Ling, D. & Ling, A (1978). Aural Habilitation)
 {% comment %} Sample audiograms: a) audiogram showing presbyacusis, commonly observed as a "ski-slope" hearing loss (see TypesofHearingLoss). b) Audiograms of other types of hearing loss caused by sudden sounds. Curves are normalized according to the equal-loudness contours (see Fletcher-Munson curves from the previous unit). {% endcomment %}
 
 # Types of Hearing Loss
