@@ -152,6 +152,7 @@ A similar phenomenon is the _subjective contour_. It is difficult not to see tha
 Figure-ground organization is a Gestalt principle depicts our ability to make out a figure in front of a background. We tend to perceive as figures those parts of our perceptual fields that are convex, symmetric, small, and enclosed. The [figure–ground vase illusion](https://en.wikipedia.org/wiki/Rubin_vase) arises when the visual information given is ambiguous. In the figure below, a low quality, black and white photo of a dalmatian dog. The viewer first has to use perceptual completion to recognize the outlines of the dog against the background which could be interpreted as an overexposed scene in a park. Once the viewer has successfully analysed the scene, he or she will identify the dog much more quickly when shown the image again. Bregman has coined the term _auditory scene analysis_ to denote processes in the auditory domain analogous to figure-ground organization and perceptual grouping.
 
 {% include img-figure url="/MUTOR/assets/images/unit8_Dalmatian.png" description="Figure-ground organization" width="400px" %}
+(Image source: R. C. James, The Dalmatian)
 
 # Gestalt Laws of Grouping
 According to the Gestalt psychologists, the brain uses the principles of Gestalt grouping of sensory stimuli to shape objects, especially if the incoming information is incomplete.
