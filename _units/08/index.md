@@ -125,7 +125,7 @@ The perception of objects can be confusing if the spatial or temporal order is r
 (Adapted from: [https://ccrma.stanford.edu/~kglee/m220c/cognition.html])
 
 The Thatcher illusion is based on the same principle:
-{% include img-figure url="/MUTOR/assets/images/unit8_Thatcher-Illusion.png" description="In an face drawn upside-down it is perceptually difficult to tell if  eyes and mouth are right-side up" width="400px" %}
+{% include img-figure url="./inversion_thatcher.jpg" description="In an face drawn upside-down it is perceptually difficult to tell if  eyes and mouth are right-side up" width="400px" %}
 
 An example in the auditory domain would be the reversed sound of a cymbal, a familiar sonority in popular music, which has a distict quality while still betraying its origin.
 
