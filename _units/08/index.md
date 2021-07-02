@@ -105,7 +105,7 @@ Such clues include:
 * Motion Parallax: moving the observer shifts the image on the retina. This makes it possible to draw conclusions about distances.
 
 {% include img-figure url="./inference_tablesurfaces.png" description="The two parallograms representing the table surfaces are rotationally symmetric" %}
-(Adapted from: [https://ccrma.stanford.edu/~kglee/m220c/cognition.html])
+(Image by Janina Luckow. Adapted from: [Kyogu Lee](https://ccrma.stanford.edu/~kglee/m220c/cognition.html))
 
 The figure 8.1 shows that the internal representation of an object can differ greatly from the physical stimulus on the retina. In fact, both table surfaces (parallelograms) are identical. However, the fact that the lines are interpreted as part of a three-dimensional object creates the impression that the tables are different. [An animation of the rotating table top can be seen here](http://www.michaelbach.de/ot/sze_shepardTables/index.html).
 
@@ -116,23 +116,24 @@ Example in the sound domain: The difference between quieter and farther away. Th
 1. Normally a sound is reflected by other objects in the room. This creates reverb, which gives information about the size of the room. When a sound is close, we hear more direct sound and little reverb that hits with a time delay. As the sound fades away, its intensity decreases and reverb increases.
 
 {% include img-figure url="./invariance_size.png" description="We have developed the ability to perceive the size of an object independently of its distance" %}
-(Adapted from: [https://ccrma.stanford.edu/~kglee/m220c/cognition.html])
+(Image by Janina Luckow. Adapted from: [Kyogu Lee](https://ccrma.stanford.edu/~kglee/m220c/cognition.html))
 
 ## Spatial and Temporal Inversion
 The perception of objects can be confusing if the spatial or temporal order is reversed, as in the case of the double faces in this image, which we interpret in a specific, fixed way (this definition takes place in early childhood).
 
 {% include img-figure url="./inversion_faces.png" description="The perception of objects can be confusing if the spatial or temporal order is reversed" %}
-(Adapted from: [https://ccrma.stanford.edu/~kglee/m220c/cognition.html])
+(Image by James Cheung. Adapted from: [Kyogu Lee](https://ccrma.stanford.edu/~kglee/m220c/cognition.html))
 
 The Thatcher illusion is based on the same principle:
 {% include img-figure url="./inversion_thatcher.jpg" description="In an face drawn upside-down it is perceptually difficult to tell if  eyes and mouth are right-side up" width="400px" %}
-(Image source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Thatcher_effect.jpg))
+(Image source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Thatcher_effect.jpg). Copyright: [Public domain](https://creativecommons.org/publicdomain/zero/1.0/deed.en))
 
 An example in the auditory domain would be the reversed sound of a cymbal, a familiar sonority in popular music, which has a distict quality while still betraying its origin.
 
 {% include begin-figure description="Reversed sound of a crash cymbal." %}
 {% include p/xwaveform-spectroscope-small src="./inversion_cymbal.wav" gain="1.0" %}
 {% include end-figure %}
+(Audio source: [Free Wave Samples](https://freewavesamples.com/crash-cymbal-2). Copyright: [Jason Champion](https://freewavesamples.com/about-us-license))
 
 # Perceptual Completion
 Perceptual Completion of incomplete information (e.g., blind spot or TV noise experiments). Top-down in addition to bottom-up processes, based on experience. Computers have difficulty to deal with ambiguity for lack of visual knowledge.
@@ -140,14 +141,17 @@ Perceptual Completion of incomplete information (e.g., blind spot or TV noise ex
 In the example on the left, as with any reason, the elongated object continues under the round disk. Even infants make such assumptions and are surprised if they do not apply.
 
 {% include img-figure url="./completion.jpg" description="Perceptual completion" %}
+(Image by Janina Luckow. Adapted from: [Kyogu Lee](https://ccrma.stanford.edu/~kglee/m220c/cognition.html))
 {% include img-figure url="./completion_show.jpg" description="We assume objects to continue when parts of it are hidden behind another object" width="600px" %}
+(Image by Janina Luckow. Adapted from: [Kyogu Lee](https://ccrma.stanford.edu/~kglee/m220c/cognition.html))
 
 {% include p/xwaveform-spectroscope-small src="./completion.wav" gain="1.0" %}
 
 # Reification: Subjective Contour
-A similar phenomenon is the _subjective contour_. It is difficult not to see that white triangle, though it does not actually exist. This phenomenon is related to virtual pitch, apparent in low-bandwidth phone calls and strinking pitch of bells. The principle behind subjective contour is referred to as _reification_: "The error of treating something that is not concrete, such as an idea, as a concrete thing." ([https://en.wikipedia.org/wiki/Reification_(fallacy)])
+A similar phenomenon is the _subjective contour_. It is difficult not to see that white triangle, though it does not actually exist. This phenomenon is related to virtual pitch, apparent in low-bandwidth phone calls and strinking pitch of bells. The principle behind subjective contour is referred to as [_reification_](https://en.wikipedia.org/wiki/Reification_(fallacy)): "The error of treating something that is not concrete, such as an idea, as a concrete thing." 
 
 {% include img-figure url="./reification_kinazsa.png" description="Subjective contour" width="300px" %}
+(Image by Janina Luckow. Adapted from: [Kyogu Lee](https://ccrma.stanford.edu/~kglee/m220c/cognition.html))
 
 # Figure-Ground Organization
 Figure-ground organization is a Gestalt principle depicts our ability to make out a figure in front of a background. We tend to perceive as figures those parts of our perceptual fields that are convex, symmetric, small, and enclosed. The [figure–ground vase illusion](https://en.wikipedia.org/wiki/Rubin_vase) arises when the visual information given is ambiguous. In the figure below, a low quality, black and white photo of a dalmatian dog. The viewer first has to use perceptual completion to recognize the outlines of the dog against the background which could be interpreted as an overexposed scene in a park. Once the viewer has successfully analysed the scene, he or she will identify the dog much more quickly when shown the image again. Bregman has coined the term _auditory scene analysis_ to denote processes in the auditory domain analogous to figure-ground organization and perceptual grouping.
@@ -162,24 +166,30 @@ The principles include:
 -- elements that are more similar (i.e. share common features) are more likely to be grouped together.
 We perceive the cyan squares as one group and the pink squares as another group; this illustrates grouping by similarity of colour.
 {% include img-figure url="./gestalt_similarity.png" description="Principle of similarity" %}
+(Image by James Cheung)
 ## Symmetry
 -- symmetrical figures are perceived as being grouped together.
  The pair of shapes on the left is more likely to be perceived as a group compared to the pair on the right; this is because the left pair is symmetrical around the dotted line whereas the right pair is asymmetrical. 
  {% include img-figure url="./gestalt_symmetry.png" description="Principle of symmetry" width="400px" %}
+(Image by James Cheung)
 ## Proximity
 - elements that are close together are more likely to be grouped together.
 The squares that are closer together are perceived as being grouped together.
 {% include img-figure url="./gestalt_proximity.png" description="Principle of proximity" %}
+(Image by James Cheung)
 ## Good continuation
 - we tend to perceive figures as being continuous.
  The pink diagonal is perceived as one line instead of two, due to the principle of good continuation.
 {% include img-figure url="./gestalt_goodcontinuation.png" description="Principle of good continuation" width="400px" %}
+(Image by James Cheung)
 ## Closure
 - we tend to see complete figures despite missing parts.
 {% include img-figure url="./gestalt_closure.png" description="Principle of closure" width="400px"%}
+(Image by James Cheung)
 ## Common fate
 - elements that change similarly over time tend to be grouped together.
 {% include img-figure url="./gestalt_commonfate.gif" description="Principle of common fate" %}
+(Animation by James Cheung)
 
 
 # Melody
@@ -189,39 +199,46 @@ The squares that are closer together are perceived as being grouped together.
 Contour generally refers to the pattern of directions for pitch intervals. The series of upward and downward pitch intervals can be represented as patterns of transitions between notes. Thus, in the following example of a melody from Joplin's The Entertainer:
 
 {% include img-figure url="./melody_entertainer.png" description="Score of the Entertainer" %}
+(Image by James Cheung)
 
 In this melody, each interval can be represented as its direction - up, down, or same. The series of interval directions are:
 
 {% include img-figure url="./melody_entertainer_directions.png" description="Interval Directions" %}
+(Image by James Cheung)
 
 Thus, the contour of the Entertainer melody can be represented as:
 
 {% include img-figure url="./melody_entertainer_contour.png" description="Contour" width="400px" %}
+(Image by James Cheung)
 
 Contour is shown to be very important to the perception of melody. {% include cite ref="deutsch_audio_illusions" %} demonstrates that when the contour of a melody is intact, melodies can be heard even if the pitches themselves are incorrect. (This explains why a tune is often still recognizable even when performed grossly out of tune.) If the contour is disrupted, then the melodic recognition is impaired, even when the pitch classes are retained.
 The following demonstration (from {% include cite ref="deutsch_audio_illusions" %} CD Musical Illusions and Paradoxes) illustrates the importance of melodic contour. In the first sound file, a familiar melody is played in the correct pitch classes but in scrambled octaves, such that the melodic contour is disrupted. Can you recognize the melody?
 
 {% include p/xwaveform-spectroscope-small src="melody_star_scrambled.wav" gain="1.0" %}
 scrambled melody
+(Audio by Víctor Gutiérrez)
 
 {% include p/xwaveform-spectroscope-small src="melody_star.wav" gain="1.0" %}
 original melody
+(Audio by Víctor Gutiérrez)
 
 ## Implication Realization Model
 
 Eugene Narmour's Implication Realization Model {% include cite ref="narmour" %} provides a set of predictions for melodic structure. In particular, the I-R model looks at interval sizes and directions between notes of a melody.
-(PDF) Simplifying the Implication-Realization Model of Melodic Expectancy. Available from: https://www.researchgate.net/publication/230746009_Simplifying_the_Implication-Realization_Model_of_Melodic_Expectancy [accessed Aug 30 2020].
+(PDF) [Simplifying the Implication-Realization Model of Melodic Expectancy.](https://www.researchgate.net/publication/230746009_Simplifying_the_Implication-Realization_Model_of_Melodic_Expectancy) [accessed Aug 30 2020].
 In the I-R model, when given three notes making two intervals, the first interval is defined as the Implication interval, whereas the second interval is the Realization interval.  
 
 In general, the I-R principles successfully predicted response patterns, which did not differ as a function of musical style, formal musical training, or cultural background. In short, the results were consistent with Narmour's claim of innate influences on melodic expectancies.  
 
 {% include img-figure url="./melody_ir_intervals.png" description="Implication and Realization Intervals" %}
+(Image by James Cheung)
 
 ### Definitions of the I-R model
 
 The space of all possible pairs of Implied and Realized intervals. Implied intervals, with possible sizes ranging from 0 (same note) to 11 semitones (major seventh) are plotted on the Y axis. Realized intervals, ranging from 12 semitones in a different direction to 12 semitones in the same direction, are plotted on the X axis. Each possible I-R pair can be represented as a square in the grid.
 
 {% include img-figure url="./melody_ir_grid.png" description="A grid representing possible combinations of implicatove and realized intervals" %}
+(Image by James Cheung)
 
 Narmour's I-R model predicts these melodic principles:
 1. Registral Direction – small implication intervals are followed by realization intervals in the same direction; large implication intervals are followed by realization intervals in the opposite direction
@@ -235,13 +252,16 @@ Schellenberg (1997) showed via principle component analysis that only two princi
 1. Pitch-Reversal - this principle claims that listeners often expect the next tone to be proximate in pitch to the tone that preceded the most recently heard tone. In other words, listeners often expect the second tone of a realized interval to be proximate to the first tone of the implicative interval.
 
 {% include img-figure url="./melody_ir_proximity.png" description="Pitch Proximity" width="400px" %}
+(Image by James Cheung)
 {% include img-figure url="./melody_ir_reversal.png" description="Pitch Reversal" width="400px" %}
+(Image by James Cheung)
 Quantification of principles of the revised two-factor model of the implication-realization model. Because larger intervals are assigned higher values, negative associations between the principle and expectancy data are presumed.
 
 #### Gap-Fill
 Gap-fill was first proposed by Leonard B. Meyer in 1973 {% include cite ref="hippel_and_huron" %} The basic principle of gap-fill states that large intervals in a melody imply smaller intervals in the opposite direction. Schellenberg demonstrates that gap-fill is the logical outcome when a melody violates the pitch-proximity principle and pitch-reversal is applied.
 
 {% include img-figure url="./melody_gapfill.png" description="An illustration of gap-fill processes." %}
+(Image by James Cheung)
 
 Countless famous musical examples can illustrate the gap-fill principle. For instance, the tune of "My Bonnie lies over the ocean" contains a large intervallic leap upwards between "my" and "Bonnie", followed by small steps downwards in "-nie lies over the ocean."
 
@@ -250,18 +270,21 @@ The idea of gap-fill most closely borrows from Gestalt theories in perception, w
 Demonstration from ASA CD: Segregation Of A Melody From Interfering Tones This demo shows the principle of proximity: pitches close together in register tend to be grouped together.
 
 {% include p/xwaveform-spectroscope-small src="./melody_segregation.mp3" gain="1.0" %}
+(Audio source: [ASA Auditory Demonstrations](http://www.rctn.org/bruno/data/auditory_demonstrations/ASA-auditory-demonstrations/))
 
 ## Hidden Markov Models
 
 A melody can be generated using a Hidden Markov Model (HMM). An HMM is a chain of sequential probabilities. Each node in a Markov model occurs with a certain probability, and predicts each of the other nodes connected to it with a certain probability.
 An example of a Hidden Markov Model can be used to predict weather:
 
-{% include img-figure url="./markov_weather.jpg" description="A Hidden Markov Model used to predict weather. (Adapted from: http://www.cs.wisc.edu/~noto/cs540/homework/homework5/homework5.soln.html)" %}
+{% include img-figure url="./markov_weather.jpg" description="A Hidden Markov Model used to predict weather." %}
+(Image by Janina Luckow. Adapted from: [Markov Models and Hidden Markov Models](https://dzone.com/articles/markov-models-and-hidden))
 
 A graph of an HMM is shown above. The model predicts the weather of each day given the previous day. We can see that according to this model, the probability that a day is sunny given that the previous day is also sunny is 0.8, the probability of a foggy day given to the previous foggy day is 0.5, and the probability that a rainy day is followed by another rainy day is 0.6. Each weather state also predicts each other weather state, with lower probabilities.
 Adapted to music, HMMs can be used to generate melodies. Each interval can be a predictor of the next interval, as specified in gap fill and the IR model.
 
 {% include img-figure url="./markov_melody.png" description="A Hidden Markov Model used to predict a melodic sequence. (Adapted from: http://www.dlib.org/dlib/february02/birmingham/birmingham-appendix2.html)" %}
+(Image by James Cheung. Adapted from: [William Birmingham, Bryon Pardo, Colin Meek, and Jonah Shifrin](http://www.dlib.org/dlib/february02/birmingham/birmingham-appendix2.html))
 
 The following interactive example is a matrix of transitions between intervals in a melody. The melody transitions matrix below generates a melody from a Hidden Markov Model:
 
@@ -270,10 +293,7 @@ The following interactive example is a matrix of transitions between intervals i
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WoYhU3NwosQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 {% include end-figure %}
-
-{% comment %}
-{% include mov-figure src="/MUTOR/assets/videos/unit8_markovchains.mp4" type="mp4" description="Maxpatch example: spectrum and sonogram." width="600px" %}
-{% endcomment %}
+(Max Patch by Víctor Gutiérrez and John MacCallum)
 
 _you can have access to all MUTOR interactive maxpatches when you download the [MUTOR github repository](https://github.com/MUTOR-2/ScienceOfMusic) inside the maxpatches folder._
 
@@ -284,19 +304,25 @@ The combination of melodic material gives rise to musical texture. Huron {% incl
 Here are some examples of the way melodies fit in each corner of the texture space:
 1. high semblant motion, high onset synchrony (e..g Gregorian chant)
 {% include img-figure url="./texture_monody.png" description="Monody" width="300px" %}
+(Image by James Cheung)
 2. high semblant motion, low onset synchrony (e.g. a chorale)
 {% include img-figure url="./texture_homophony.png" description="Homophony" width="300px" %}
+(Image by James Cheung)
 3. low semblant motion, high onset synchrony (e.g. a canon)
 {% include img-figure url="./texture_heterophony.png" description="Heterophony" width="300px" %}
+(Image by James Cheung)
 4. low semblant motion, low onset synchrony (e.g. a quadruple fugue)
 {% include img-figure url="./texture_polyphony.png" description="Polyphony" width="300px" %}
+(Image by James Cheung)
 To fit all four kinds of melodic textures onto the texture space:
 
 {% include img-figure url="./texture_space.png" description="Texture Space" width="400px"%}
+(Image by James Cheung)
 
 This texture space may be used to predict different musical styles. Different genres of music tend to occupy distinct areas of texture space, as shown below:
 
 {% include img-figure url="./texture_space_styles.jpg" description="Various Musical Genres projected onto Texture Space " %}
+(Image by Janina Luckow)
 
 {% comment %}
 (image source: http://music-cog.ohio-state.edu/Huron/Publications/huron.voice.leading.html)
