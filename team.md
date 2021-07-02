@@ -16,7 +16,7 @@ Prof. Dr. David Wessel / UC Berkeley)_
 Website programming: Dr. John MacCallum  
 Website programming assistant: Víctor Cuiza Gutiérrez  
 Graphic design and animations: Janina Luckow  
-Research assistant: James Cheung
+Research assistant: James Tsz-Him Cheung
 
 ### Administration
 Coordination: Xiao Fu  
