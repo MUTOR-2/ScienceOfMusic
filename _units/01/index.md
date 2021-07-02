@@ -101,11 +101,13 @@ and transferring the movement of the needle to a diaphragm, causing the
 tiny movements of the needle to displace a larger amount of air,
 the recorded sound could be played back, as shown in the video below:
 
+{% include begin-figure description="Phonograph cylinder" %}
 <div style="display: block; text-align: center; float: center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fWLlbk_bI7E" 
 frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
 picture-in-picture" allowfullscreen></iframe>
 </div>
+{% include end-figure %}
 
 The playback in such a device relies on analog amplification: a heavy,
 but small needle modulates a thin and light, but larger membrane that 
@@ -116,11 +118,14 @@ by a magnet. These small movements of the coil relative to the magnet alter the
 magnetic field and produce
 a very small electrical current, the voltage of which varies proportionally
 to the compressions and rarefactions of the sound. 
+
+{% include begin-figure description="Microphone" %}
 <div style="display: block; text-align: center; float: center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/d_crXXbuEKE" 
 frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
 picture-in-picture" allowfullscreen></iframe>
 </div>
+{% include end-figure %}
 
 Speakers work in the opposite way: an electrical signal is sent to
 a coil surrounded by a magnet, and the modulations in voltage displace
@@ -140,9 +145,12 @@ while digital signals are *discrete*, i.e. they
 can be thought of as consisting of individual values
 that were recorded by taking samples of an electrical voltage a finite number
 of times, at equally spaced intervals in time. 
+
 {% include img-figure url="./signal_digital_analog.jpg" 
 description="Digital (discrete) vs. analog (continuous) representations 
 of a signal" %}
+(Image by Janina Luckow)
+
 This process comes with advantages and disadvantages, the main disadvantage
 being the loss of information between samples. During playback,
 this lost information is reconstructed during the digital to analog
@@ -175,6 +183,8 @@ Let's take a closer look at the details of a time-domain waveform.
 {% include img-figure url="./signal_sin_period.jpg" 
                       description="A sine wave" width="550px" %}
 
+(Image by Janina Luckow)
+
 In figure {{ fig_sin }}, we see a special waveform called a *sine wave*.
 A sine wave is special because it is *periodic*, meaning that its shape
 repeats over and over again. The amount of time it takes for it to repeat
@@ -188,6 +198,8 @@ unit circle, starting from the point (1, 0).
                       description="The relationship between a sine wave
 					  and the position of a point on the circumference
 					  of a circle." %}
+
+(Animation by Janina Luckow)
 
 As we mentioned above, the physical property *amplitude* is related to the 
 perceptual experience of *loudness*. Additionally, the *frequency* of this
@@ -213,12 +225,18 @@ of a period to the left.
                       description="The relationship between a sine
 					  and a cosine." width="550px" %}
 
+
+(Image by Janina Luckow)
+
 Where a sine wave was the position along the y-axis, a cosine wave
 is the position of the same point along the x-axis.
 {% include img-figure url="./signal_cos_circle.gif" 
                       description="The relationship between a cosine wave
 					  and the position of a point on the circumference
 					  of a circle." %}
+
+(Animation by Janina Luckow)
+
 Since the phase difference between a sine wave and a cosine wave is 
 $1/4$ of a period, and that corresponds to our point having traveled
 $1/4$ of the way around the circle, or $90^{\circ}$, we can say that 
@@ -331,6 +349,8 @@ function phasesliderevent(e)
 {% include end-figure %}
 {% assign does_phase_matter=fignum %}
 
+(Applet by John MacCallum)
+
 You might notice a subtle change in pitch when you move the slider quickly---
 this is because a shift in phase requires the waveform to "jump" forward
 (or backward) faster (or slower) than it would have normally, and that
@@ -425,6 +445,8 @@ Phases (0-360):
 {% endfor %}
 {% include p/end %}
 {% include end-figure %}
+
+(Applet by John MacCallum)
 
 ### Summary
 
@@ -601,6 +623,7 @@ on a banjo or an entire symphony.
 {% include begin-figure description="Spectrum of a Trombone playing" %}
 {% include p/xspectroscope src="./spectrum_trombone.mp3" gain="1.0" %}
 {% include end-figure %}
+(Audio by John MacCallum)
 
 Looking at a sound's spectrum, we now have a more clear view of the frequency composition of a signal.
 Although the DFT does actually produce the phase of each component, 
@@ -613,6 +636,7 @@ Another representation of the spectrum over time is called a *sonogram*:
 {% include begin-figure description="Sonogram of a Trombone playing" %}
 {% include p/xsonogram src="./spectrum_trombone.mp3" %}
 {% include end-figure %}
+(Audio by John MacCallum)
 
 Here, we can see a history of the spectrum over time, with the height
 representing frequency, the brightness *magnitude* (related to amplitude),
