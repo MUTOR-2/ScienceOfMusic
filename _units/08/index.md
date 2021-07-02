@@ -104,7 +104,7 @@ Such clues include:
 * Binocular disparity: each of the two eyes gets a slightly different image, from which the brain can draw conclusions about the relative distance of the contained objects
 * Motion Parallax: moving the observer shifts the image on the retina. This makes it possible to draw conclusions about distances.
 
-{% include img-figure url="/MUTOR/assets/images/unit8_Table_Surfaces.png" description="The two parallograms representing the table surfaces are rotationally symmetric" %}
+{% include img-figure url="./inference_tablesurfaces.png" description="The two parallograms representing the table surfaces are rotationally symmetric" %}
 (Adapted from: [https://ccrma.stanford.edu/~kglee/m220c/cognition.html])
 
 The figure 8.1 shows that the internal representation of an object can differ greatly from the physical stimulus on the retina. In fact, both table surfaces (parallelograms) are identical. However, the fact that the lines are interpreted as part of a three-dimensional object creates the impression that the tables are different. [An animation of the rotating table top can be seen here](http://www.michaelbach.de/ot/sze_shepardTables/index.html).
@@ -126,7 +126,7 @@ The perception of objects can be confusing if the spatial or temporal order is r
 
 The Thatcher illusion is based on the same principle:
 {% include img-figure url="./inversion_thatcher.jpg" description="In an face drawn upside-down it is perceptually difficult to tell if  eyes and mouth are right-side up" width="400px" %}
-(Image source: [https://commons.wikimedia.org/wiki/File:Thatcher_effect.jpg])
+(Image source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Thatcher_effect.jpg))
 
 An example in the auditory domain would be the reversed sound of a cymbal, a familiar sonority in popular music, which has a distict quality while still betraying its origin.
 
