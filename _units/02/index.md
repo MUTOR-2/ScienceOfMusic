@@ -190,6 +190,7 @@ brain and the spinal cord, with parts of the central nervous system involved in 
 
 
 {% include img-figure url="./anatomy_auditory_pathway.jpg" description="The Auditory Pathway" %}
+(Image by Janina Luckow)
 
 
 # Structure vs Function
@@ -201,7 +202,7 @@ A detailed look at each anatomical region of the auditory system must include bo
 "The ear", for our purposes, is not just what sticks out on each side of your head. Although the visible part of the ear, also known as the pinna, constitutes the outer ear and plays an important role in hearing, The ear also includes the middle, and inner ear, each of which has structures specialized for their functions. The middle ear has a series of ossicles, or tiny bones which conduct and amplify the sound signal. The inner ear is of vital importance to hearing as it includes the Cochlea, perhaps the most important structure in the auditory periphery, which transduces sound signals into nerve impulses.
 
 {% include img-figure url="./anatomy_ear.png" description="The Ear" %}
-(Adapted from: Rossing et al, 2001)
+(Image by Janina Luckow. Adapted from: Rossing et al, 2001)
 {% comment %} Overview of the ear, showing the outer, middle, and inner ear.  {% endcomment %}
 {% comment %} I think one of this pictures doesn't correspond to the one Pyiche wanted to show. I kept both anyway. {% endcomment%}
 
@@ -217,10 +218,11 @@ The middle ear is a cavity between the tympanic membrane and the oval window of 
 
 {% comment %} The middle ear.. Was this supposed to be another picture? this one? {% endcomment %}
 {% include img-figure url="./anatomy_ear_middle.png" description="Middle Ear Ossicles" %} 
-(Adapted from: [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/Hbase/sound/ear.html))
+(Image by Janina Luckow. Adapted from: [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/Hbase/sound/ear.html))
 Middle ear bones, or ossicles, include the incus, malleus, and stapes. These ossicles vibrate as they receive sound vibrations from the tympanic membrane. One of the ossicles, the stapes, is attached to the oval window of the cochlea in the inner ear; thus the vibrations of the stapes is received by the cochlea.
 
 {% include img-figure url="./anatomy_ear_middle_ossicles.png" description="Middle Ear Ossicles" %}
+(Image by Janina Luckow)
 {% comment %} A model of the middle ear ossicles {% endcomment %}
 
 The Eustachean tube is a fluid-filled tube that connects the middle ear to the pharynx (the back of the nose and throat). Its function is to adjust air pressure in the auditory system. When confronted with changes in air pressure, the Eustachean tube opens briefly to let air pressure equalize on either sides of the tube. It can also be opened voluntarily by yawning or opening one's mouth, as is often experienced during rapid air pressure changes in an airplane. The Eustachean tube also directs mucus away from the middle ear, and is occasionally the site of ear infections due to bacterial growth in the mucus lining of the tube.
@@ -229,7 +231,7 @@ The Eustachean tube is a fluid-filled tube that connects the middle ear to the p
 
 {% include img-figure url="./anatomy_ear_inner.png" description="Inner Ear" %}
 {% comment %} The inner ear.  {% endcomment%}
-(Adapted from: [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/Hbase/sound/eari.html))
+(Image by Janina Luckow. Adapted from: [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/Hbase/sound/eari.html))
 
 The inner ear is the region between the oval window and the auditory nerve. It consists of the semicircular canals and the cochlea, which includes various structures. The auditory nerve leads out of the cochlea and into the brainstem.
 
@@ -242,11 +244,12 @@ The cochlea, often referred to as the "hearing organ", is most important to the 
 The cochlea is a coiled, fluid-filled tubular structure. It is lined with membranes which divide the inside of the cochlea into fluid-filled compartments.
 
 {% include img-figure url="./anatomy_cochlea_fetus.png" description="Cochlea Dissected" width="400px" %}
-(Image source: Rebillard, M. L., [Journey into the World of Hearing](http://www.cochlea.eu/en/ear/inner-ear) by Pujol, R. et al., NeurOreille, Montpellier)
+(Image source: Rebillard, M. L., [Journey into the World of Hearing](http://www.cochlea.eu/en/ear/inner-ear) by Pujol, R. et al., NeurOreille, Montpellier. Licensed by copyright owner)
 
 A dissected cochlea of a human fetus.
 
 {% include img-figure url="./anatomy_cochlea_crosssection.png" description="Cochlea Cross-section" %}
+(Image by Janina Luckow)
 
 A cross-sectional view of the cochlea shows that it is divided by the Reissner membrane, the tectorial membrane, and the basilar membrane.
 
@@ -261,18 +264,21 @@ Magnified diagram of the Organ of Corti, showing the basilar membrane, inner and
 When the cochlea is excited by sound coming in, vibrations are sent through the fluid-filled chambers, thus causing movement in the membranes in the Organ of Corti. The movements of the tectorial membrane excite the inner hair cells on the surface of the basilar membrane, thus causing the hair cells to open their channels and send nerve impulses on to the fibers of the auditory nerve.
 
 {% include img-figure url="./anatomy_organofcorti.png" description="Organ of Corti" %}
+(Image by James Cheubg)
 {%comment %} Organ of Corti {% endcomment %}
 
 {% include img-figure url="/MUTOR/assets/images/organofcorti_states.png" description="States of the Organ of Corti" %}
+(Image by James Cheung)
 
 In its resting state, the basilar and tectorial membranes are parallel, the stereocilia (tiny hairs on the surface of the inner and outer hair cells) are relaxed and close together, and the ion channels between the stereocilia are closed. When sound excites the cochlea, its vibrations are sent down the fluid of the cochlea so that the basilar membrane is deflected. When the basilar membrane moves, the inner hair cells in the basilar membrane change shape, and the stereocilia on the inner hair cells are stretched, thus opening up the ion channels in the inner hair cells and causing a chemical transduction to occur within the cells. The chemical transduction of the inner hair cells results in the generation of the nerve impulse, which passes down the nerve fibers of the auditory nerve as neural firings. Thus the Organ of Corti is responsible for transducing sound signals into biological nerve impulses, so that hearing can occur.
 
 {% include img-figure url="./anatomy_haircells_excitation.png" description="Inner Hair Cells" %}
-(Upper image source: Furness, D., [Hair cell of inner ear](https://wellcomecollection.org/works/jfsbzy4g))
+(Upper image source: Furness, D., [Hair cell of inner ear](https://wellcomecollection.org/works/jfsbzy4g). Copyright: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/))
+(Lower image by Janina Luckow)
 {% comment %} Close-up of inner hair cells with stereocilia, which open when excited by incoming sound. {% endcomment%}
 
 {% include img-figure url="./anatomy_haircells.png" description="Inner and Outer Hair Cells" width="400px" %}
-(Image source: Furness, D., [Hair cell of inner ear](https://wellcomecollection.org/works/sr3ru95y))
+(Image source: Furness, D., [Hair cell of inner ear](https://wellcomecollection.org/works/sr3ru95y). Copyright: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/))
 {% comment %} Electron microscropy showing one row of inner hair cells and three rows of outer hair cells. {% endcomment%}
 
 # Tonotopic Mapping
@@ -280,38 +286,38 @@ In its resting state, the basilar and tectorial membranes are parallel, the ster
 The cochlea is a coiled structure, contains the entire length of the basilar membrane. The unrolled cochlea contains the straightened basilar membrane, which is sensitive to a gradient of frequencies. The basilar membrane is tonotopically mapped, which means that different parts of the basilar membrane are optimally sensitive to a gradient of frequencies. The base of the cochlea is sensitive to low frequencies whereas the apical end is most sensitive to the highest frequencies. Tonotopic mapping begins at the basilar membrane and is preserved all the way throughout the auditory system, maintaining its structure until the level of the PrimaryAuditoryCortex.
 
 {% include img-figure url="./anatomy_basilar_unrolled.png" description="Basilar Membrane Unrolled" %}
-(image source: http://www.cs.indiana.edu/~port/teach/641/hearing.for.linguists.html)
+(Image by Janina Luckow. Adapted from: [Port, 2005](http://www.cs.indiana.edu/~port/teach/641/hearing.for.linguists.html))
 {% comment %} Drawing of the unrolled cochlea, showing the basilar membrane. {% endcomment %}
 
 {% include img-figure url="/MUTOR/assets/videos/animated_basilar.gif" description="Basilar Membrane Traveling Wave Animation" width="400px" %}
-{% comment %}  {% endcomment %}
-(image source: http://www.cs.indiana.edu/~port/teach/641/hearing.for.linguists.html Animation of a wave travelling down the basilar membrane.)
+(Animation source: [Port, 2005](http://www.cs.indiana.edu/~port/teach/641/hearing.for.linguists.html))
 {% comment %} ALSO, IT IS LOOKING HORRIBLE! {% endcomment %}
 
 {% include img-figure url="./tonotopy.png" description="Tonotopy Basilar Membrane" width="400px" %}
-(Adapted from Watts, 1993) {% include cite ref="watts" %}
+(Image by James Cheung. Adapted from: {% include cite ref="watts" %}) 
 {% comment %}  Schematic of the rolled-up basilar membrane, with its optimally sensitive frequencies marked along its length. {% endcomment %}
 
 {% include img-figure url="./tonotopy_bekesy.png" description="Data on Tonotopy from von Békésy " width="auto" height="500px" %}
-(Adapted from: http://www.pbrc.hawaii.edu/bekesy/ taken from Nobel Lectures Physiology or Medicine 1942 - 1962, Elsevier, 1964, pp. 722-746)
-{% comment %}  {% endcomment %}
+(Image by James Cheung. Adapted from: [Nobel Lectures Physiology or Medicine 1942 - 1962, Elsevier, 1964, pp. 722-746](http://www.pbrc.hawaii.edu/bekesy/))
 
 The observation of tonotopic mapping on the basilar membrane was first made by Georg von Békésy, who won a Nobel Prize in 1961 for this discovery. This is a diagram from von Békésy's Nobel lecture, showing that higher frequencies (in cps, or cycles per second) excited the end of the basilar membrane which was closest to the stapes (stirrup). The point of optimal excitation moved further away from the stapes as the stimulus frequency decreased.
 
 # Brainstem Pathways
 
 The brainstem and midbrain include a set of neural regions which relay the nerve impulses passed into the central nervous system via the auditory nerve. Each of these relay centers consists of a group of neurons specialized for computations which are important to the auditory system, such as amplitude change detection and sound source localization.
-
+{% comment %}
+Image source not found. Taken down for the moment. Is the image essential?
 {% include img-figure url="/MUTOR/assets/images/brainstem_anat.png" description="Brainstem Anatomy" width="auto" height="500px" %}
+{% endcomment %}
 
 {% include img-figure url="./anatomy_brainstem_diagram.png" description="Brainstem Diagram" width="400px" %}
-(Adapted from: http://serous.med.buffalo.edu/hearing/ic.html)
+(Image by Janina Luckow. Adapted from: [University at Buffalo](http://serous.med.buffalo.edu/hearing/ic.html))
 {% comment %} Anatomy of the brainstem, with the auditory pathway highlighted. {% endcomment %}
 
 The auditory nerve leads out of the cochlea and into the brainstem. On the surface of the brainstem, the auditory and the vestibular nerves combine and constitute the VIIIth cranial nerve. A tumor in the VIIIth cranial nerve is called acoustic neuroma and can result in deafness.
 
 {% include img-figure url="./anatomy_cranial8.png" description="Cranial Nerve VIII (auditory nerve in red)" width="500px" %}
-(image source: http://www.gwc.maricopa.edu/class/bio201)
+(Image by Janina Luckow. Adapted from: [Maricopa Community Colleges](http://www.gwc.maricopa.edu/class/bio201))
 {% comment %} Cranial nerve, with the VIIIth nerve (auditory nerve) in red. {% endcomment %}
 
 Overview of the auditory pathway from the brainstem to the cortex.
@@ -340,14 +346,16 @@ The auditory system's ability to localize sounds depends to a certain extent on 
 Jeffress (1948) proposed a model of how the auditory system computes interaural time differences so as to localize sounds. The model involved a coincidence detector in the brain, in the form of a set of neurons that fire when the two sounds from the left and right ears reach the neuron simultaneously. These coincidence detection neurons were later found in the Nucleus Leminaris of the owl {% include cite ref="carr_and_konishi" %}, which corresponds to the Medial Superior Olive of mammals (Smith et al, 1998). The Lateral Superior Olive was found to be sensitive to level differences between the ears. Since the MSO is sensitive to ITDs and the LSO is sensitive to ILDs, together the superior olivary complex is responsible for much of binaural hearing.
 
 {% include img-figure url="./mso_itd.jpg" description="Interaural Time Difference" width="500px" %}
+(Image by Janina Luckow)
 {% include img-figure url="./mso_ild.jpg" description="Interaural Level Difference" width="500px" %}
+(Image by Janina Luckow)
 {% comment %} Illustrations of the concepts of A) interaural time difference (ITD) and B) interaural level difference (ILD). {% endcomment %}
 
 {% include img-figure url="./mso_coincidence.jpg" description="A. Model of Coincidence Cetection" width="400px" %}
-(image source: http://www.physiology.wisc.edu A. Jeffress's (1948) model of coincidence detection.)
+(Image by Janina Luckow. Adapted frmo: [Jeffress, 1948](http://www.physiology.wisc.edu))
 
 {% include img-figure url="./mso_coincidence_physiology.png" description="B. Physiological Implementation of Coincidence Detection" width="300px" %}
-{% include cite ref="joris_et_al" %}
+(Image by James Cheung. Adapted from: {% include cite ref="joris_et_al" %})
 {% comment %} B. Coincidence detectors for computing interaural time differences /yin/jorissmithyin98.pdf) {% endcomment %}
 {% comment %} LOOKS MOVED TO THE LEFT :/ {% endcomment %}
 
@@ -363,7 +371,7 @@ The lateral lemniscus is anatomically divided into the Ventral, Dorsal, and Inte
 The inferior colliculus is a collection of nuclei which receives input from the axons of the lateral lemniscus and is located in the midbrain. It operates as a site of early communication between the visual and auditory senses, as well as a feedback-providing mechanism which provides output to the cochlea.
 
 {% include img-figure url="/MUTOR/assets/images/ic.jpg" description="Inferior Colliculus" width="300px" %}
-(image source: http://serous.med.buffalo.edu/hearing/ic.html)
+(Image source: [University at Buffalo](http://serous.med.buffalo.edu/hearing/ic.html))
 {% comment %}  Cross-section of the midbrain, with the inferior colliculi highlighted in blue. {% endcomment %}
 
 The inferior colliculus is one of the most important relay centers in the auditory system. Roles of the inferior colliculus include crossmodal communication, orienting to novel stimuli, providing efferent feedback, and detecting amplitude and frequency modulation.
@@ -379,6 +387,7 @@ Modulation detection refers to the ability of the auditory system to detect rapi
 One of the roles of the inferior colliculus, and also the inferior colliculus, seems to be to reflect amplitude modulation {% include cite ref="mckinney_et_al" %} {% comment %}(McKinney et al, 2001) {% endcomment %}. Amplitude modulation refers to the change in amplitude levels, usually at periodic rates. In musical performance, playing tremolo typically results in amplitude modulation. AM radio also relies on the application of amplitude modulation.
 
 {% include img-figure url="./score_tremolo.png" description="Tremolo" width="300px" %}
+(Image by James Cheung)
 {% comment %} Tremolo - a case of amplitude modulation
 {% endcomment %}
 
@@ -394,7 +403,7 @@ The medial geniculate nucleus contains a division that is tonotopically organize
 
 {% include img-figure url="/MUTOR/assets/images/mgn.jpg" description="Medial Geniculus Nucleus" width="400px" %}
 {% comment %} The medial geniculate nuclei, shown here in green.  {% endcomment %}
-(image source: http://sylvius.com)
+(Image source: http://sylvius.com)
 
 Also in the thalamus is the Lateral Geniculate Nucleus, responsible for visual capture and orienting.
 
@@ -403,7 +412,7 @@ Also in the thalamus is the Lateral Geniculate Nucleus, responsible for visual c
 The auditory cortex is located just under the sylvian fissure, which is the fold that divides the temporal lobe from the frontal and parital lobes in the brain.
 
 {% include img-figure url="./anatomy_auditorycortex.png" description="The Sylvian fissure, with the Auditory Cortex below it." width="500px" %}
-(image source: http://serous.med.buffalo.edu/hearing/auditory_cortex.html)
+(Image by James Cheung. Adapted from: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cerebral_cortex,_side_view.svg))
 
 The auditory cortex includes primary and secondary auditory cortices. The PrimaryAuditoryCortex (also known as A1) is located on the temporal plane, which is delineated by the Sylvian fissure on the top surface of the temporal lobe. The SecondaryAuditoryCortex (A2) surrounds the primary auditory cortex. The primary auditory cortex is tonotopically organized, with the lateral edge of the Sylvian fissure being sensitive to lower frequencies and the medial part of the cortex being sensitive to high frequencies. The primary auditory cortex is responsible for the perception of pitch, rhythm and duration, whereas the secondary auditory cortex is responsible for pattern perception, which includes the perception of speech and melodies. Persons with lesioned auditory cortices have trouble perceiving music; this is a condition known as amusia. {% include cite ref="peretz" %} 
 {% comment %}(Peretz et al, 2003)
@@ -411,7 +420,7 @@ The auditory cortex includes primary and secondary auditory cortices. The Primar
 
 
 {% include img-figure url="/MUTOR/assets/images/a1_a2.jpg" description="Auditory Cortex" width="400px" %}
-(image source: http://www.utdallas.edu/~tres/integ/sen5/display9_21.html)
+(Image source: [The University of Texas at Dallas](http://www.utdallas.edu/~tres/integ/sen5/display9_21.html))
 
 Primary and secondary auditory cortices. A1 is shown here in blue and A2 is in red. The primary auditory cortex is tonotopically organized.
 
@@ -453,12 +462,14 @@ While the act of music making is universal to all cultures in human society, onl
 {% include begin-figure description="Sianmang vocalizing" %}
 {% include p/xsonogram src="/MUTOR/assets/audios/unit2-Siamang.mp3" %}
 {% include end-figure %}
+(Audio source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hylobates_syndactylus_calling_3588.ogg))
 
 {% include begin-figure description="Max example: Spectrum and Sonogram" %}
 <div style="display: block; text-align: center; float: center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VqR_0Lt3xbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 {% include end-figure %}
+(Max Patch by Víctor Gutiérrez and John MacCallum)
 
 _you can have access to all MUTOR interactive maxpatches when you download the [MUTOR github repository](https://github.com/MUTOR-2/ScienceOfMusic) inside the maxpatches folder._
 
@@ -467,7 +478,7 @@ The ferret and chinchilla auditory systems are similar to ours in that most of t
 # Hearing Damage
 Hearing damage is very prevalent, especially among rock musicians and individuals who are continually exposed to loud sounds.
 
-Famous people suffering from hearing loss (Adapted from [http://www.hearnet.com/]):
+Famous people suffering from hearing loss (Adapted from [H.E.A.R.](http://www.hearnet.com/)):
 
 - Barbra Streisand
 - Bedrich Smetana
@@ -539,24 +550,28 @@ Ranges of hearing loss:
 * 56 dB to 70 dB = Moderately Severe hearing loss
 * 71 dB to 90 dB = Severe hearing loss
 * over 90 dB = Profound hearing loss
-(source: [http://www.hearinglife.com.au/tests.cfm])
+(source: [Audika](https://www.audika.com.au/hearing-loss/online-hearing-test))
+{% comment %} Old link http://www.hearinglife.com.au/tests.cfm redirects to Audika {% endcomment %}
 
 ## Examples of Audiograms
-
+{% include begin-figure description="Demo Normal Hearing vs. High-Frequency Hearing loss" %}
 {% include p/xwaveform-spectroscope-small src="./audiogram_damage_noise.mp3" gain="1.0" %}
+{% include end-figure %}
+(Audio source: Truax, B., [Handbook for Acoustic Ecology](https://www.sfu.ca/sonic-studio-webdav/handbook/Audiogram.html). Licensed by copyright owner)
 
-Demo Normal Hearing vs. High-Frequency Hearing loss 
 
 The first part of this sentence is played normally, whereas the second part is filtered so as to simulate the percept of an individual with high-frequency hearing loss.
 
 {% include img-figure url="./audiogram_damage_noise.gif" description="Audiogram comparison: Normal hearing impairment due to Loud Noise" %}
 
-(Audio and image source: Truax, B., [Handbook for Acoustic Ecology](https://www.sfu.ca/sonic-studio-webdav/handbook/Audiogram.html))
+(Image source: Truax, B., [Handbook for Acoustic Ecology](https://www.sfu.ca/sonic-studio-webdav/handbook/Audiogram.html). Licensed by copyright owner)
 
 {% include img-figure url="./audiogram_damage_comparison.jpg" description="Audiogram comparison between different hearing impairments." %}
+(Image by James Cheung)
 
 {% include img-figure url="./audiogram_familiar.png" description="Auditory Familiar Sounds" %}
-(Adapted from: Ling, D. & Ling, A (1978). Aural Habilitation)
+(Image by James Cheung. Adapted from: Ling, D. & Ling, A (1978). Aural Habilitation)
+
 {% comment %} Sample audiograms: a) audiogram showing presbyacusis, commonly observed as a "ski-slope" hearing loss (see TypesofHearingLoss). b) Audiograms of other types of hearing loss caused by sudden sounds. Curves are normalized according to the equal-loudness contours (see Fletcher-Munson curves from the previous unit). {% endcomment %}
 
 # Types of Hearing Loss
@@ -576,14 +591,15 @@ Presbyacusis is the loss of hearing as a result of old age. The hearing loss qui
 
 {% include img-figure url="/MUTOR/assets/images/normalvsdamaged.jpg" description="Comparison Normal Hair Cell vs. Damaged Hair Cell" width="400px" %}
 
+
 {% comment %}  
 (dead link: image source: http://www.hei.org/education/health/loss.htm)
 Normal versus damaged hair cells 
 {% endcomment %}
 
-{% include img-figure url="./audiogram_damage_presbyacusis.jpg" description="Audiogram Presbyacusis or Ski-Slope Hearing" %}
+{% include img-figure url="./audiogram_damage_presbyacusis.jpg" description="Audiogram P\/esbyacusis or Ski-Slope Hearing" %}
 Presbyacusis is commonly observed as a "ski-slope" hearing loss, where "ski-slope" refers to the shape of the audiometry function, which is relatively intact at low frequencies, but falls off rapidly at high frequencies.
-(image source: http://www.hearinglife.com.au)
+(Image by Janina Luckow. Adapted from: [Hearing Life](http://www.hearinglife.com.au))
 
 ## Mixed hearing loss
 Instead of only conductive or sensorineural hearing loss, individuals occasionally have damage in both the conductive and sensorineural parts of the auditory system.
@@ -600,7 +616,9 @@ When in quiet environments, we may occasionally hear a ringing in the ears. This
 1. Use protection for your ears.
 
 {% include img-figure url="./protection_earmuffs.png" description="Ear Muffs" width="200px" %}
+(Image source: [Pixabay](https://pixabay.com/vectors/ear-protection-hearing-protection-25676/). Copyright: [Pixabay License](https://pixabay.com/service/license/))
 {% include img-figure url="./protection_earplugs.jpg" description="Ear Plugs" width="200px" %}
+(Image source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Earplugs_EAR.jpg). Copyright: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en))
 
 A rock concert generally produces sounds at around 100dB. While this is an extremely loud baseline of sound level, rock concerts tend to have relatively little dynamic variation. Sounds of 120dB or more are perceived as painfully loud.
 
@@ -613,7 +631,8 @@ If you are continually exposed to sounds above 85dB, you should wear protective 
 For more powerful hearing protection, especially from sudden sounds such as gunshots, one can purchase over-the-ear muffs, which provide up to 40dB of sound attenuation. To ensure maximal hearing protection, the best strategy is to combine the uses of earplugs and ear muffs, as their added contribution to sound attenuation is more effective than their individual contributions.
 
 {% include img-figure url="./protection_attenuation.png" description="Protection Attenuation" width="500px" %}
-Various types of hearing protection and their noise reduction rates, as a function of frequency. {% comment %} (Adapted from image: Rossing, Moore & Wheeler, 2001) {% endcomment %}
+(Image by James Cheung. Adapted from: Rossing, Moore & Wheeler, 2001)
+Various types of hearing protection and their noise reduction rates, as a function of frequency. 
 
 # Summary
 
