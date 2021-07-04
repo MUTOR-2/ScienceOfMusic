@@ -24,6 +24,8 @@ of consonance or dissonance that can contradict both physical and anatomical
 sensation. Taken together, these different perspectives comprise our current 
 models of consonance and dissonance."
 
+animation: <iframe width="560" height="315" src="https://www.youtube.com/embed/uuVXHhlOQMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 authors: 
  - John MacCallum
  - Psyche Loui
