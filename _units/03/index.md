@@ -169,6 +169,7 @@ In the natural world, sounds rarely occur in complete isolation. Our sonic envir
 An analogy of the auditory system's ability to construct a picture of the world can be drawn from the following scenario.
 
 {% include img-figure url="./ecology_lakescene.png" description="Lake Scene" %}
+(Image by Janina Luckow)
 
 Here is the surface of an irregularly-shaped lake, with two inlets coming out of its side. A fishing bob is floating on each of the inlets.
 Now suppose you are only allowed to look at the fishing bobs, but you must answer the following questions:
@@ -196,6 +197,7 @@ Threshold-finding models addressing this question have given way to the use of S
 Simple signal detection theory assumes two Gaussian distributions of signal trials and noise trials respectively. Given some amount of evidence of the signal, plotted on the $x$ axis (or "internal response" as shown in the graph), the observer must decide on the probability that the evidence points to a signal trial or a noise trial. The observer then adopts a criterion (shown as the thick line labeled "criterion response"). Any trial for which the internal response exceeds the criterion is categorized as "signal", and any trial for which the internal response is below criterion is categorized as "noise".
 
 {% include img-figure url="./sdt_illustration.png" description="Signal Detection Theory illustration" width="300px" %}
+(Image by James Cheung. Adapted from: [Heeger, 2003](http://www.cns.nyu.edu/~david/handouts/sdt/sdt.html))
 
 The following are true given the above situation:
 "hits" are trials that fall under the signal distribution and are correctly labled "signal";
@@ -208,15 +210,12 @@ where $z$ is the deviation of the criterion from the mean, given in standard uni
 Since $d\prime$ is a measurement of how far apart the two distributions are, a higher $d\prime$ means that signal trials and noise trials are very clearly separated; thus, higher $d\prime$ signifies better performance.
 
 {% include img-figure url="./sdt_criterion.png" description="SDT Criterion" width="300px" %}
-
-
-(Adapted from image: http://www.cns.nyu.edu/~david/sdt/sdt.html)
+(Image by James Cheung. Adapted from: [Heeger, 2003](http://www.cns.nyu.edu/~david/handouts/sdt/sdt.html))
 
 Criterion adoption (i.e. how liberal you are at labelling a trial as "signal") does not affect sensitivity as measured by $d\prime$.
 
 {% include img-figure url="sdt_dprime.png" description="$d\prime$ illustration" width="400px" %}
-
-(Adapted from image: http://www.cns.nyu.edu/~david/sdt/sdt.html)
+(Image by James Cheung. Adapted from: [Heeger, 2003](http://www.cns.nyu.edu/~david/handouts/sdt/sdt.html))
 
 $d\prime$ scores - the higher the $d\prime$, the more discriminable the two types of trials are; thus, the better the performance.
 
@@ -871,6 +870,7 @@ If someone very far away screams, most listeners will judge the scream a being l
 Listen to the following examples; in the first example, you will hear someone speaking at a normal volume and in the second, you will hear a scream. Although the spoken voice is much quieter than the scream, we are still able to tell that one is louder than the other.
 
 {% include p/xwaveform-spectroscope-small src="/MUTOR/assets/audios/unit3_larry1.wav" gain="1.0" %}
+(Audio source: [The Big Lebowski](https://youtu.be/PztgWdMEJdg))
 {% include p/xwaveform-spectroscope-small src="/MUTOR/assets/audios/unit3_Psycho1.wav" gain="1.0" %}
 
 
@@ -884,31 +884,36 @@ Reverberation (or reverb) is the result of sounds reflecting off of the surfaces
 
 {% include img-figure url="./reverb_bang.png" description="A listener in a room in which a loud short sound is made." width="650px" %}
 {% assign reverb1 = fignum %}
+(Image by Janina Luckow. Adapted from: {% include cite ref="howard_and_angus" %})
 
 {% include img-figure url="./reverb_direct.png" description="The first sound to hit the listener is called the direct sound." width="650px" %}
 {% assign reverb2 = fignum %}
+(Image by Janina Luckow. Adapted from: {% include cite ref="howard_and_angus" %})
 
 {% capture desc %}The direct sound from figure {{ reverb2 }}{% endcapture %}
 {% include img-figure url="./reverb_direct_graph.png" description=desc width="450px" %}
 {% assign reverb3 = fignum %}
+(Image by James Cheung. Adapted from: {% include cite ref="howard_and_angus" %})
 
 The direct sound is followed by a number of early reflections that arive at the listener after some delay and loss of energy (figures {{reverb4}}-{{reverb5}}). The length of the delay and the amount of energy lost are dependant on the size of the room and the type of material used to make the surfaces (the walls, floor, and ceiling).
 
 {% include img-figure url="./reverb_earlyreflections.png" description="The early reflections arrive at the listener after a short delay and with some loss of energy." width="650px" %}
 {% assign reverb4 = fignum %}
+(Image by Janina Luckow. Adapted from: {% include cite ref="howard_and_angus" %})
 
 {% include img-figure url="./reverb_earlyreflections_graph.png" description="The early reflections from figure 4 plotted against time." width="450px" %}
 {% assign reverb5 = fignum %}
+(Image by James Cheung. Adapted from: {% include cite ref="howard_and_angus" %})
 
 As these early reflections continue to bounce off the surfaces they begin to pile up and overlap creating reverb (figures {{reverb6}}-{{reverb7}}).
 
 {% include img-figure url="./reverb_reverb.png" description="Reverb is as the original sound continues to bounce around the room, we perceive reverb." width="650px" %}
 {% assign reverb6 = fignum %}
+(Image by Janina Luckow. Adapted from: {% include cite ref="howard_and_angus" %})
 
 {% include img-figure url="./reverb_reverb_graph.png" description="The reverb in a room tends to decay exponentially." width="450px" %}
 {% assign reverb7 = fignum %}
-
-(Figures adapted from {% include cite ref="howard_and_angus" %}
+(Image by James Cheung. Adapted from: {% include cite ref="howard_and_angus" %})
 
 ## A More Indepth Look At Reverb
 
@@ -959,18 +964,19 @@ Sound examples {{reverbdecay1}} — {{reverbdecay3}} are impulse responses of th
 {% assign reverbdecay1 = fignum %}
 {% include p/xsonogram src="./reverb_impulse1.wav" %}
 {% include end-figure %}
+(Audio source: [CKSDE](http://www.cksde.com/p_6_250.htm). Licensed by copyright owner)
 
 {% include begin-figure description="The reverb decays of three different rooms: response 2." %}
 {% assign reverbdecay2 = fignum %}
 {% include p/xsonogram src="./reverb_impulse2.wav" %}
 {% include end-figure %}
+(Audio source: [CKSDE](http://www.cksde.com/p_6_250.htm). Licensed by copyright owner)
 
 {% include begin-figure description="The reverb decays of three different rooms: response 3." %}
 {% assign reverbdecay3 = fignum %}
 {% include p/xsonogram src="./reverb_impulse3.wav" %}
 {% include end-figure %}
-
-Sound samples from: [http://www.cksde.com/p_6_250.htm]
+(Audio source: [CKSDE](http://www.cksde.com/p_6_250.htm). Licensed by copyright owner)
 
 # Top-Down
 
@@ -983,11 +989,10 @@ Children's song "Frère Jacques"
 
 {% include p/xwaveform-spectroscope-small src="./topdown_frerejacques.mp3" gain="1.0" %}
 
-
 The opening measures of Mahler's Symphony No. 1 in D, "Titan", 3rd movement.
 
 {% include p/xwaveform-spectroscope-small src="./topdown_mahler.mp3" gain="1.0" %}
-(Source: Reinhold Behringer, [Wikimedia commons](https://commons.wikimedia.org/wiki/File:Maher_Symphony1_Movement3_VPO.ogg))
+(Audio source: Reinhold Behringer, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Maher_Symphony1_Movement3_VPO.ogg))
 
 Mahler quoted the melody from the traditional children's song Frère Jacques, but transposed it into the minor mode. An especially eerie and intriguing effect is achieved when the audience recognizes the source of the musical quotation. Thus the perception of the mood of this piece is enhanced by top-down knowledge.
 
@@ -998,10 +1003,12 @@ Another example is the effects of visual information on the perception of musica
 Top-Down perspectives influence Bottom-Up processing in many important ways. Compare the heights of the two people in the following picture.
 
 {% include img-figure url="./topdown_illusion.jpg" description="Top Down." %}
+(Image by John MacCallum)
 
 Although the two persons are identical in actual size, the figure closer to the bottom of the picture is perceived as being smaller than the other person. This is because of top-down inference of the higher person being further away, and our knowledge of linear perspective playing a role in the picture leads us to infer that the further figure is larger. If the background context is removed, the illusion disappears and we perceive both people as of similar size.
 
 {% include img-figure url="./topdown_illusion_removed.jpg" description="Perceptual illusion corrected" %}
+(Image by John MacCallum)
 
 Perceptual illusions like this one often rely on the unconscious inference of contextual cues, which is based on top-down knowledge of naturalistic scenes.
 
@@ -1014,6 +1021,7 @@ Top-Down influences also play important roles in the perception of more complex 
 {% include note author="gh" text="In some papers I-R is described as bottom-up process. This needs to be clarified" %}
 
 {% include img-figure url="./topdown_happybday.png" description="happy birthday" width="400px" %}
+(Image by James Cheung)
 
 A line from the Happy Birthday song, illustrating the principle of gap-fill. More on these top-down expectations for melodic processes will be discussed in Unit 9.
 
@@ -1044,7 +1052,8 @@ Audio engineers make use of the precedence effect in the design of concert halls
 Like the PrecedenceEffect, the FranssenEffect has to do with perceived sound sources. In a two-channel speaker system, if a tone is presented with rapid onset to one speaker, and this tone is ramped off at the same time as when another tone in the opposite speaker is ramped on and sustained, this combination of tones is perceived as just one tone coming from the first speaker (i.e. the speaker that played the onset). The effect is obtained with narrow-band sounds, and only in echoic environments.
 
 {% include img-figure url="./effect_franssen.png" description="Franssen Effect" width="450px" %}
-{% include cite ref="dent_et_al" %}
+(Image by James Cheung. Adapted from: {% include cite ref="dent_et_al" %})
+
 {% comment %}
 (adapted from Dent, Tollin, & Yin, 2004.)
 {% endcomment %}
@@ -1056,15 +1065,21 @@ The Franssen Effect. If a rapid-onset tone is presented at the left speaker and 
 The Clifton Effect is a change to the classical Precedence Demonstration. This change is described in the figure below. Again, pairs of clicks are presented with one slightly preceding the other (the first click is the "source"; the second is the "echo".) Half way into the click train, the source and echo clicks are reversed. That is, halfway through the demonstration the loudspeaker that had delivered the first or source click now delivers the delayed or echo click and vice versa. In the Clifton Effect, an unexpected percept occurrs immediately after the switch, where two clicks are perceived often coming from the location of each loudspeaker. Then after 4 or 5 more click-pair presentations following the switch, a single click is again perceived and its location is now at the loudspeaker presenting the lead click, which is the opposite loudspeaker from that which produced the lead click for the first half of the click train. Most listeners tend to hear two clicks at the beginning of the click train, then fusion occurs, then after the switch two clicks are heard, and then finally fusion reoccurs but at the location of the other loudspeaker. That is, after the switch there is a temporary cessation or breakdown of the Precedence Effect; fusion and/or echo suppression stops. This breakdown occurred because of the prior exposure you had during the first half of the click train. Thus, your experience with the source and echo clicks somehow influenced your perception after the source and echo clicks were switched. Eventually however, echo suppression reoccurs and the Precedence Effect works as before. This demonstration suggests that echo processing might depend on our listening experience in the reflective spaces that we are currently in.
 
 {% include img-figure url="./effect_clifton.png" description="Clifton Effect" %}
+(Image by James Cheung. Adapted from: {% include cite ref="clifton" %})
+{% comment %}
+Dead link:
 (image source: http://www.parmly.luc.edu/parmly/clifton.html)
+{% endcomment %}
 In the Clifton demonstration the two clicks are always seperated by 12 ms and the click pairs are presented at a rate of about 3 per second.
 
 {% include begin-figure description="Clifton Effect Demonstration (requires stereo headphones)" %}
 {% assign clifton = fignum %}
 {% include p/xwaveform-spectroscope-small src="./effect_clifton.wav" gain="1.0" %}
 {% include end-figure %}
-
+(Audio source: {% include cite ref="clifton" %})
+{% comment %}
 (source: [http://www.parmly.luc.edu/parmly/clifton.html])
+{% endcomment %}
 
 # Audio-visual Interaction
 
@@ -1074,10 +1089,12 @@ Soundtracks in movies offer one case of auditory perception enhancing visual per
 Participants rated videos with positive soundtracks as being better described by positive adjectives, and videos with negative soundtracks using negative adjectives. Videos with no soundtracks were rated as relatively neutral. This study shows strong effects of musical stimuli on the perception of meaning and emotional content of visual scenes.
 
 {% include img-figure url="./effect_boltz.png" description="Boltz soundtrack study" %}
+(Image by James Cheung. Adapted from: [Boltz, 2001](https://online.ucpress.edu/mp/article-abstract/18/4/427/62098/Musical-Soundtracks-as-a-Schematic-Influence-on?redirectedFrom=fulltext))
 
-(Image adapted from: [http://caliber.ucpress.net/doi/pdfplus/10.1525/mp.2001.18.4.427])
-
+{% comment %}
+redundant:
 M.G. Boltz. 2001. Musical Soundtracks as a Schematic Influence on the Cognitive Processing of Filmed Events. Music Perception Summer 2001.
+{% endcomment %}
 
 In the real world, events in the visual and auditory modalities are usually correlated. For example, seeing the downward motion of a drummer is usually correlated with hearing the drum beat. In some relatively infrequent cases, however, information from the visual and auditory modalities do not match. When this mismatch occurs, the brain engages interesting processes from a Top-Down perspective to make up for these discrepancies between the senses.
 
@@ -1085,7 +1102,6 @@ In the real world, events in the visual and auditory modalities are usually corr
 
 When an audio-visual mismatch occurs, the brain may decide to reinterpret information from the auditory system such that it matches the visual modality. In a sense, the brain makes the auditory system obey the visual system, so that the resulting percept is of a single representation of a multimodal stimulus. The phenomenon of visual information overriding auditory information is known as visual capture.
 One demosntration of AudioVisualInteraction, especially of the visual capture of auditory stimuli, is the case of ventriloquism.
-http://www.paulzerdin.com/
 
 {% include begin-figure description="Ventriloquist Paul Zerdin" %}
 <div style="display: block; text-align: center; float: center">
