@@ -23,7 +23,7 @@ able to be directly captured; that is to say, the study of the
 auditory stimulus is really the study of the persistent physical traces 
 it leaves behind as it interacts with objects sensitive enough to be displaced by it."
 
-animation: <iframe width="560" height="315" src="https://www.youtube.com/embed/pBaKg2fWJuk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+animation: <iframe width="560" height="315" src="https://www.youtube.com/embed/uuVXHhlOQMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 authors: 
 - John MacCallum
