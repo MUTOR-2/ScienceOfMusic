@@ -125,6 +125,7 @@ references:
         lastname: Boltz
     title: 'Musical soundtracks as a schematic influence on the cognitive processing of filmed events'
     publication: 'Music Perception'
+    doi: '10.1525/mp.2001.18.4.427'
     year: 2001
     
   narmour:
@@ -1089,7 +1090,7 @@ Soundtracks in movies offer one case of auditory perception enhancing visual per
 Participants rated videos with positive soundtracks as being better described by positive adjectives, and videos with negative soundtracks using negative adjectives. Videos with no soundtracks were rated as relatively neutral. This study shows strong effects of musical stimuli on the perception of meaning and emotional content of visual scenes.
 
 {% include img-figure url="./effect_boltz.png" description="Boltz soundtrack study" %}
-(Image by James Cheung. Adapted from: [Boltz, 2001](https://online.ucpress.edu/mp/article-abstract/18/4/427/62098/Musical-Soundtracks-as-a-Schematic-Influence-on?redirectedFrom=fulltext))
+(Image by James Cheung. Adapted from: {% include cite ref="boltz" %})
 
 {% comment %}
 redundant:
