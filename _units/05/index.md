@@ -168,6 +168,7 @@ The orchestra tunes to the pitch of concert A4, which usually corresponds to sou
 Our percept of pitch is **logarithmically organized** such that an octave above concert A is twice its frequency, therefore, 880Hz; whereas the next octave above 880Hz is twice 880Hz, which is 1760Hz. Thus each octave corresponds to a doubling in frequency, resulting in a logarithmic function relating frequency to pitch.
 
 {% include img-figure url="./pitch_frequency.png" description="Pitch vs. Frequency" width="400px" %}
+(Image by James Cheung)
 
 ## Fundamental Frequency
 
@@ -178,26 +179,31 @@ As an illustration of fundamental frequency and its relationship with pitch, con
 The following are four tones with differing numbers of partials, but with the same fundamental frequency and thus the same perceived pitch.
 
 {% include img-figure url="./waveform_440_pure.png" description="Pure tone at 440Hz" %}
+(Image by Georg Hajdu)
 <div align="center">
 {% include p/xwaveform-spectroscope-small src="./waveform_440_pure.wav" gain="1.0" %}
 </div>
 
 {% include img-figure url="./waveform_440_complex_2.png" description="Two-tone complex with fundamental frequency of 440Hz" %}
+(Image by Georg Hajdu)
 <div align="center">
 {% include p/xwaveform-spectroscope-small src="./waveform_440_complex_2.wav" gain="1.0" %}
 </div>
 
 {% include img-figure url="./waveform_440_complex_3.png" description="Three-tone complex with F0 of 440Hz" %}
+(Image by Georg Hajdu)
 <div align="center">
 {% include p/xwaveform-spectroscope-small src="./waveform_440_complex_3.wav" gain="1.0" %}
 </div>
 
 {% include img-figure url="./waveform_440_complex_4.png" description="Four-tone complex with F0 of 440Hz" %}
+(Image by Georg Hajdu)
 <div align="center">
 {% include p/xwaveform-spectroscope-small src="./waveform_440_complex_4.wav" gain="1.0" %}
 </div>
 
 {% include img-figure url="./waveform_440_virtual_3.png" description="Three-tone complex with missing fundamental of 440Hz" %}
+(Image by Georg Hajdu)
 <div align="center">
 {% include p/xwaveform-spectroscope-small src="./waveform_440_virtual_3.wav" gain="1.0" %}
 </div>
@@ -225,7 +231,7 @@ Virtual pitch demonstrations (from ASA demonstration CD):
    </div>
 {% include end-figure %}
 
-Spectral and virtual pitch: you will hear the tune of Westminster chimes presented in virtual pitch, due to the configuration of spectral components harmonically related to the missing fundamental. The spectral and virtual pitches will each be masked in the second and third clips. The video features _autocorrelograms_ of the auditory signal (see below for an explanation). (Videos from [Correlogram Museum](https://ccrma.stanford.edu/~malcolm/correlograms/index.html?40%20Masking%20Spectral%20And%20Virtual%20Pitch.html))
+Spectral and virtual pitch: you will hear the tune of Westminster chimes presented in virtual pitch, due to the configuration of spectral components harmonically related to the missing fundamental. The spectral and virtual pitches will each be masked in the second and third clips. The video features _autocorrelograms_ of the auditory signal (see below for an explanation). (Video sources: [Correlogram Museum](https://ccrma.stanford.edu/~malcolm/correlograms/index.html?40%20Masking%20Spectral%20And%20Virtual%20Pitch.html))
 
 ## Strike notes and other curiosities
 
@@ -240,13 +246,15 @@ For centuries, hearing and musical scientists have attempted to build an optimal
 Spectral models of pitch perception, which are based on the frequency spectrum of sounds, tend to start with the Fourier analysis, which convert sound waves into its frequency components. One of the early spectral or place models was proposed by Helmholtz who speculated that each sinusoidal component of a sound triggers sensation at a place coding for pitch. Thus, the ear is a frequency analyzer: Sounds create "resonances" on the basilar membrane triggering nerve impulses.
 
 {% include img-figure url="/MUTOR/assets/images/unit5_AuditoryFilterbank.png" description="Representations of a harmonic complex tone with a fundamental frequency (F0) of 440 Hz. The upper panel shows the power spectrum. The second panel shows the auditory filterbank, representing the filtering that occurs in the cochlea. The third panel shows the the time-averaged output of the filterbank, or excitation pattern. The fourth panel shows some sample time waveforms at the output of the filterbank, including filters centered at the F0 and the fourth harmonic, illustrating resolved harmonics, and filters centered at the 8th and 12th harmonic of the complex, illustrating harmonics that are less well resolved and show amplitude modulations at a rate corresponding to the F0." width="400px" %}
-(Source: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4215732/])
+(Source: [Oxenham, 2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4215732/))
 
 ## Temporal Models and Phase Locking
 In contrast, temporal models make use of the periodicity of waveforms comprising sounds. According to Schouten, the fundamental frequency can be determined by  calculating the time between periodic points in the waveform. Recent research suggests that the brain is capable of locking into the phase of a sinusoid well above 4000Hz.
 
 {% include img-figure url="./waveform_temporal_simple.png" description="Periodic waveform of a simple tone"%}
+(Image by Georg Hajdu)
 {% include img-figure url="./waveform_temporal_complex.png" description="Periodic waveform of a complex tone" %}
+(Image by Georg Hajdu)
 
 ## Template Theory
 
@@ -267,6 +275,7 @@ The debate between pattern matching and autocorrelation models have received wid
 American psychologist Roger Shepard has developed a cognitive psychological model that represents pitch in a helix. In this case, the circular chroma circle (horizontal) can be distinguished from height (vertical). Octaves are always on the same side of the helix. By a clever construction tones can be formed, in which the dimension of the height is eliminated. These sounds, called "Shepard tones", are useful for constructing auditory illusions, e.g. endlessly rising or falling glissandi or scales.
 
 {% include img-figure url="./helix.jpeg" description="Shepard's pitch helix. A similar model was already created in the mid-1800s." width="350px" %}
+(Image by Janina Luckow)
 
 {% include cite ref="shepard" %}
 
@@ -334,7 +343,7 @@ Just as Shepard's 5-dimensional model, the Neo-Riemannian _tonnetz_ is capable o
 
 {% include img-figure url="./torus_tonnetz.gif" description="Neo-Riemannian tonnetz" %}
 
-Source: ([Davidwbulger](https://commons.wikimedia.org/w/index.php?curid=11490121))
+(Animation source: [Davidwbulger](https://commons.wikimedia.org/w/index.php?curid=11490121). Copyright: Public domain)
 
 
 # Tonality and Probe Tone Method
@@ -346,6 +355,7 @@ In this method, subjects listen to cadences and scales, with the target sound (t
 By analyzing the data, three groups emerged which, depending on their musical background, were more or less able to perceive tonal hierarchies in major or minor context (the figure on the right shows results typical of experienced musicians).
 
 {% include img-figure url="./probetone.png" description="Probe Tone Method" width="400px" %}
+(Image by James Cheung. Adapted from {% include cite ref="krumhansl" %})
 {% comment %}
 Original figure description: 'Listeners ratings of stability of each pitch class after the presentation of a) C major; and b) C minor tonal contexts (after [2]). Tonal hierarchies for other keys are obtained by shifting the stability values circularly.'
 {% endcomment %}
@@ -386,6 +396,7 @@ With the help of Krumhansl's model, when playing (tonal) music, it is possible t
   Your browser does not support the video tag.
 </video>
 {% include end-figure %}
+(Video by Georg Hajdu)
 
 {% if false %}
 # References
