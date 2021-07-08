@@ -111,7 +111,9 @@ energy is distributed.
 Typically, we look at a spectrum on a 2D plot, like so:
 
 {% include img-figure url="./spectrum_domain_time.png" description="Time-domain representation of a signal." %}
+(Image by John MacCallum)
 {% include img-figure url="./spectrum_domain_frequency.png" description="Frequency-domain representation of a signal." %}
+(Image by John MacCallum)
 In the plot on top, we have a familiar sine wave; the vertical axis
 represents *amplitude*, and the time is along the horizontal axis, which is 
 why we refer to this representation as the *time-domain*. In the bottom plot,
@@ -129,6 +131,7 @@ This can be seen clearly in the figure below, in which two time-domain
 waveforms, one with an event at the beginning, and the other with an 
 event at the end, produce the same spectra.
 {% include img-figure url="./spectrum_uncertain.png" description="The location of temporal events in a time-domain waveform produces indistinguishable spectra." %}
+(Image by John MacCallum)
 
 ## Global Features of the Spectrum that Relate to Timbre
 
@@ -143,8 +146,10 @@ characteristics that persist for much of the lifetime of a sound.
 The *spectral envelope* describes the overall shape of the spectrum,
 and gives us a sense of where and how the energy is distributed.
 {% include img-figure url="spectrum_trumpet_mf.png" description="A spectral envelope drawn over the spectrum of a trumpet playing A4 (440 Hz) at <em>mezzo-forte</em>." width="500px" %}
+(Image by John MacCallum)
 
 {% include p/xwaveform-spectroscope-small src="./spectrum_trumpet_mf.mp3" gain="1.0" %}
+(Audio by John MacCallum)
 
 In figure {{ fignum }}, the dashed red line represents the spectral envelope,
 and simply connects the peaks of the spectrum. It should be noted that there
@@ -170,13 +175,17 @@ bin $$n$$, respectively.
 
 {% include img-figure url="./spectrum_trumpet_ff.png" description="The spectrum of a trumpet playing A4 (440 Hz) <em>fortissimo</em>. The red line shows the spectral centroid. Compare with the figure below to see how it moves when the same note is played quieter." width="500px" %}
 {% assign fig-tpt-ff = fignum %}
+(Image by John MacCallum)
 
 {% include p/xwaveform-spectroscope-small src="./spectrum_trumpet_ff.mp3" gain="1.0" %}
+(Audio by John MacCallum)
 
 {% include img-figure url="spectrum_trumpet_pp.png" description="The spectrum of a trumpet playing A4 (440 Hz) <em>pianissimo</em>. The red line shows the spectral centroid. Compare with the figure above to see how it moves when the same note is played louder." width="500px" %}
 {% assign fig-tpt-pp = fignum %}
+(Image by John MacCallum)
 
 {% include p/xwaveform-spectroscope-small src="./spectrum_trumpet_pp.mp3" gain="1.0" %}
+(Audio by John MacCallum)
 
 Figures {{ fig-tpt-ff }} and {{ fig-tpt-pp }} both show the spectrum of
 a trumpet playing A4 (440 Hz), the top *fortissimo*, and the bottom 
@@ -204,6 +213,7 @@ was exploited to great effect by Alvin Lucier in his recording
 
 {% include img-figure url="./formant_vowels.png" description="The formant structure of three different vowel sounds." width="300px" %}
 Figure {{ fignum }} shows the formant structure of three different vowels.
+(Image by James Cheung. Adapted from Benade, 1976)
 {% include note author="jm" text="these need to be redone (they are from Benade), and potentially should correlate with the table below, and have an interactive example." %}
 
 {% include begin-table description="Average formant locations for men, women, and children across a number of different vowels." %}
@@ -253,6 +263,7 @@ registers of the clarinet have very weak even partials; compare
 the two plots of a cello (red) and a clarinet (blue) both playing
 (middle) C4 (261 Hz) inthe figure below.
 {% include img-figure url="./spectrum_evenodd.png" description="The spectra of a cello (red) and a clarinet (blue) each playing C4 (middle C). Note that the even partials of the clarinet have almost no energy." width="500px" %}
+(Image by John MacCallum)
 {% include note author="jm" text="this needs to be a better plot so you can see the two more clearly. should have a sound example to accompany." %}
 The missing even partials contribute to the "woody" or "hollow" sound
 characteristic of the clarinet.
@@ -314,6 +325,7 @@ release:
 	the way in which the sound transitions to silence.
 
 {% include img-figure url="./adsr_envelope.png" description="The temporal envelope of a sound, showing a common segmentation into four parts: Attack, Decay, Sustain, and Release (ADSR)." %}
+(Image by James Cheung)
 
 As with timbre itself, these 3--4 stages of the temporal evolution of a sound
 are not intrinsic to any sound---they are subjective determinations made 
@@ -345,6 +357,7 @@ removed. See if you can figure out which instrument produced them.
 |<audio controls><source src="./adsr_violin_fade.mp3" type="audio/mpeg"></audio>|<audio controls><source src="./adsr_violin.mp3" type="audio/mpeg"></audio>|
 |<audio controls><source src="./adsr_cello_fade.mp3" type="audio/mpeg"></audio>|<audio controls><source src="./adsr_cello.mp3" type="audio/mpeg"></audio>|
 {:.fade-nofade-table}
+(Audio files by John MacCallum)
 
 
 ## Onset of Partials
@@ -358,6 +371,7 @@ our impression of it as the more steady-state parts, and likewise with the
 decay or release.
 
 {% include img-figure url="./onset_clar_mf.png" description="The attack of a Bb clarinet playing A4 (440 Hz) <em>mezzo-forte</em>. Note the staggered entry of the partials." %}
+(Image by John MacCallum)
 In figure {{ fignum }}, we can see how the partials enter (the energy
 distribution changes) during the attack of a clarinet playing A4
 *mezzo-forte*. Generally, we can say that the timbre gets *brighter* as 
@@ -388,6 +402,7 @@ etc.
 {% include begin-figure description="A sonogram of a bell from the Sather Tower Campanile on the UC Berkeley campus. Note the noise burst that occurs when the bell is struck." %}
 {% include p/xwaveform-sonogram src="/MUTOR/assets/audios/sather-0.7.bell.mn.mp3" %}
 {% include end-figure %}
+(Audio by John MacCallum)
 
 {% comment %}
 {% include img-figure url="/MUTOR/assets/images/sather-0.7-sonogram.png" description="A sonogram of a bell from the Sather Tower Campanile on the UC Berkeley campus. Note the noise burst that occurs when the bell is struck." %}
@@ -430,10 +445,12 @@ the spectra of two cellos playing a low major 3rd (Gb-Bb), with that of
 two bassoons playing the same interval.
 {% include img-figure url="./timbre_cello_g2b2.png" description="Spectra of two cellos playing G2 and B2." width="500px" %}
 {% assign cellos_thirds = fignum %}
+(Image by John MacCallum)
 
 {% include p/xwaveform-spectroscope-small src="./timbre_cello_g2b2.mp3" gain="1.0" %}
 
 {% include img-figure url="./timbre_bassoon_g2b2.png" description="Spectra of twy bassoons playing G2 and B2, the same interval as above. Note the tightly spaced partials pointed to by the arrows." width="500px" %}
+(Image by John MacCallum)
 {% assign bassoons_thirds = fignum %}
 
 {% include p/xwaveform-spectroscope-small src="./timbre_bassoon_g2b2.mp3" gain="1.0" %}
@@ -452,6 +469,7 @@ explored in a melodic fashion by Arnold Schoneberg in the third
 of his *F&uuml;nf Orchesterst&uuml;ke, Op. 16*, which opens by
 alternating between two different orchestrations of the same chord:
 {% include img-figure url="./timbre_farben.png" description="The two orchestrations of the opening chord of Schoenberg's <em>Farben</em>." width="400px" %}
+(Image by James Cheung. Adapted from John MacCallum)
 
 {% include p/xwaveform-spectroscope-small src="./timbre_farben_orch1.mp3" gain="1.0" %}
 {% include p/xwaveform-spectroscope-small src="./timbre_farben_orch2.mp3" gain="1.0" %}
@@ -474,7 +492,8 @@ chord are generally well outside the critical band from one another, and
 as we saw in unit XX, {% include note author="jm" text="link to unit" %},
 will not produce much sensation of roughness. The two orchestrations, however,
 are quite rough, due to the orchestration chosen.
-{% include img-figure url="./timbre_farben_spectra.GIF" description="An analysis of the spectra of the two orchestrations of the 'Farben' chord, in comparison with a rendering of pure sinusoids." %}
+{% include img-figure url="./timbre_farben_spectra.gif" description="An analysis of the spectra of the two orchestrations of the 'Farben' chord, in comparison with a rendering of pure sinusoids." %}
+(Image by John MacCallum)
 
 
 ## Timbre Space as a Musical Control Structure
@@ -491,17 +510,20 @@ a simple ascending major is played repeatedly by two different timbres
 that alternate notes, as shown in the figure below.
 
 {% include img-figure url="./timbre_wessel.png" description="Wessel Illusion: the black noteheads represent one timbre, and the white, another." %}
+(Image by James Cheung. Adapted from {% include cite ref="wessel" %})
 
 As the tempo increases, gradually the two timbres "split apart" into 
 their own descending melodies, as shown below.
 
 {% include img-figure url="./timbre_wessel_split.png" description="Wessel Illusion: as the tempo increases, the percept switches from a single repeated ascending line, to two descinding lines." %}
+(Image by James Cheung. Adapted from {% include cite ref="wessel" %})
 
 {% include begin-figure description="Max Example: David Wessel's Illusion" %}
 <div style="display: block; text-align: center; float: center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UEnKZVLdbbk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 {% include end-figure %}
+(Max Patch by Víctor Gutiérrez and John MacCallum)
 
 _you can have access to all MUTOR interacive maxpatches when you download the [MUTOR github repository](https://github.com/MUTOR-2/ScienceOfMusic) inside the maxpatches folder._
 
