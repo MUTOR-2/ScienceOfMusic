@@ -198,10 +198,12 @@ inner or upper voices is considered consonant and needs no special treatment.
 {% include img-figure url="./fourth_score.png" 
 description="In common practice tonality, a fourth between the bottom voices 
 is dissonant, while one in the inner voices is consonant." width="300px" %}
+(Image by James Cheung)
 
 
 {% include p/xwaveform-spectroscope-small src="./fourth_bottom.wav" gain="1.0" %}
 {% include p/xwaveform-spectroscope-small src="./fourth_inner.wav" gain="1.0" %}
+(Audio by Víctor Gutiérrez)
 
 This suggests that context matters, and the attribution of "dissonant" or
 "consonant" to an interval, the physical, sounding object, 
@@ -252,6 +254,7 @@ membrane to the other.
 description="von B&eacute;k&eacute;sy's measurement of basilar membrane 
 displacement as a function of frequency and position along the length of 
 the membrane." width="300px" %}
+(Image by James Cheung. Adapted from {% include cite ref="bekesy_nobel" %})
 Figure {{ fignum }} shows von B&eacute;k&eacute;sy's measurements of the 
 displacement of the basilar membrane in response to auditory stimuli
 of different frequencies {% include cite ref="bekesy_nobel" %}. 
@@ -315,6 +318,7 @@ e^{-2\pi bt \mathrm{ERB}(f_c)}
 {% include img-figure url="./basilar_gammatone.gif"
 description="Overlapping bank of gammatone filters used to model
 the frequency response of the basilar membrane." %}
+(Image by John MacCallum)
 
 
 # "Roughness" and Discrimination
@@ -337,10 +341,12 @@ band as a function of frequency, first in hertz, and then in octaves.
 
 {% include img-figure url="./criticalband_frequency.png"
 description="The size of the critical band as it varies with frequency." %}
+(Image by Janina Luckow)
 
 {% include img-figure url="./criticalband_octave.png"
 description="The width of the critical band in octaves as it varies
 with frequency." %}
+(Image by Janina Luckow)
 
 As we can see, at a frequency of 200 Hz, the critical band is an octave
 wide, indicating that even when two tones are separated by a large
@@ -354,6 +360,7 @@ like thirds, can sound rough and dissonant (muddy) in the low register.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uE_XlHYJ2Pc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 {% include end-figure %}
+(Max Patch by Víctor Gutiérrez and John MacCallum)
 
 {% comment %}
 {% include mov-figure src="/MUTOR/assets/videos/unit4_criticalband.mp4" type="mp4" description="Maxpatch example: critical band." width="600px" %}
@@ -401,12 +408,11 @@ chord from Arnold Schoenberg's work *Farben*, Op. 16.
 {% include img-figure url="./farben_roughness.png"
 description="Roughness estimates for three orchestrations of the same
 harmony from Arnold Schoenberg's Farben, Op. 16." width="400px" %}
+(Image by James Cheung)
 
 {% include p/xwaveform-spectroscope-small src="./farben_orch1.mp3" gain="1.0" %}
 {% include p/xwaveform-spectroscope-small src="./farben_orch2.mp3" gain="1.0" %}
 {% include p/xwaveform-spectroscope-small src="./farben_sin.mp3" gain="1.0" %}
-
-
 
 As can be seen in figure {{ fignum }}, and heard in the audio examples, 
 the sonority is quite smooth when played with pure tones, however, the two
@@ -417,6 +423,7 @@ by looking at the spectra in the figure below.
 {% include img-figure url="./farben_spectralanalysis.gif"
 description="Spectral analysis of three orchestrations of the 'Farben'
 chord." %}
+(Image by John MacCallum)
 
 In the second of Schoenberg's orchestrations, the rougher of the two,
 we can see that there is a strong partial at a frequency of 495.3 Hz, that 
@@ -447,16 +454,20 @@ amplitude modulation. A simple example of this can be seen here:
 description="Sum of two sinusoids at 440 Hz and 466.1638 Hz
 (minor second). " %}
 {% assign myfigref = fig_minor_second_pair %}
+(Image by John MacCallum)
 
 {% include img-figure url="./semitone_cluster.png"
 description="Sum of 40 sinusoids at random frequencies
 between 440 Hz and 466.1638 Hz, with random phases." %}
+(Image by John MacCallum)
 
 {% include img-figure url="./semitone_pair_closeup.png"
 description="Closeup of two sinusoids at 440 Hz and 466.1638 Hz." %}
+(Image by John MacCallum)
 
 {% include img-figure url="./semitone_cluster_closeup.png"
 description="Closeup of 40 sinusoids between 440 Hz and 466.1638 Hz." %}
+(Image by John MacCallum)
 
 {% comment %}
 {% include p/xwaveform-spectroscope-small src="/MUTOR/assets/audios/atmospheres.mp3" gain="1.0" %}
@@ -490,6 +501,7 @@ Kameoka and Kuriyagawa's hierarchy of intervals." %}
 description="Interval hierarchy (Kameoka and Kuriyagawa)" width="350px" %}
 {% endcomment%}
 
+
 ## Counterpoint and the Wright-Bregman Hypothesis
 
 As sounds become increasingly separated into different streams 
@@ -506,6 +518,7 @@ cues are not present and the same intervals are heard as dissonant.
 
 {% include img-figure url="./topdown_wrightbregman.png"
 description="Strong segregation cues in the top example suppress the sensation of dissonance which is clearly heard in the bottom when those cues are removed." %}
+(Image by James Cheung)
 
 The separation of sounds into streams is heavily influenced by top-down 
 processes such as attention and long-term memory. Thus top-down influences 
@@ -597,6 +610,7 @@ at the midbrain level.
 
 {% include img-figure url="./neurobiology_icneurons.png"
 description="Mean rates of fluctuations of IC neurons in response to pure and complex tone pairs." %}
+(Image by James Cheung. Adapted from Tramo et al. (2001))
 
 Studies with lesion patients have also shown effects of consonance and dissonance 
 at the level of the auditory cortex. Tramo et al. (2001) 
