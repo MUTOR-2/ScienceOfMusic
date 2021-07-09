@@ -157,6 +157,7 @@ It is important to make a distinction between the temporal envelope, the attack 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A4GIByK5Gac" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 {% include end-figure %}
+(Max Patch by Víctor Gutiérrez and John MacCallum)
 
 {% comment %}
 {% include mov-figure src="/MUTOR/assets/videos/unit7_perceptualonset.mp4" type="mp4" description="Maxpatch example: Perceptual Onset." width="600px" %}
@@ -216,7 +217,7 @@ mechanical timing
 expressive timing
 
 {% include p/xwaveform-spectroscope-small src="./traeumerei_betts.mp3" gain="1.0" %}
-(performance by [Donald Betts](https://musopen.org/music/2326-scenes-from-childhood-op-15/))
+(Audio source: [Donald Betts](https://musopen.org/music/2326-scenes-from-childhood-op-15/). Copyright: [Public domain](https://creativecommons.org/publicdomain/mark/1.0/))
 
 (source: Penel & Drake, 2000. Rhythm in music performance and perceived structure. In {% include cite ref="desain_and_windsor" %}
 
@@ -231,7 +232,7 @@ Two kinds of time maps we introduce here are the rhythmogram and the maps of per
 In addition to the rhythmogram and the score vs performance time map, various other rhythmic representations deserve mention. Desain and Honing describe a triangular space that represents all possible expressive deviations given a four-note rhythm.
 
 {% include img-figure url="./time_desain_honing.jpg" description="Desain & Honing" %}
-(image source: {% include cite ref="desain_and_honing" %} Perception.)
+(Image by Janina Luckow. Adapted from: {% include cite ref="desain_and_honing" %} Perception.)
 
 Other statistical methods to analyze rhythm and expressive microtiming are also widely used. Benadon uses histograms, which are graphs plotting the occurrence frequencies of events, to diagram the beat-upbeat ratios (BURs) of the swing rhythm in jazz.
 {% include cite ref="benadon" %}
@@ -242,7 +243,7 @@ Given the discussion of microtiming above, it should be clear by now that there 
 score time vs. performance time
 
 {% include img-figure url="./time_score_performance.png" description="Score time vs performance time" width="400px" %}
-Figure 1. Score time versus performance time.
+(Image by James Cheung)
 
 By modelling the relationship between score and performance time, one can create a synthesizer that will play music with a more human feel (A Novel Representation for Rhythmic Structure).
 
@@ -252,31 +253,34 @@ The rhythmogram is an effective way to visualize rhythmic structure in a musical
 
 To visualize the low-frequency filterbank, consider a set of very low-frequency bandpass filters arranged logarithmically. For instance, several filters along the filterbank could be: 0.125Hz, 0.25Hz, 0.5Hz, 1Hz, 2Hz, and 4Hz. The rhythmogram plots musical time on the x axis and these filters on the y axis.
 
-{% include img-figure url="./rhythmogram_axes.png" description="" width="400px" %}
+{% include img-figure url="./rhythmogram_axes.png" description="The axes of the rhythmogram: frequency filterbank vs. time" width="400px" %}
+(Image by James Cheung. Adapted from: {% include cite ref="todd" %})
 
-The axes of the rhythmogram: frequency filterbank vs. time.
 
 In this representation, notes which occur quickly, e.g. sixteenth notes, would show activity at the highest frequency filters along the filterbank.
 
-{% include img-figure url="./rhythmogram_4hz.png" description="" width="400px" %}
-Fast notes activate high-frequency filters along the filterbank.
+{% include img-figure url="./rhythmogram_4hz.png" description="Fast notes activate high-frequency filters along the filterbank." width="400px" %}
+(Image by James Cheung. Adapted from: {% include cite ref="todd" %})
 
 Notes occurring at the next fastest level, i.e. eighth notes, would appear as activity at the next level of filters:
 
 {% include img-figure url="./rhythmogram_2hz.png" description="" width="400px" %}
+(Image by James Cheung. Adapted from: {% include cite ref="todd" %})
 The next level of notes (quarter notes) would then appear energy at 1Hz filters, half notes at 0.5Hz filters, and finally, at the highest level, whole notes would appear at 0.25Hz filters.
 
 {% include img-figure url="./rhythmogram_0.25hz.png" description="" width="400px" %}
+(Image by James Cheung. Adapted from: {% include cite ref="todd" %})
 Taken together, we see an emergent tree-like diagram of rhythmic activity, with the different layers of the filterbank representing each level of rhythmic structure and importance. Thus, we can say that the rhythmogram provides a visual representation of the tree-like rhythmic structure of a musical piece.
 
 {% include img-figure url="./rhythmogram_notes.png" description="" width="400px" %}
+(Image by James Cheung. Adapted from: {% include cite ref="todd" %})
 The theoretically derived rhythmogram can be applied to actual performances to represent not only the rhythmic structure of the composition, but also the perceptual experience of the piece as a function of its decay rate over time. This links the mathematical idea of a filterbank to the auditory system, with its built-in mechanisms for the detection of onsets. In addition, the rhythmogram could be used to represent the sound structure of speech as well as music.
 
 An application of the rhythmogram to represent perceptual decay is shown here in the speech utterance "tennessee air":
 
 {% include img-figure url="./rhythmogram_tenessee.png" description="" width="400px" %}
 
-(Adapted from: [http://www.dcs.shef.ac.uk/~guy/pdf/icslp94.pdf])
+(Image by James Cheung. Adapted from: [Todd, 1994](http://www.dcs.shef.ac.uk/~guy/pdf/icslp94.pdf))
 
 Instead of a low-frequency filterbank, the above rhythmogram uses a the rate of decay of memory as its y axis. Notes which are more important in the rhythmic structure would be in memory for longer; thus, it would take a higher number of seconds to decay from memory.
 
@@ -284,7 +288,7 @@ This use of the rhythmogram also yields a tree-like structure, which can be repr
 
 {% include img-figure url="./rhythmogram_tenessee_hierarchy.png" description="" width="300px" %}
 
-(Adapted from: [http://www.dcs.shef.ac.uk/~guy/pdf/icslp94.pdf])
+(Image by James Cheung. Adapted from: [Todd, 1994](http://www.dcs.shef.ac.uk/~guy/pdf/icslp94.pdf))
 
 Using the rhythmogram, the hierarchical structure of music and speech can be derived based on signal processing methods.
 
@@ -305,46 +309,55 @@ Pacemaker and accumulator models are well supported by neural evidence. Neurolog
 One common observation in rhythm production is that when asked to tap evenly, humans tend to produce rhythms that are slightly uneven. For example, suppose you are required to produce even taps of two taps per second. Here is a time line of your expected taps, in seconds:
 
 {% include img-figure url="./taps_expected.png" description="" %}
+(Image by James Cheung)
 
 However, it turns out that the actual measured production is as followed:
 
 {% include img-figure url="./taps_uneven.png" description="" %}
+(Image by James Cheung)
 
 The simplest mathematical model to predict this pattern of behavior is the covariance model. The covariance model proposes that a negative correlation exists between the time interval between two taps and the time interval between the two taps immediately preceding. That is, if $t_n$ is the time interval between successive taps, i.e.
 
 {% include img-figure url="./taps_intervals.png" description="" width="200px" %}
+(Image by James Cheung)
 
 Then for every time interval $t_n$, the next time interval, $t_{n+1}$, is negatively correlated in length.
 
 {% include img-figure url="./taps_correlation.png" description="" width="200px" %}
+(Image by James Cheung)
 
- If $t_n$ is long, then $t_{n+1}$ is short; if $t_n$ is short, then $t_{n+1}$ is long. (This is the negative correlation principle).
+If $t_n$ is long, then $t_{n+1}$ is short; if $t_n$ is short, then $t_{n+1}$ is long. (This is the negative correlation principle).
 Much of the deviations between rhythmic tapping can be modelled this way.
 
 ## Coupled Oscillator
 In contrast to the IntervalTiming models of rhythm, the coupled oscillator models conceive of rhythm as the result of recurring cycles of individual processes known as oscillators. An oscillator is a device which produces a recurrent output at a fixed frequency determined by its own properties, with an amplitude that depends on the amount of energy given to it. A sine wave is a simple output of an oscillator. A spring and a pendulum are both prime examples oscillators.
 
 {% include img-figure url="./oscillator_clock.gif" description="grandclock1.gif" width="200px" %}
+(Animation by Janina Luckow)
 
 A grandfather clock contains a pendulum, which is a kind of oscillator.
 
 {% include img-figure url="./oscillator_pendulum.gif" description="pendulum2.gif" width="200px" %}
+(Animation by Janina Luckow)
 
 A simple pendulum.
 
 {% include img-figure url="/MUTOR/assets/images/unit7_spring.gif" description="spring.gif" width="300px" %}
+(Image source: [Martha Takats](http://webpages.ursinus.edu/mtakats/gifcat/spring.html))
 
-A spring is another example of a simple oscillator. (image source: [http://webpages.ursinus.edu/mtakats/gifcat/spring.html])
+A spring is another example of a simple oscillator. 
 
 The coupled oscillator model states that a set of oscillators entrain to each other - that is, their frequencies become tuned to each other, or become coupled as a result of the interaction between two oscillators.
 
 {% include img-figure url="/MUTOR/assets/images/unit7_springsym.gif" description="springsym.gif" width="300px" %}
+(Image source: [Martha Takats](http://webpages.ursinus.edu/mtakats/gifcat/spring.html))
 
-Coupled oscillators as two symmetrical springs. (image source: [http://webpages.ursinus.edu/mtakats/gifcat/springsym.html])
+Coupled oscillators as two symmetrical springs.
 
-Coupled pendulum oscillators (image source: [http://xeon.concord.org:8080/modeler/index.html])
+Coupled pendulum oscillators 
 
 {% include img-figure url="./oscillator_pendulum_trajectory.gif" description="pendulum.gif" width="200px" %}
+(Animation by Janina Luckow{% comment %} Deadlink! Adapted from: [http://xeon.concord.org:8080/modeler/index.html] {% endcomment %})
 {% comment %}
 {% include img-figure url="/MUTOR/assets/images/unit7_pendulum.gif" description="pendulum.gif" width="200px" %}
 Can you make the two pendulum images right next to each other? (left and right, not up and down)
@@ -369,6 +382,7 @@ The following meters have the same number of pulses, yet a different stratificat
 
 <br/>
 {% include img-figure url="./barlow_indispensibility.png" description="Metric profiles for different meters with 12 pulses each" %}
+(Image source: {% include cite ref="barlow" %})
 
 The values for the first and second levels are also contained herein: to make these evident, subtract the difference between the quantity of pulses at the level shown above and those at the desired level from the indispensability, keeping only non-negative numbers, e.g. for 3/4 (the number of pulses on the 3rd level as shown above is 12):<br>
 1st level (pulse quantity 3:subtract 12-3,i.e.9):<br/>
