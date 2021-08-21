@@ -112,6 +112,8 @@ picture-in-picture" allowfullscreen></iframe>
 </div>
 {% include end-figure %}
 
+{% include youtube-figure description="Phonograph cylinder" id="fWLlbk_bI7E" %}
+
 The playback in such a device relies on analog amplification: a heavy,
 but small needle modulates a thin and light, but larger membrane that 
 displaces a larger volume of air. Other recording and playback technologies
