@@ -151,7 +151,7 @@ of times, at equally spaced intervals in time.
 
 {% include img-figure url="./signal_digital_analog.jpg" 
 description="Digital (discrete) vs. analog (continuous) representations 
-of a signal" %}
+of a signal" author="jl" %}
 (Image by Janina Luckow)
 
 This process comes with advantages and disadvantages, the main disadvantage
