@@ -112,7 +112,7 @@ picture-in-picture" allowfullscreen></iframe>
 </div>
 {% include end-figure %}
 
-{% include youtube-figure description="Phonograph cylinder" id="fWLlbk_bI7E" %}
+{% comment %} {% include youtube-figure description="Phonograph cylinder" id="fWLlbk_bI7E" %} {% endcomment %}
 
 The playback in such a device relies on analog amplification: a heavy,
 but small needle modulates a thin and light, but larger membrane that 
