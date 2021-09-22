@@ -105,13 +105,7 @@ and transferring the movement of the needle to a diaphragm, causing the
 tiny movements of the needle to displace a larger amount of air,
 the recorded sound could be played back, as shown in the video below:
 
-{% include begin-figure description="Phonograph cylinder" %}
-<div style="display: block; text-align: center; float: center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fWLlbk_bI7E" 
-frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
-picture-in-picture" allowfullscreen></iframe>
-</div>
-{% include end-figure %}
+{% include youtube-figure description="Phonograph cylinder" id="fWLlbk_bI7E" %}
 
 The playback in such a device relies on analog amplification: a heavy,
 but small needle modulates a thin and light, but larger membrane that 
@@ -123,13 +117,7 @@ magnetic field and produce
 a very small electrical current, the voltage of which varies proportionally
 to the compressions and rarefactions of the sound. 
 
-{% include begin-figure description="Microphone" %}
-<div style="display: block; text-align: center; float: center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/d_crXXbuEKE" 
-frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
-picture-in-picture" allowfullscreen></iframe>
-</div>
-{% include end-figure %}
+{% include youtube-figure description="Microphone" id="d_crXXbuEKE" %}
 
 Speakers work in the opposite way: an electrical signal is sent to
 a coil surrounded by a magnet, and the modulations in voltage displace
@@ -152,7 +140,7 @@ of times, at equally spaced intervals in time.
 
 {% include img-figure url="./signal_digital_analog.jpg" 
 description="Digital (discrete) vs. analog (continuous) representations 
-of a signal" %}
+of a signal" author="jl" %}
 (Image by Janina Luckow)
 
 This process comes with advantages and disadvantages, the main disadvantage
@@ -600,13 +588,7 @@ It can be difficult to form an intuition for the FT and DFT based on the
 equations alone.  The following video provides a really nice visual demonstration
 of how this all works:
 
-{% include begin-figure description="Fourier Transform" %}
-<div style="display: block; text-align: center; float: center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/spUNpyF58BY" 
-frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
-picture-in-picture" allowfullscreen></iframe>
-</div>
-{% include end-figure %}
+{% include youtube-figure description="Fourier Transform" id="spUNpyF58BY" %}
 
 While that is probably more math than you might normally come into contact with 
 in a course on music psychology, the FT allows us to perform very clever types of 

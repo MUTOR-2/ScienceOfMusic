@@ -40,6 +40,11 @@ contributors:
  fx:
   fullname: Fu Xiao
   color: "#0099FF"
+ jc:
+  fullname: James Cheung
+  email: tsz.him.cheung@hfmt-hamburg.de
+  color: "#9999FF"
+
 
 # set this to true or false in order to display or
 # hide editorial comments in the text
