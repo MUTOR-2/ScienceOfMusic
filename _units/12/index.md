@@ -9,8 +9,10 @@ short_description: Short description
 summary: Theoretical and empirical research has demonstrated that music is not only an aural experience but rather involves the whole body. Technological developments, including motion capture and physiological response systems, permit the study of the manifold bodily processes involved. These include the performance movements of musicians, the visual impression of these movements for an audience, movement responses of audiences, as well as the bodily responses when listening or dancing to music. Furthermore, technology facilitates the development of new musical instruments and possibly new ways of interacting with each other in music-related contexts. Future research may tackle the interrelatedness of these processes more and more in real-world settings outside traditional laboratories as well as in artistic environments.
 
 authors: 
-- Clemens Wöllner
-- Birgitta Burger
+- name: Clemens Wöllner
+  website: "https://www.kulturwissenschaften.uni-hamburg.de/sm/personen/woellner.html"
+- name: Birgitta Burger
+  website: "https://www.slomo.uni-hamburg.de/team/burger.html"
 
 topics: [embodied cognition, music performance, dance, motion capture, interactive performance systems, physiological responses, audiovisual, expressiveness]
 test_questions:

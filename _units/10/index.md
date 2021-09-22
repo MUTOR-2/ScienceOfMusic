@@ -24,7 +24,8 @@ important role, as our expectation seems to be correlated with the likelihood
 of an event."
 
 authors: 
-- Psyche Loui
+ - name: Psyche Loui
+   website: "https://www.psycheloui.com"
 topics: [Unit10Introduction, What is expectancy, Why study expectancy, Theories of expectation, Expectancies for Melody, Expectancies for Rhythm, Methods for studying expectancy, Summary, References, Links and Downloads, QuizItems]
 # [Unit10Introduction, What is expectancy?, Why study expectancy?, Theories of expectation, Expectancies for Melody, Expectancies for Rhythm, Methods for studying expectancy, Summary, References, Links and Downloads, QuizItems] --> We are not being able to use "?" in this part of the document
 test_questions:

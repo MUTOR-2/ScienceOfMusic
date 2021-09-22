@@ -21,8 +21,10 @@ many different systems in use around the world, and that have been used by
 different cultures throughout history."
 
 authors:
- - Georg Hajdu
- - John MacCallum
+ - name: Georg Hajdu
+   website: "http://georghajdu.de"
+ - name: John MacCallum
+   website: "https://john-maccallum.com"
 topics: [Scale, Harmony, Microtonality, Timbre, Inharmonicity, Roughness]
 test_questions:
  - In what way does quarter-comma meantone temperament relate to 31TET?

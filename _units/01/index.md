@@ -26,7 +26,8 @@ it leaves behind as it interacts with objects sensitive enough to be displaced b
 animation: <iframe width="560" height="315" src="https://www.youtube.com/embed/uuVXHhlOQMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 authors: 
-- John MacCallum
+ - name: John MacCallum
+   website: "https://john-maccallum.com"
 topics: [Physics of Sound and its Representation]
 test_questions:
 - Briefly explain how a microphone works.

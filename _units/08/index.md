@@ -21,8 +21,10 @@ perspective as applied to musical material then, is the study of the
 relationships between musical elements that give rise to the perception of 
 musical structure."
 authors:
- - Georg Hajdu
- - Psyche Loui
+ - name: Georg Hajdu
+   website: "http://georghajdu.de"
+ - name: Psyche Loui
+   website: "https://www.psycheloui.com"
 topics: [Gestalt Psychology, Gestalt Principles of Melody, Texture Space]
 test_questions:
 - What are the Gestalt processes of visual perception? How do they relate to melody?

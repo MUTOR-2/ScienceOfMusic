@@ -8,7 +8,8 @@ number: 0
 short_description: Research Design and Methods
 summary: In this unit we provide an overview of the tools and methods that are in use in the study of music perception and cognition. These include qualitative and quantitative methods, specifically methods from cognitive science, specifically computational modeling, experimental psychology, and cognitive neuroscience. Statistics, which is the scientific understanding of data for the purpose of drawing conclusions, is the backbone of understanding across all these fields of study. We conclude with some practical information on getting started in conducting your own music science research, such as ethical principles and considerations in interdisciplinary research.
 authors: 
- - Psyche Loui
+ - name: Psyche Loui
+   website: "https://www.psycheloui.com"
 topics: [experimental psychology, neuroscience, computer modeling]
 test_questions:
  - Suppose you hypothesize that musical harmony is a culturally determined construct. How would you design a study to test this research question?

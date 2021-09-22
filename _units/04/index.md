@@ -27,8 +27,10 @@ models of consonance and dissonance."
 animation: <iframe width="560" height="315" src="https://www.youtube.com/embed/pBaKg2fWJuk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 authors: 
- - John MacCallum
- - Psyche Loui
+ - name: Psyche Loui
+   website: "https://www.psycheloui.com"
+ - name: John MacCallum
+   website: "https://john-maccallum.com"
  
 topics: [Consonance, Dissonance, Sensory Dissonance, Critical Bandwidth, 
 Cochlea, Basilar Membrane, Timbre, Intervals, Tonotopic Mapping]

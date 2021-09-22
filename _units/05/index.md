@@ -27,8 +27,10 @@ basis of our notions of musical keys."
 
 animation: <iframe width="560" height="315" src="https://www.youtube.com/embed/bakZ1tWn-SY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 authors:
- - Georg Hajdu
- - Psyche Loui
+ - name: Georg Hajdu
+   website: "http://georghajdu.de"
+ - name: Psyche Loui
+   website: "https://www.psycheloui.com"
 topics: [Pitch, Interval, Theory of Pitch Perception, Tonality, Key Area]
 test_questions:
  - Calculate the sizes of following intervals.  Pythagorean major third (81/64),  septimal minor seventh (7/4) and undecimal augmented fourth (11/8). Determine how much they deviate from their equal-tempered counterparts.

@@ -22,7 +22,8 @@ before the spectrum stabilizes to some degree, has such a strong impact on
 the way we perceive the timbre of a sound, that without it, we are often unable 
 to discern the source of an otherwise familiar sound."
 authors: 
- - John MacCallum
+ - name: John MacCallum
+   website: "https://john-maccallum.com"
 topics: [timbre, spectrum, spectral envelope, temporal envelope, attack]
 test_questions:
  - Define timbre.

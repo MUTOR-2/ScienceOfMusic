@@ -27,7 +27,10 @@ two places at once, can be overridden by higher-level cognitive processes as
 we integrate information."
 animation: <iframe width="560" height="315" src="https://www.youtube.com/embed/pPJVGxKRcCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 authors:
- - Psyche Loui and John MacCallum
+ - name: Psyche Loui
+   website: "https://www.psycheloui.com"
+ - name: John MacCallum
+   website: "https://john-maccallum.com"
 topics: [Elementary Psychoacoustics, Bottom-Up vs. Top-Down, Loudness, Reverberation, Perceptual Illusions, Precedence Effect, Audio-Visual Interaction]
 test_questions:
  - What is the McGurk Effect and what does it show about multisensory interaction?

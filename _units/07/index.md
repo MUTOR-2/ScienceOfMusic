@@ -23,8 +23,10 @@ the physical and perceptual onsets are not the same, making the performance of
 rhythm, and the study of its performance, significantly more complex than 
 simply playing the right note at the right time."
 authors:
- - Psyche Loui
- - John MacCallum
+ - name: Psyche Loui
+   website: "https://www.psycheloui.com"
+ - name: John MacCallum
+   website: "https://john-maccallum.com"
 topics: [Introduction, Perceptual Onset Vs Temporal Envelope, Subdivision, Tactus, Tatum, Accents and Event Stream Vectors, Microtiming and Expressive Timing, Time Maps, Score Time Vs Performance Time, Rhythmogram, Models of Rhythm Perception, Interval Timing ,Covariance Model, CoupledOscillator]
 test_questions:
  - What are the important features of sound that enable the perception of rhythmic beats?

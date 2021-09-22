@@ -23,7 +23,8 @@ the position of sound sources in space."
 animation: <iframe width="560" height="315" src="https://www.youtube.com/embed/WhSkYDLr3c4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 authors:
- - Psyche Loui
+ - name: Psyche Loui
+   website: "https://www.psycheloui.com"
 topics: [Auditory Pathway, Structures and functions, Active Ear, Evolution of the Auditory System, Music in other Species, Hearing Damage]
 
 test_questions:

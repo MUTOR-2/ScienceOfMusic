@@ -17,7 +17,8 @@ evidence has shown some degree of overlap in brain activity between the two.
 Ongoing research suggests that these similarities may be due to certain 
 general characteristics of how the brain processes sequential sounds."
 authors: 
- - Psyche Loui
+ - name: Psyche Loui
+   website: "https://www.psycheloui.com"
 topics: [music, language, syntax, prosody]
 test_questions:
  - Describe the N400 effect, and what it reveals about the relationship between music and language.
