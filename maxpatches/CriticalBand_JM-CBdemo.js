@@ -80,9 +80,11 @@ function msg_int(i) {
 function outputFixed() {
 	if (complex_bool) {
 		var ar = new Array();
+		ar[0] = fixedFreq;
+		ar[1] = fixedAmp;
 		for (i = 0; i < numFixedPartials; i++) {
-			ar[i * 2] = fixedFreq * (i + 1);
-			ar[(i * 2) + 1] = fixedAmps[i];
+			ar[(i * 2) + 2] = fixedFreq * (i + 2);
+			ar[(i * 2) + 3] = fixedAmps[i];
 		}
 		outlet(1, ar);
 		return;
@@ -93,9 +95,11 @@ function outputFixed() {
 function outputMoving() {
 	if (complex_bool) {
 		var ar = new Array();
+		ar[0] = movingFreq;
+		ar[1] = movingAmp;
 		for (i = 0; i < numMovingPartials; i++) {
-			ar[i * 2] = movingFreq * (i + 1);
-			ar[(i * 2) + 1] = movingAmps[i];
+			ar[(i * 2) + 2] = movingFreq * (i + 2);
+			ar[(i * 2) + 3] = movingAmps[i];
 		}
 		outlet(0, ar);
 		return;

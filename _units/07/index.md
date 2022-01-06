@@ -177,11 +177,54 @@ The optimal range of tempo encoding occurs between 300ms and 1500ms. This is kno
 3. Four dots getting divided into chunks of two - think Gestalt and make pictures.
 
 ## Tactus
-Using the demo on synchronous clapping, we may observe that when asked to tap in sync to a rhythmic stimulus, people commonly produce isochronous taps at approximately 1-3 Hz (75-200 taps per minute), i.e. with intervals of approximately 300-800ms between each tap. When the musical stimulus to which we are synchronizing contains sound events below this rate, we tend to subdivide the time by tapping twice per sound event. When the sound to which we are synchronizing is above this rate, we tend to subdivide our tapping by tapping once for every two beats. This optimal rate of rhythmic tapping is called the tactus and is in the range of 300-800Hz. The fast end of this range, 300ms or 200 beats per minute, corresponds to the tempo marking of Presto. The slow end, 800ms or 75 beats per minute, corresponds to Adagio. Assuming that our tapping rate reflects our perception of the beat, we can say that the tactus is the optimal range of rhythmic function in music.
-Several lines of research have addressed why the tactus seems to operate at this range. Some believe that the tactus aids memory: the tactus may reflect the perceptual system's ability to group distinct sound events together in memory, so that instead of perceiving individual sounds which decay rapidly in sensory memory, we could perceive groups of rhythmic events which hang together to form a Gestalt, or the perception of a whole. Paul Fraisse (from Clarke's chapter, in Deutsch 1999) believed that the tactus arises from the anatomical constraints of the body and motor functions, as our bodies (musculature, nervous systems, etc) prevents us from tapping at rates faster than 3Hz.
+Using the demo on synchronous clapping, we may observe that when
+asked to tap in sync to a rhythmic stimulus, people commonly produce
+isochronous taps at approximately 1-3 Hz (75-200 taps per minute),
+i.e. with intervals of approximately 300-800ms between each
+tap. When the musical stimulus to which we are synchronizing
+contains sound events below this rate, we tend to subdivide the time
+by tapping twice per sound event. When the sound to which we are
+synchronizing is above this rate, we tend to subdivide our tapping
+by tapping once for every two beats. This optimal rate of rhythmic
+tapping is called the tactus and is in the range of 300-800ms. The
+fast end of this range, 300ms or 200 beats per minute, corresponds
+to the tempo marking of Presto. The slow end, 800ms or 75 beats per
+minute, corresponds to Adagio. Assuming that our tapping rate
+reflects our perception of the beat, we can say that the tactus is
+the optimal range of rhythmic function in music.  Several lines of
+research have addressed why the tactus seems to operate at this
+range. Some believe that the tactus aids memory: the tactus may
+reflect the perceptual system's ability to group distinct sound
+events together in memory, so that instead of perceiving individual
+sounds which decay rapidly in sensory memory, we could perceive
+groups of rhythmic events which hang together to form a Gestalt, or
+the perception of a whole. Paul Fraisse (from Clarke's chapter, in
+Deutsch 1999) believed that the tactus arises from the anatomical
+constraints of the body and motor functions, as our bodies
+(musculature, nervous systems, etc) prevents us from tapping at
+rates faster than 3Hz.
 
 ## Tatum
-In a paper called A Novel Representation for Rhythmic Structure, Vijay Iyer, Jeff Bilmes, Matt Wright, and David Wessel developed a structure for describing rhythmic events called the tatum (a contraction of temporal atom as well as an homage to the great improvising pianist, Art Tatum). A tatum is a data structure that represents the smallest cognitively meaningful subdivision of the main beat and contains information about it's probability of occurence, pitch/timbre, accent, duration, and deviation. Musically speaking, a tatum might correspond to 16th notes or 32nd notes in conventional notation, and a measure of music is represented by a vector of tatums. A high probability of occurence means that the beat is likely to be played (after all, not every beat of a bar is played all the time), the accent determines how loudly the beat will be played (this allows for the beginning of the beat of a conventional meter to be accented, for example), the duration vector could either determine the duration of each beat or represent a range of durations from which a random value is chosen, and the deviation allows for the beats to occur slightly early or late and is meant to model the sort of microtiming that human performers inadvertantely add to their music and that computers lack.
+In a paper called A Novel Representation for Rhythmic Structure,
+Vijay Iyer, Jeff Bilmes, Matt Wright, and David Wessel developed a
+structure for describing rhythmic events called the tatum (a
+contraction of temporal atom as well as an homage to the great
+improvising pianist, Art Tatum). A tatum is a data structure that
+represents the smallest cognitively meaningful subdivision of the
+main beat and contains information about it's probability of
+occurence, pitch/timbre, accent, duration, and deviation. Musically
+speaking, a tatum might correspond to 16th notes or 32nd notes in
+conventional notation, and a measure of music is represented by a
+vector of tatums. A high probability of occurence means that the
+beat is likely to be played (after all, not every beat of a bar is
+played all the time), the accent determines how loudly the beat will
+be played (this allows for the beginning of the beat of a
+conventional meter to be accented, for example), the duration vector
+could either determine the duration of each beat or represent a
+range of durations from which a random value is chosen, and the
+deviation allows for the beats to occur slightly early or late and
+is meant to model the sort of microtiming that human performers
+inadvertantely add to their music and that computers lack.
 
 ## Accents and Event Stream Vectors
 A piece of music is represented by an event-stream vector which contains all of the data for every tatum. An example of a vector representing a bar of 4/4 music might have a set of vectors as represented in table 1.
