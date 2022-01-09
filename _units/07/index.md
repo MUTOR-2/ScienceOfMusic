@@ -272,25 +272,52 @@ Above, in the section on the TatuM, along with the parameters of probability of 
 
 Time maps are visual representations of rhythm and meter. These are useful because they help us visualize, analyze, and understand the black box of each individual performance by each musician.
 
-Two kinds of time maps we introduce here are the rhythmogram and the maps of performance time as a function of score time. These two time maps are drastically different and are useful in different applications. The rhythmogram is a time map of event frequencies of notes, with enables the inference of the hierarchical rhythmic structure of a musical piece. The maps of score time versus performance time allow for a coherent representation of the entire performance of a piece; they effectively capture the characteristic expressive deviations of each performer.
+Two kinds of time maps we introduce here are the rhythmogram and the
+maps of performance time as a function of score time. These two time
+maps are drastically different and are useful in different
+applications. The rhythmogram is a time map of event frequencies of
+notes, which enables the inference of the hierarchical rhythmic
+structure of a musical piece. The maps of score time versus
+performance time allow for a coherent representation of the entire
+performance of a piece; they effectively capture the characteristic
+expressive deviations of each performer.
 
-In addition to the rhythmogram and the score vs performance time map, various other rhythmic representations deserve mention. Desain and Honing describe a triangular space that represents all possible expressive deviations given a four-note rhythm.
+In addition to the rhythmogram and the score vs performance time
+map, various other rhythmic representations deserve mention. Desain
+and Honing describe a triangular space that represents all possible
+expressive deviations given a four-note rhythm.
 
 {% include img-figure url="./time_desain_honing.jpg" description="Desain & Honing" %}
 (Image by Janina Luckow. Adapted from: {% include cite ref="desain_and_honing" %} Perception.)
 
-Other statistical methods to analyze rhythm and expressive microtiming are also widely used. Benadon uses histograms, which are graphs plotting the occurrence frequencies of events, to diagram the beat-upbeat ratios (BURs) of the swing rhythm in jazz.
-{% include cite ref="benadon" %}
+Other statistical methods to analyze rhythm and expressive
+microtiming are also widely used. Benadon uses histograms, which are
+graphs plotting the occurrence frequencies of events, to diagram the
+beat-upbeat ratios (BURs) of the swing rhythm in jazz.  {% include
+cite ref="benadon" %}
 
 ## Score Time Vs Performance Time
-Given the discussion of microtiming above, it should be clear by now that there is not necessarily a 1:1 correlation between the printed score and what a performer plays. A simple score may only contain pitches, rhythms, some dynamics, and information about the tempo and meter. Although it may lack direction about how to vary the timing expressively, we are not necessarily meant to interpret that lack of direction as an indication that we should play the music as straight and precisely as possible. When directions are given, they are often vague at best, as in the term rubato. As we mentioned above, a computer simulation that lacks microtiming and is based only on what we might call score time tends to feel cold and mechanical. We can begin to understand what a performer brings to the piece with respect to expressive timing by plotting the score time against the performance time as in figure 1.
-
-score time vs. performance time
+Given the discussion of microtiming above, it should be clear by now
+that there is not necessarily a 1:1 correlation between the printed
+score and what a performer plays. A simple score may only contain
+pitches, rhythms, some dynamics, and information about the tempo and
+meter. Although it may lack direction about how to vary the timing
+expressively, we are not necessarily meant to interpret that lack of
+direction as an indication that we should play the music as straight
+and precisely as possible. When directions are given, they are often
+vague at best, as in the term rubato. As we mentioned above, a
+computer simulation that lacks microtiming and is based only on what
+we might call score time tends to feel cold and mechanical. We can
+begin to understand what a performer brings to the piece with
+respect to expressive timing by plotting the score time against the
+performance time as in figure 1.
 
 {% include img-figure url="./time_score_performance.png" description="Score time vs performance time" width="400px" %}
 (Image by James Cheung)
 
-By modelling the relationship between score and performance time, one can create a synthesizer that will play music with a more human feel (A Novel Representation for Rhythmic Structure).
+By modelling the relationship between score and performance time,
+one can create a synthesizer that will play music with a more human
+feel (A Novel Representation for Rhythmic Structure).
 
 ## Rhythmogram
 The rhythmogram is an effective way to visualize rhythmic structure in a musical score or performance. First used by Neil Todd
