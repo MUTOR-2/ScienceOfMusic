@@ -130,7 +130,7 @@ Here is an example of three different conditions of expectancy in music. Listen 
 
 Expectations are evolutionarily adaptive because the ability to form expectations accurately for future events facilitates us in our perception and action. To illustrate the evolutionary advantage for expectation, imagine the following scenario. You are driving your car up the street when you see this: 
 
-{% include img-figure url="./expectation_childball.jpg" description="Child running after a ball" %}
+{% include img-figure url="./expectancy_childball.jpg" description="Child running after a ball" %}
  
 What would you do?
 

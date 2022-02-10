@@ -183,32 +183,81 @@ Scales (derived from Italian _scala_ meaning "staircase") are the collection of 
 
 # Historical View of Scale and Harmony
 
-The term harmony comes from a Greek word that translates literally as "means of joining" and is related to the word for joint or shoulder [http://www.etymonline.com/index.php?term=harmony].  In ancient Greek music, the term referred to the juxtaposition of different elements, but since the musical practice of the time did not include the simultaneous sounding of multiple notes, this concept was only used as a way of discussing the theoretical relationships between pitches.  In the Medieval period, composers began to write music in which two notes that formed a perfect consonance (fourths, fifths, or octaves) were sung simultaneously, and in the Renaissance Gioseffo Zarlino wrote of triadic harmony that included the imperfect consonances:  thirds.  These descriptions pertain only to the structure of an isolated simultaneity, although it is clear that as far back as the 15th century, theorists understood the concept of harmony to encompass not only the relationships between simultaneously sounded pitches, but the relationships between chords.  Additionally, some theorists have considered harmony to be the progression through, and alternation of, consonant and dissonant sonorities.  
+The term harmony comes from a Greek word that translates literally
+as "means of joining" and is related to the word for [joint or
+shoulder](http://www.etymonline.com/index.php?term=harmony).  In
+ancient Greek music, the term referred to the juxtaposition of
+different elements, but since the musical practice of the time did
+not include the simultaneous sounding of multiple notes, this
+concept was only used as a way of discussing the theoretical
+relationships between pitches.  In the Medieval period, composers
+began to write music in which two notes that formed a perfect
+consonance (fourths, fifths, or octaves) were sung simultaneously,
+and in the Renaissance Gioseffo Zarlino wrote of triadic harmony
+that included the imperfect consonances: thirds.  These descriptions
+pertain only to the structure of an isolated simultaneity, although
+it is clear that as far back as the 15th century, theorists
+understood the concept of harmony to encompass not only the
+relationships between simultaneously sounded pitches, but the
+relationships between chords.  Additionally, some theorists have
+considered harmony to be the progression through, and alternation
+of, consonant and dissonant sonorities.
 
 The distinction between harmony and harmonic progression is an important one.  Consider, for example, the C major chord in figure 1.
 
 {% include img-figure url="./harmony_cmajor.png" description="C major triad" width="300px" %}
 
-In the key of C major, this chord has a feeling of stability since it is the tonic of the key.  However, in the key of F major, the same chord will sound less stable as if it should move to F. As we can see, the context in which a chord appears is important. Another example is the famous "Tristan chord"—the opening harmony of Richard Wagner's opera Tristan und Isolde (figure 9.3).  The nature of this sonority has been debated for decades, but the debate centers less around the chord itself, and more around the function and way in which it resolves.
+In the key of C major, this chord has a feeling of stability since
+it is the tonic of the key.  However, in the key of F major, the
+same chord will sound less stable as if it should move to F. As we
+can see, the context in which a chord appears is important. Another
+example is the famous "Tristan chord"—the opening harmony of Richard
+Wagner's opera Tristan und Isolde (figure 9.3).  The nature of this
+sonority has been debated for decades, but the debate centers less
+around the chord itself, and more around the function and way in
+which it resolves.
 
 {% include img-figure url="./harmony_tristan.png" description="Tristan Prelude" %}
 {% include p/xwaveform-spectroscope-small src="./harmony_tristan.wav" gain="1.0" %}
 (Audio source: [Simon Schindler & Fulda Symphonic Orchestra](https://commons.wikimedia.org/wiki/File:Richard_Wagner_-_Tristan_und_Isolde_-_Vorspiel.ogg))
 
-The chord can easily be explained as a half-diminished seventh chord or as a French augmented 6th chord where the G# is an appoggiatura to the A, however, the way in which it resolves calls these labels into question.
+The chord can easily be explained as a half-diminished seventh chord
+or as a French augmented 6th chord where the G# is an appoggiatura
+to the A, however, the way in which it resolves calls these labels
+into question.
 
 # Tuning and Temperament
 
-Since the time of J.S. Bach, equal-temperament has increasingly dominated Western classical music.  In this system, every semitone is of equal size in log-frequency (remember that our perception of pitch is logarithmic).  For a given number of semitones, n, we can calculate the frequency from a reference f_r using the formula
+Since the time of J.S. Bach, equal-temperament has increasingly
+dominated Western classical music.  In this system, every semitone
+is of equal size in log-frequency (remember that our perception of
+pitch is logarithmic).  For a given number of semitones, $n$, we can
+calculate the frequency from a reference $f_r$ using the formula
 
 \begin{equation}
 f_n=f_r(\sqrt[12]{2})^n
 \label{eq:Equal-Temperament}
 \end{equation}
 
-Although a thorough discussion of tuning is beyond the scope of this unit (Wikipedia has numerous pages and links devoted to the topic), we can say a few things about equal temperament and the systems that it replaced.
+Although a thorough discussion of tuning is beyond the scope of this
+unit (Wikipedia has numerous pages and links devoted to the topic),
+we can say a few things about equal temperament and the systems that
+it replaced.
 
-Any tuning system must be measured against just intonation in which intervals are calculated by integer ratios, e.g. a just fifth is $3/2$, a just fourth is $4/3$, and a just major third is $5/4$.  Although the just intervals are considered by many to be the most pleasing, they can lead to complex problems.  For example, a just major third above A1 (55 Hz) is 68.75 Hz, but if we use 55 Hz (A1) as our reference frequency and calculate a C#1 by going up in fifths, we arrive at 69.609375 (55 • 1.5 = 82.5 (E2) • 1.5 = 123.75 (B2) • 1.5 = 185.625 (F#3) • 1.5 = 278.4375 (C#4) / 4 = 69.609375).  One solution to this problem is to tune certain keys as perfectly as possible and allow other more distant keys to be out of tune.  Equal temperament solves the problem by making every interval (with the exception of the octave) slightly out of tune.  For example, in the case of perfect fifths, in equal temperament,
+Any tuning system must be measured against just intonation in which
+intervals are calculated by integer ratios, e.g. a just fifth is
+$3/2$, a just fourth is $4/3$, and a just major third is $5/4$.
+Although the just intervals are considered by many to be the most
+pleasing, they can lead to complex problems.  For example, a just
+major third above A1 (55 Hz) is 68.75 Hz, but if we use 55 Hz (A1)
+as our reference frequency and calculate a C#1 by going up in
+fifths, we arrive at 69.609375 (55 • 1.5 = 82.5 (E2) • 1.5 = 123.75
+(B2) • 1.5 = 185.625 (F#3) • 1.5 = 278.4375 (C#4) / 4 = 69.609375).
+One solution to this problem is to tune certain keys as perfectly as
+possible and allow other more distant keys to be out of tune.  Equal
+temperament solves the problem by making every interval (with the
+exception of the octave) slightly out of tune.  For example, in the
+case of perfect fifths, in equal temperament,
 
 \begin{equation}
 55(\sqrt[12]{2})^7 = 82.4069
