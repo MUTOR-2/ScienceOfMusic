@@ -174,6 +174,7 @@ Let's take a closer look at the details of a time-domain waveform.
 
 {% include img-figure url="./signal_sin_period.jpg" 
                       description="A sine wave" width="550px" %}
+{% capture fig_sin %}{{ fignum }}{% endcapture %}
 
 (Image by Janina Luckow)
 
@@ -252,7 +253,7 @@ exactly half that of the other, the two cancel each other out and produce
 a flat waveform of 0 amplitude. Try shifting the phase of one sinusoid
 against another in the example below.
 
-{% include begin-figure description="Two sinusoids, one with variable phase with respect to the other." %}
+{% include begin-figure description="Two sinusoids (top and center), one with variable phase with respect to the other, and the sum of the two (bottom)." %}
 {% include p/begin %}
 {% assign fixedoscillatorname = mutor_patch_pfx | append: "fixedoscillator" %}
 {% assign moveableoscillatorname = mutor_patch_pfx | append: "moveableoscillator" %}
