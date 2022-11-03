@@ -415,7 +415,7 @@ The auditory cortex is located just under the sylvian fissure, which is the fold
 {% include img-figure url="./anatomy_auditorycortex.png" description="The Sylvian fissure, with the Auditory Cortex below it." width="500px" %}
 (Image by James Cheung. Adapted from: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cerebral_cortex,_side_view.svg))
 
-The auditory cortex includes primary and secondary auditory cortices. The PrimaryAuditoryCortex (also known as A1) is located on the temporal plane, which is delineated by the Sylvian fissure on the top surface of the temporal lobe. The SecondaryAuditoryCortex (A2) surrounds the primary auditory cortex. The primary auditory cortex is tonotopically organized, with the lateral edge of the Sylvian fissure being sensitive to lower frequencies and the medial part of the cortex being sensitive to high frequencies. The primary auditory cortex is responsible for the perception of pitch, rhythm and duration, whereas the secondary auditory cortex is responsible for pattern perception, which includes the perception of speech and melodies. Persons with lesioned auditory cortices have trouble perceiving music; this is a condition known as amusia. {% include cite ref="peretz" %} 
+The auditory cortex includes primary and secondary auditory cortices. The primary auditory cortex (also known as A1) is located on the temporal plane, which is delineated by the Sylvian fissure on the top surface of the temporal lobe. The secondary auditory cortex (A2) surrounds the primary auditory cortex. The primary auditory cortex is tonotopically organized, with the lateral edge of the Sylvian fissure being sensitive to lower frequencies and the medial part of the cortex being sensitive to high frequencies. The primary auditory cortex is responsible for the perception of pitch, rhythm and duration, whereas the secondary auditory cortex is responsible for pattern perception, which includes the perception of speech and melodies. Persons with lesioned auditory cortices have trouble perceiving music; this is a condition known as amusia. {% include cite ref="peretz" %} 
 {% comment %}(Peretz et al, 2003)
 {% endcomment %}
 
@@ -598,7 +598,7 @@ Presbyacusis is the loss of hearing as a result of old age. The hearing loss qui
 Normal versus damaged hair cells 
 {% endcomment %}
 
-{% include img-figure url="./audiogram_damage_presbyacusis.jpg" description="Audiogram P\/esbyacusis or Ski-Slope Hearing" %}
+{% include img-figure url="./audiogram_damage_presbyacusis.jpg" description="Audiogram Presbyacusis or Ski-Slope Hearing" %}
 Presbyacusis is commonly observed as a "ski-slope" hearing loss, where "ski-slope" refers to the shape of the audiometry function, which is relatively intact at low frequencies, but falls off rapidly at high frequencies.
 (Image by Janina Luckow. Adapted from: [Hearing Life](http://www.hearinglife.com.au))
 
