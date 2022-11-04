@@ -472,7 +472,7 @@ While the act of music making is universal to all cultures in human society, onl
 {% include end-figure %}
 (Max Patch by Víctor Gutiérrez and John MacCallum)
 
-_You can have access to all MUTOR interactive Max patches when you clone the [MUTOR github repository](https://github.com/MUTOR-2/ScienceOfMusic) and place inside the Max search path._
+_You can have access to all MUTOR interactive Max patches when you clone the [MUTOR github repository](https://github.com/MUTOR-2/ScienceOfMusic) and place it inside the Max search path._
 
 The ferret and chinchilla auditory systems are similar to ours in that most of the auditory apparati are similar anatomically and functionally to the human auditory system. This makes them a good animal model to study. Bats are also of interest because of their ability to hear very high frequencies. Bats emit ultrasonic frequencies (sounds beyond our hearing range in frequency) and listen for the reflected sounds in order to determine their own location. The use of echoes to find out one's own position in space is known as echolocation.
 
