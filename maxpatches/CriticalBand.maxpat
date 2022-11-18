@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 5,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 322.0, 59.0, 640.0, 691.0 ],
+		"rect" : [ 322.0, 72.0, 640.0, 691.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -156,7 +156,7 @@
 					"patching_rect" : [ 740.333333333333485, 137.5, 64.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 180.916666666666742, 120.0, 64.0, 28.0 ],
+					"presentation_rect" : [ 73.0, 120.0, 64.0, 28.0 ],
 					"text" : "set Fixed Amplitude"
 				}
 
@@ -333,8 +333,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 5,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -740,8 +740,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 5,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -979,8 +979,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 5,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1386,8 +1386,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 5,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1885,6 +1885,18 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 464.833333333333485, 404.0, 61.0, 263.0 ],
 					"saved_attribute_attributes" : 					{
+						"tribordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"tricolor" : 						{
+							"expression" : ""
+						}
+,
+						"trioncolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[1]",
 							"parameter_mmax" : 6.0,
@@ -2238,7 +2250,7 @@
 					"patching_rect" : [ 1006.166666666666515, 137.5, 56.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 73.0, 120.0, 56.0, 28.0 ],
+					"presentation_rect" : [ 183.0, 120.0, 56.0, 28.0 ],
 					"text" : "set Fixed Pitch"
 				}
 
@@ -3022,7 +3034,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "JM_CBdemo.js",
+				"name" : "CriticalBand_JM-CBdemo.js",
 				"bootpath" : "~/Documents/GitHub/ScienceOfMusic/maxpatches",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
