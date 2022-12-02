@@ -63,7 +63,7 @@ references:
   krumhansl:
     authors:
       - firstname: C.L.
-        lastname: Kruumhansl
+        lastname: Krumhansl
     title: 'Cognitive foundations of musical pitch'
     publication: 'Oxford University Press'
     year: 1990
@@ -390,7 +390,7 @@ At the University of California, Berkeley, David Wessel has inspired the develop
 
 ## Music Analysis
 
-With the help of Krumhansl's model, when playing (tonal) music, it is possible to determine which key is currently predominant and how the music moves across the surface of the cut-open torus. The zones become brighter, the clearer the sense of tonality is. In the animation (modulation in a composition by J.S. Bach), the authors compared the answer of an expert (upper half) with the output of a computer program (lower half).
+With the help of Krumhansl's model, when playing (tonal) music, it is possible to determine which key is currently predominant and how the music moves across the surface of the cut-open torus. The zones become brighter, the clearer the sense of tonality is. In the animation, the chord changes in a song by Antônio Carlos Jobim) are visualized by the AudioKeySOM software by Petri Toiviainen.
 
 {% include begin-figure description="Modulation on the surface of the torus" %}
 <video width="435" height="343" controls>
@@ -398,7 +398,7 @@ With the help of Krumhansl's model, when playing (tonal) music, it is possible t
   Your browser does not support the video tag.
 </video>
 {% include end-figure %}
-(Video by Georg Hajdu)
+(Video by Petri Toiviainen)
 
 {% if false %}
 # References
@@ -413,6 +413,7 @@ With the help of Krumhansl's model, when playing (tonal) music, it is possible t
 - Schoenberg, A., & Stein, L. (1969). Structural functions of harmony (No. 478). WW Norton & Company.
 - Shepard, R.N. (1982) Geometrical Approximations to the Structure of Musical Pitch. Psychological Review 89(4)
 - Slaney, M., & Lyon, R. F. (1993). On the importance of time-a temporal representation of sound. Visual representations of speech signals, 95116.
+- Toiviainen, P. (2008). Visualization of tonal content in the symbolic  and audio domains. In: W. B. Hewlett and E. Selfridge-Field (Eds.),  Tonal Theory for the Digital Age (Computing in Musicology 15).  Cambridge, MA: MIT Press.
 - Warren, J. D., Uppenkamp, S., Patterson, R. D., & Griffiths, T. D. (2003). Separating pitch chroma and pitch height in the human brain. Proceedings of the National Academy of Sciences, 100(17), 10038-10042.
 {% endif %}
 
