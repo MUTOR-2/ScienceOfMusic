@@ -466,8 +466,8 @@ be nearly as strong.
 ## Klangfarbenmelodie
 
 The type of timbral variation on the same pitches we saw above was 
-explored in a melodic fashion by Arnold Schoneberg in the third
-of his *F&uuml;nf Orchesterst&uuml;ke, Op. 16*, which opens by
+explored in a melodic fashion by Arnold Schoenberg in the third
+of his *F&uuml;nf Orchesterst&uuml;cke, Op. 16*, which opens by
 alternating between two different orchestrations of the same chord:
 {% include img-figure url="./timbre_farben.png" description="The two orchestrations of the opening chord of Schoenberg's <em>Farben</em>." width="400px" %}
 (Image by James Cheung. Adapted from John MacCallum)
@@ -479,7 +479,8 @@ The title of this
 short piece, *Farben* is German for *color*, and the term
 *Klangfarben*, or *tone color* can be translated as *timbre*. 
 Schoenberg referred to this opening as a *Klangfarbenmelodie*, 
-or *tone color melody*.
+or *tone color melody*. Schoenberg chose this alternation to explore whether timbral contrasts could replace tonal tension in atonal music, 
+i.e. music that is not characterized by a dominant-tonic relationship.
 
 Building on the discussion in the beginning of this section, 
 MacCallum and Einbond showed {% include cite ref="maccallum_roughness" %}
@@ -488,9 +489,9 @@ from each other, and from a "pure" sine-tone rendering.
 
 {% include p/xwaveform-spectroscope-small src="./timbre_farben_sin.mp3" gain="1.0" %}
 
-The notes of the
+With pure tones, the notes of the
 chord are generally well outside the critical band from one another, and
-as we saw in unit XX, {% include note author="jm" text="link to unit" %},
+as we saw in unit 04 {% include note author="jm" text="link to unit: https://mutor-2.github.io/ScienceOfMusic/units/06/index.html" %},
 will not produce much sensation of roughness. The two orchestrations, however,
 are quite rough, due to the orchestration chosen.
 {% include img-figure url="./timbre_farben_spectra.gif" description="An analysis of the spectra of the two orchestrations of the 'Farben' chord, in comparison with a rendering of pure sinusoids." %}
