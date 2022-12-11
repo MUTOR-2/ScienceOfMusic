@@ -521,7 +521,7 @@ their own descending melodies, as shown below.
 
 {% include begin-figure description="Max Example: David Wessel's Illusion" %}
 <div style="display: block; text-align: center; float: center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UEnKZVLdbbk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V7jeWEzdd1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 {% include end-figure %}
 (Max Patch by Víctor Gutiérrez and John MacCallum)
