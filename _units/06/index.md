@@ -497,7 +497,6 @@ are quite rough, due to the orchestration chosen.
 {% include img-figure url="./timbre_farben_spectra.gif" description="An analysis of the spectra of the two orchestrations of the 'Farben' chord, in comparison with a rendering of pure sinusoids." %}
 (Image by John MacCallum)
 
-
 ## Timbre Space as a Musical Control Structure
 
 Despite the importance and complexity of timbre, it is often seen as 
@@ -506,8 +505,35 @@ Wessel wrote a paper called "Timbre Space as a Musical Control Structure"
 {% include cite ref="wessel" %}, that,
 as he described, was in response to a disagreement between himself and Pierre
 Boulez about the ability for timbre to play a structural role in music.
+Wessel also makes references to the 1975 paper "An exploration of musical timbre" in which John M. Grey describes how he applied the multi-dimensional scaling method to data obtained from similarity ratings of the timbres of musical instruments. Based on these ratings, he was able to derive two- and three-dimensional representations of timbre space characterized by the dimensions attack time, centroid and spectral flux (a measure of how energy moves from lower to higher partials over time)
+
+{% include img-figure url="./timbre_diagram_1.png" description="Two-dimensional timbre space representation of 24 instrument-like sounds obtained from Grey and quoted by David Wessel. Abbreviations for stimulus points : 01, 02 = oboes, FH = French horn, BN = bassoon, C1 = E-flat clarinet, C2 = bass clarinet, FL = flute, X1 X2, X3 = saxophones, TP = trumpet, EH = English horn, S1 = cello played sul ponticello, S2 = cello played normally, S3 = cello played muted sul tasto, FHZ = modified FH with spectral envelope, BNZ = modified BN with FH spectral envelope, S1Z = modified S1 with S2 spectral envelope, S2Z = modified S2 with S1 spectral envelope, TMZ = modified TM with TP spectral envelope, BCZ = modified C2 with 01 spectral envelope, 01Z modified 01 with C2 spectral envelope." %}
+(Image by Janina Luckow. Adapted from {% include cite ref="wessel" %})
+
+In the three-dimensional representation, the dashed lines, suggest that timbre space can be used as a control structure in which timbre modulations and transpositions can be achieved in analogy to the pitch and key spaces.
+{% include img-figure url="./timbre_diagram_2.png" description="Three-dimensional timbre space representation of sounds obtained from single instruments and hybrids (several instruments playing together). Abbreviations: bsn=bassoon,
+cnt=clarinet,
+ehn=English horn,
+gnt=guitarnet (guitar+clarinet),
+gtr=guitar,
+hcd=harpsichord,
+hrn=French horn,
+hrp=harp,
+obc=obochord (oboe+harpsichord),
+ols=oboleste (oboe+celeste),
+pno=piano,
+sno=striano (bowed string+piano),
+stg=bowed string,
+tbn=trombone,
+tpr=trumpar (trumpet+guitar),
+tpt=trumpet,
+vbn=vibrone (vibraphone+trombone),
+vbs=vibraphone
+" %}
+(Image by Janina Luckow. Adapted from {% include cite ref="wessel" %})
+
 In order to demonstrate the ability of timbre to override other musical
-structures, he devised what would later become known as the "Wessel Illusion":
+structures by "stream segregation", he devised what would later become known as the "Wessel Illusion":
 a simple ascending major is played repeatedly by two different timbres
 that alternate notes, as shown in the figure below.
 
@@ -525,8 +551,9 @@ their own descending melodies, as shown below.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/V7jeWEzdd1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 {% include end-figure %}
-(Max Patch by Víctor Gutiérrez and John MacCallum)
+(Max Patch by Víctor Gutiérrez John MacCallum and Georg Hajdu)
 
-_you can have access to all MUTOR interacive maxpatches when you download the [MUTOR github repository](https://github.com/MUTOR-2/ScienceOfMusic) inside the maxpatches folder._
+
+_you can have access to all MUTOR interacive Max patches when you download the maxpatches folder inside the [MUTOR github repository](https://github.com/MUTOR-2/ScienceOfMusic) and include it in the Max search path._
 
 {% include unit_postamble.md %}
