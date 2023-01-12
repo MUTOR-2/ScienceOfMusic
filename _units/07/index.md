@@ -233,7 +233,7 @@ could either determine the duration of each beat or represent a
 range of durations from which a random value is chosen, and the
 deviation allows for the beats to occur slightly early or late and
 is meant to model the sort of microtiming that human performers
-inadvertantely add to their music and that computers lack.
+inadvertently add to their music and that computers lack.
 
 ## Accents and Event Stream Vectors
 A piece of music is represented by an event-stream vector which contains all of the data for every tatum. An example of a vector representing a bar of 4/4 music might have a set of vectors as represented in table 1.
