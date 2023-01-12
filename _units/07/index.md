@@ -532,13 +532,13 @@ $ \lfloor x \rfloor = $ whole-number component (floor) of $x$.
 The indispensability of the 24th pulse ($n=24; z=3$) can thus be calculated:
 
 For $r=0$:
-$(2\times 3) \times  \Psi_5 (1 + \lfloor 1 + \frac {22 \mod 30} {1} \rfloor mod 5) = 6 \times  \Psi_5 (1 + 23 \mod 5) = 6 \times  \Psi_5 (1 + 3) = 6 \times  1 = 6$
+$(2\times 3) \times  \Psi_5 (1 + \lfloor 1 + \frac {22\mod 30} {1} \rfloor mod 5) = 6 \times  \Psi_5 (1 + 23\mod 5) = 6 \times  \Psi_5 (1 + 3) = 6 \times  1 = 6$
 
 For $r=1$:
-$2 \times  \Psi_3 (1 + \lfloor 1 + \frac{22 \mod 30}{5} \rfloor \mod 3) = 2 \times  \Psi_3 (1 + 5.4 \mod 3) = 2 \times  \Psi_3 (1 + 2) = 2 \times  1 = 2$
+$2 \times  \Psi_3 (1 + \lfloor 1 + \frac{22 \mod 30}{5} \rfloor\mod 3) = 2 \times  \Psi_3 (1 + 5.4\mod 3) = 2 \times  \Psi_3 (1 + 2) = 2 \times  1 = 2$
 
 For $r=2$:
-$1 \times  \Psi_2 (1 + \lfloor 1 + \frac{22 \mod 30}{15} \rfloor \mod 2) = 1 \times  \Psi_2 (1 + 2.47 \mod 2) = 1 \times  \Psi_2 (1 + 0) = 1 \times  1 = 1$
+$1 \times  \Psi_2 (1 + \lfloor 1 + \frac{22 \mod 30}{15} \rfloor\mod 2) = 1 \times  \Psi_2 (1 + 2.47\mod 2) = 1 \times  \Psi_2 (1 + 0) = 1 \times  1 = 1$
 
 The sum of the three value is therefore 9 (see above).
 <br/>
@@ -554,7 +554,7 @@ Remove pulses and collapse indispensability values<br/>
  => <br/>
 `12 0 8 3 6 11 1 5 9 2 10 4 7`
 
-Barlow has often used such profiles in his compositions based on a generative probabilistic approach (i.e. weighted chance operations), his 30-minutes piano piece [Çoǧluotobüsişletmesi](https://youtu.be/-y8bcdSXwY8) among them.
+Barlow has often used such profiles in those compositions for which he used a probabilistic generative approach (i.e. weighted chance operations), his 30-minutes piano piece [Çoǧluotobüsişletmesi](https://youtu.be/-y8bcdSXwY8) among them.
 
 # Summary
 We have provided an overview of the physic and biology of rhythm perception and production. Our perception of rhythm depends on sounds; in particular on perceptual accents or event onsets within the streams of sounds to which we are exposed in the environment. Rhythm seems to function optimally at the range of the Tactus, and can be subdivided into the smallest unit known as the Tatum. Microtiming and expressive timing can be described using time maps, which include the rhythmogram and graphs relating score time to performance time. Models of rhythm and meter can be divided into two broad classes known as the interval timing models and the coupled oscillator models. In some cases, rhythm production can also be modeled as covariance. The Bayesian method provides a method to relate rhythm perception with production.
