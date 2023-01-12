@@ -165,7 +165,7 @@ It is important to make a distinction between the temporal envelope, the attack 
 {% include mov-figure src="/MUTOR/assets/videos/unit7_perceptualonset.mp4" type="mp4" description="Maxpatch example: Perceptual Onset." width="600px" %}
 {% endcomment %}
 
-_you can have access to all MUTOR interacive maxpatches when you download the [MUTOR github repository](https://github.com/MUTOR-2/ScienceOfMusic) inside the maxpatches folder._
+_You can have access to all MUTOR interactive Max patches when you download the maxpatches folder inside the [MUTOR github repository](https://github.com/MUTOR-2/ScienceOfMusic) and include it in the Max search path._
 
 ## Subdivision
 The optimal range of tempo encoding occurs between 300ms and 1500ms. This is known as the zone of temporal integration, or the tactus. What happens when rhythmic durations are way above tactus? It turns out we subdivide. Subdivision refers to the breaking down of large units into usually even-sized smaller units. In the rhythmic sense the brain is performing chunking, and also building a hierarchical structure of rhythm. As in the frequency dimension for pitch and harmony (see units 5 and 8), small-integer ratios in time play important roles in rhythmic perception. Most rhythmic subdivisions consist of 2:1 ratios, especially in Western music. Rhythms in music of other cultures, e.g. clavé rhythmic patterns in Afro-Cuban and Brazilian rhythms, employ more complex rhythmic patterns, but which can also be broken down into chunks of 2:1 temporal ratios (see Toussaint).
@@ -540,7 +540,9 @@ $2 \times  \Psi_3 (1 + \lfloor 1 + \frac{22 \mod 30}{5} \rfloor \mod 3) = 2 \tim
 For $r=2$:
 $1 \times  \Psi_2 (1 + \lfloor 1 + \frac{22 \mod 30}{15} \rfloor \mod 2) = 1 \times  \Psi_2 (1 + 2.47 \mod 2) = 1 \times  \Psi_2 (1 + 0) = 1 \times  1 = 1$
 
-The sum of the three value is therefore 9 (see above).<br/>
+The sum of the three value is therefore 9 (see above).
+<br/>
+<br/>
 This formula can be extended to also work with additive meters such 2+3+3+2+3, whereby all segments consisting of number 2 ought to be considered _truncated_ 3 meters. This example derives from a $5\times 3$ meter with two of its groups (first and second to last) truncated, i.e. the missing pulses are removed from the profile and its indispensabilities collapsed in order to avoid gaps:
 
 `5x3 meter:`<br/>
