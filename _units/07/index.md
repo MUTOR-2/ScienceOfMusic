@@ -238,7 +238,7 @@ inadvertently add to their music and that computers lack.
 ## Accents and Event Stream Vectors
 A piece of music is represented by an event-stream vector which contains all of the data for every tatum. An example of a vector representing a bar of 4/4 music might have a set of vectors as represented in table 1.
 
-{% include begin-table description="accents1" %}
+{% include begin-table description="Accents 1" %}
 | Beat	| Probability	| Accent | Duration	| Deviation |
 | 1	| 1	| 1	| 1	| .1 |
 | 2	| .5	| .25 |	1	| .1 |
@@ -250,7 +250,7 @@ Table 1.
 
 In 4/4, the first beat is accented the strongest, the third beat the next strongest, the fourth beat is accented slightly as an upbeat to the next bar, and the second beat is the weakest. This is reflected in the probablity of occurence and accent vectors in table 1. The duration in this case is set at 1 which would signify a full beat and the deviation is very low. Table 2 represents a series of tatums that would produce a waltz-like feel.
 
-{% include begin-table description="accents1" %}
+{% include begin-table description="Accents 2" %}
 | Beat	| Probability	| Accent | Duration	| Deviation |
 | 1 |	1 |	1 |	1	| 0 |
 | 2	| .5 |	.25 |	.5	| .1 |
