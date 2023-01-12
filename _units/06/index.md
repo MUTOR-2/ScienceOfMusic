@@ -563,6 +563,6 @@ their own descending melodies, as shown below.
 (Max Patch by Víctor Gutiérrez John MacCallum and Georg Hajdu)
 
 
-_you can have access to all MUTOR interacive Max patches when you download the maxpatches folder inside the [MUTOR github repository](https://github.com/MUTOR-2/ScienceOfMusic) and include it in the Max search path._
+_you can have access to all MUTOR interactive Max patches when you download the maxpatches folder inside the [MUTOR github repository](https://github.com/MUTOR-2/ScienceOfMusic) and include it in the Max search path._
 
 {% include unit_postamble.md %}
