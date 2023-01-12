@@ -36,6 +36,15 @@ test_questions:
  - What are the relative advantages and disadvantages of the interval timing model and the coupled oscillator model?
  
 references:
+
+  toussaint:
+    authors:
+      - firstname: G.
+        lastname: Toussaint
+    title: 'The geometry of musical rhythm: what makes a &quot;good&quot; rhythm good?'
+    publication: 'CRC Press'
+    year: 2019
+
   iyer:
     authors:
       - firstname: V.
@@ -159,7 +168,7 @@ It is important to make a distinction between the temporal envelope, the attack 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A4GIByK5Gac" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 {% include end-figure %}
-(Max Patch by Víctor Gutiérrez and John MacCallum)
+(Max patch by Víctor Gutiérrez and John MacCallum)
 
 {% comment %}
 {% include mov-figure src="/MUTOR/assets/videos/unit7_perceptualonset.mp4" type="mp4" description="Maxpatch example: Perceptual Onset." width="600px" %}
@@ -170,11 +179,11 @@ _You can have access to all MUTOR interactive Max patches when you download the 
 ## Subdivision
 The optimal range of tempo encoding occurs between 300ms and 1500ms. This is known as the zone of temporal integration, or the tactus. What happens when rhythmic durations are way above tactus? It turns out we subdivide. Subdivision refers to the breaking down of large units into usually even-sized smaller units. In the rhythmic sense the brain is performing chunking, and also building a hierarchical structure of rhythm. As in the frequency dimension for pitch and harmony (see units 5 and 8), small-integer ratios in time play important roles in rhythmic perception. Most rhythmic subdivisions consist of 2:1 ratios, especially in Western music. Rhythms in music of other cultures, e.g. clavé rhythmic patterns in Afro-Cuban and Brazilian rhythms, employ more complex rhythmic patterns, but which can also be broken down into chunks of 2:1 temporal ratios (see Toussaint).
 
+{% comment %}
 1. it helps working memory by helping chunking
-
 2. clave and bell maps. Toussaint papers - relate somehow.
-
 3. Four dots getting divided into chunks of two - think Gestalt and make pictures.
+{% endcomment %}
 
 ## Tactus
 Using the demo on synchronous clapping, we may observe that when
@@ -532,7 +541,7 @@ $ \lfloor x \rfloor = $ whole-number component (floor) of $x$.
 The indispensability of the 24th pulse ($n=24; z=3$) can thus be calculated:
 
 For $r=0$:
-$(2\times 3) \times  \Psi_5 (1 + \lfloor 1 + \frac {22\mod 30} {1} \rfloor mod 5) = 6 \times  \Psi_5 (1 + 23\mod 5) = 6 \times  \Psi_5 (1 + 3) = 6 \times  1 = 6$
+$(2\times 3) \times  \Psi_5 (1 + \lfloor 1 + \frac {22\mod 30} {1} \rfloor\mod 5) = 6 \times  \Psi_5 (1 + 23\mod 5) = 6 \times  \Psi_5 (1 + 3) = 6 \times  1 = 6$
 
 For $r=1$:
 $2 \times  \Psi_3 (1 + \lfloor 1 + \frac{22 \mod 30}{5} \rfloor\mod 3) = 2 \times  \Psi_3 (1 + 5.4\mod 3) = 2 \times  \Psi_3 (1 + 2) = 2 \times  1 = 2$
