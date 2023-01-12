@@ -214,7 +214,7 @@ constraints of the body and motor functions, as our bodies
 rates faster than 3Hz.
 
 ## Tatum
-In a paper called A Novel Representation for Rhythmic Structure,
+In a paper called &quot;A Novel Representation for Rhythmic Structure,&quot;
 Vijay Iyer, Jeff Bilmes, Matt Wright, and David Wessel developed a
 structure for describing rhythmic events called the tatum (a
 contraction of temporal atom as well as an homage to the great
