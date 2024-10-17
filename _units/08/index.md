@@ -111,7 +111,7 @@ Such clues include:
 {% include img-figure url="./inference_tablesurfaces.png" description="The two parallograms representing the table surfaces are rotationally symmetric" %}
 (Image by Janina Luckow. Adapted from: [Kyogu Lee](https://ccrma.stanford.edu/~kglee/m220c/cognition.html))
 
-The figure 8.1 shows that the internal representation of an object can differ greatly from the physical stimulus on the retina. In fact, both table surfaces (parallelograms) are identical. However, the fact that the lines are interpreted as part of a three-dimensional object creates the impression that the tables are different. [An animation of the rotating table top can be seen here](http://www.michaelbach.de/ot/sze_shepardTables/index.html).
+The figure 8.1 shows that the internal representation of an object can differ greatly from the physical stimulus on the retina. In fact, both table surfaces (parallelograms) are identical. However, the fact that the lines are interpreted as part of a three-dimensional object creates the impression that the tables are different. [An animation of the rotating table top can be seen here](https://michaelbach.de/ot/sze-ShepardTables/).
 
 # Invariance: Constancy of Size and Loudness
 The size of an object on the retina changes with the distance to the observer. Nevertheless, we have developed the ability to perceive the size of an object independently of its distance. We call this phenomenon constancy of size. When listening, we find the phenomenon of volume constancy as an analogy to size constancy.
@@ -160,7 +160,7 @@ A similar phenomenon is the _subjective contour_. It is difficult not to see tha
 # Figure-Ground Organization
 Figure-ground organization is a Gestalt principle depicts our ability to make out a figure in front of a background. We tend to perceive as figures those parts of our perceptual fields that are convex, symmetric, small, and enclosed. The [figure–ground vase illusion](https://en.wikipedia.org/wiki/Rubin_vase) arises when the visual information given is ambiguous. In the figure below, a low quality, black and white photo of a dalmatian dog. The viewer first has to use perceptual completion to recognize the outlines of the dog against the background which could be interpreted as an overexposed scene in a park. Once the viewer has successfully analysed the scene, he or she will identify the dog much more quickly when shown the image again. Bregman has coined the term _auditory scene analysis_ to denote processes in the auditory domain analogous to figure-ground organization and perceptual grouping.
 
-{% include img-figure url="/MUTOR/assets/images/unit8_Dalmatian.png" description="Figure-ground organization" width="400px" %}
+{% include img-figure url="./Dalmatian.png" description="Figure-ground organization" width="400px" %}
 (Image source: R. C. James, The Dalmatian)
 
 # Gestalt Laws of Grouping
