@@ -598,7 +598,7 @@ for(i = 0; i < {{ rbuttonname }}.length; i++){
 
 In 1933, H. Fletcher and W. A. Munson published a paper entitled "Loudness, it's definition, measurement and calculation" in the Journal of the Acoustical Society of America in which they determined that the perceived loudness of a tone was in part determined by it's frequency. Figure 1 is a plot of the equal-loudness contours or the Fletcher-Munson curves.
 
-{% include img-figure url="./unit3_Fletcher-Munson.gif" description="fm curve" width="450px" %}
+{% include img-figure url="./Fletcher-Munson.gif" description="fm curve" width="450px" %}
 Figure 1: Fletcher-Munson curves for equal-loudness.
 
 Each curve in this graph represents equal loudness, so if we look at the bottom curve, we can see that a tone at 100 Hz and a sound pressure level of approximately 27 dB(SPL) is equal to a tone with a frequency of 2000 Hz at approximately 0 dB(SPL) (see figure 2).
