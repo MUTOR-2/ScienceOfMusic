@@ -111,7 +111,7 @@ Such clues include:
 {% include img-figure url="./inference_tablesurfaces.png" description="The two parallograms representing the table surfaces are rotationally symmetric" %}
 (Image by Janina Luckow. Adapted from: [Kyogu Lee](https://ccrma.stanford.edu/~kglee/m220c/cognition.html))
 
-The figure 8.1 shows that the internal representation of an object can differ greatly from the physical stimulus on the retina. In fact, both table surfaces (parallelograms) are identical. However, the fact that the lines are interpreted as part of a three-dimensional object creates the impression that the tables are different. [An animation of the rotating table top can be seen here](https://michaelbach.de/ot/sze-ShepardTables/).
+The figure 8.1 shows that the internal representation of an object can differ greatly from the physical stimulus on the retina. In fact, both table surfaces (parallelograms) are identical. However, the fact that the lines are interpreted as part of a three-dimensional object creates the impression that the tables are different. [An animation of the rotating table top can be seen here](https://michaelbach.de/ot/sze-ShepardTables/){:target="_blank"}.
 
 # Invariance: Constancy of Size and Loudness
 The size of an object on the retina changes with the distance to the observer. Nevertheless, we have developed the ability to perceive the size of an object independently of its distance. We call this phenomenon constancy of size. When listening, we find the phenomenon of volume constancy as an analogy to size constancy.
