@@ -283,11 +283,11 @@ American psychologist Roger Shepard has developed a cognitive psychological mode
 
 Taking the importance of fifths into consideration, Shepard extended his model to a double helix.
 
-{% include img-figure url="/MUTOR/assets/images/Helix-Fifths-Relationsship.jpg" description="Shepard's double helix of pitch" width="200px" %}
+{% include img-figure url="./Helix-Fifths-Relationsship.jpg" description="Shepard's double helix of pitch" width="200px" %}
 
 A five-dimensional model projecting the helix onto a torus accounts for third-relationships and the closed circle of fifths.
 
-{% include img-figure url="/MUTOR/assets/images/unit5_chromatorus.png" description="Double Helix winding a torus" width="400px"%}
+{% include img-figure url="./chromatorus.png" description="Double Helix winding a torus" width="400px"%}
 
 Evidence that pitch chroma and pitch height activate different parts of the brain come from {% include cite ref="warren_et_al" %} who showed that changes in both chroma and height activate the auditory cortex, but changes in pitch chroma activate regions anterior to the regions activated by pitch height changes.
 
@@ -368,14 +368,14 @@ Another view of pitch and tonal material looks at harmony and key changes in add
 
 The arrangement of the 24 keys on the surface of a torus can now be derived from the experimentally obtained data by [Multidimensional Scaling](https://en.wikipedia.org/wiki/Multidimensional_scaling). Multidimensional scaling is a process capable of constructing a two-dimensional map from a list of distances (such as the route New York - Tokyo or Melbourne - Berlin). Taking now the tonality profiles as the starting point for all 24 major and minor keys, the comparison of the profiles yields a map depicting the distances (i.e., degree of relationship) of the keys as points on the surface of a torus (“donut"). It is noticeable that the two fifths (major = red, minor = blue) spiral around the torus.
 
-{% include img-figure url="/MUTOR/assets/images/torus_keys.png" description="Representation of Key Areas on the Surface of a Torus" width="400px"%}
+{% include img-figure url="./torus_keys.png" description="Representation of Key Areas on the Surface of a Torus" width="400px"%}
 
 Janata et al (2003) found neural correlates of movement on the surface of the torus in the ventromedial prefrontal cortex. Stable voxels over many scanning sessions, but unstable as to which voxels correspond to which area in tonal space (key). It is as if the torus moves around in your head over different days.
 Video showing continuously modulating melody activating the surface of the torus.
 
 Interestingly, Arnold Schönberg in his book "Structural Functions of Harmony" devised a chart of key regions which is strikingly similar to the torus unfolded into two dimensions.
 
-{% include img-figure url="/MUTOR/assets/images/chart-of-key-regions.png" description="Schoenberg's Chart of Key Regions" width="500px" %}
+{% include img-figure url="./chart-of-key-regions.png" description="Schoenberg's Chart of Key Regions" width="500px" %}
 
 
 # Applications of Key Space
