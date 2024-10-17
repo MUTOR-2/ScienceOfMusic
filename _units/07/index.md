@@ -22,6 +22,8 @@ moment we associate with the beginning of the sound. For other sounds, however,
 the physical and perceptual onsets are not the same, making the performance of 
 rhythm, and the study of its performance, significantly more complex than 
 simply playing the right note at the right time."
+
+animation: <iframe width="560" height="315" src="https://www.youtube.com/embed/PlfxFrsbThE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 authors:
  - name: Psyche Loui
    website: "https://www.psycheloui.com"

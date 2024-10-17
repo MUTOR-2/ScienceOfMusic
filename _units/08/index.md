@@ -20,6 +20,8 @@ we will hear the new melody as the same as the original. The gestalt
 perspective as applied to musical material then, is the study of the 
 relationships between musical elements that give rise to the perception of 
 musical structure."
+
+animation: <iframe width="560" height="315" src="https://www.youtube.com/embed/a7oddyxr3Pk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 authors:
  - name: Georg Hajdu
    website: "http://georghajdu.de"
