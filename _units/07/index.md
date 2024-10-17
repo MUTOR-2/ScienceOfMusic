@@ -421,14 +421,14 @@ A grandfather clock contains a pendulum, which is a kind of oscillator.
 
 A simple pendulum.
 
-{% include img-figure url="/MUTOR/assets/images/unit7_spring.gif" description="spring.gif" width="300px" %}
+{% include img-figure url="./spring.gif" description="spring.gif" width="300px" %}
 (Image source: [Martha Takats](http://webpages.ursinus.edu/mtakats/gifcat/spring.html))
 
 A spring is another example of a simple oscillator. 
 
 The coupled oscillator model states that a set of oscillators entrain to each other - that is, their frequencies become tuned to each other, or become coupled as a result of the interaction between two oscillators.
 
-{% include img-figure url="/MUTOR/assets/images/unit7_springsym.gif" description="springsym.gif" width="300px" %}
+{% include img-figure url="./springsym.gif" description="springsym.gif" width="300px" %}
 (Image source: [Martha Takats](http://webpages.ursinus.edu/mtakats/gifcat/spring.html))
 
 Coupled oscillators as two symmetrical springs.
