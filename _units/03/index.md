@@ -941,7 +941,7 @@ I=\frac{P}{4\pi r^2}
 
 where $P$ is the initial power of the signal, $r$ is the distance from the source in meters, and $I$ is the intensity in $\mathrm{W/m^2}$. Notice that the denominator in the above equation is the area of a sphere due to the fact that sound radiates out in all directions in a spherical pattern. As sound continues to propagate away from the source, it diffuses over a larger and larger area (figure {% include nextfignum %}). Imagine that you are standing one meter away from a sound source and the intensity of the sound when it reaches you is 100 dB. If you move 10 meters away from the source, the sound will be spread over 100 times the area and the resulting intensity will be 1/100 of the original or 80 dB.
 
-{% include img-figure url="/MUTOR/assets/images/unit3_inverse-square-diagram.png" description="Sound propagating away from a source diffuses over a larger and larger area." width="500px" %}
+{% include img-figure url="./inverse-square-diagram.png" description="Sound propagating away from a source diffuses over a larger and larger area." width="500px" %}
 
 The later reflections also depend on the absorptive quality of the surfaces they bounce off of and can be calculated by
 
