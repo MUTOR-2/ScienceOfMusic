@@ -401,7 +401,7 @@ Event-Related Potentials have been used to investigate expectations for melody a
  
 Examples of Besson & Faita's (1995) stimuli. Melodies were presented with expected, slightly unexpected, and highly unexpected endings. 
 
-{% include img-figure url="/MUTOR/assets/images/unit10_besson95erps.gif" description="besson95erps.gif" %}
+{% include img-figure url="./besson95erps.gif" description="besson95erps.gif" %}
  (image source: Besson & Faita, 1995)
  
 ERP results from Besson & Faita (1995). Negative potential is plotted upwards by convention. Notice a positve difference between ERPs for unexpected (incongruous = highly unexpected; diatonic = slightly unexpected) and expected (congruous) notes. This difference, named the Late Positive Complex (LPC), is largest parietally around 600ms after the onset of the note and is larger for musicians. 
