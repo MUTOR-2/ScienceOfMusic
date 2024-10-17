@@ -488,7 +488,7 @@ Although Grisey uses a very different system of harmony in Partiels, one can sti
 
 In the following demo, the roughness of a sound file can be calculated in realtime.  
 
-{% include img-figure url="/MUTOR/assets/images/unit9_roughness1.png" description="Roughness" %}
+{% include img-figure url="./roughness1.png" description="Roughness" %}
 
 {% comment %}
 Download the first section of Partiels here (Partiels_first-section.aiff) to watch and listen to it in realtime.
@@ -505,7 +505,7 @@ A novel feature of Partiels is the idea of gradual timbral / harmonic evolution.
 [NOTE--THIS IS A SCREENSHOT OF THE HELP PATCH.  A REAL DEMO IS COMING ASAP]
 {% endcomment %}
 
-{% include img-figure url="/MUTOR/assets/images/unit9_migrator1.png" description="Roughness" %}
+{% include img-figure url="./migrator1.png" description="Roughness" %}
 
 {% if false %}
 # References
