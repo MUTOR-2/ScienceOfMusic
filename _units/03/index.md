@@ -603,7 +603,7 @@ Figure 1: Fletcher-Munson curves for equal-loudness.
 
 Each curve in this graph represents equal loudness, so if we look at the bottom curve, we can see that a tone at 100 Hz and a sound pressure level of approximately 27 dB(SPL) is equal to a tone with a frequency of 2000 Hz at approximately 0 dB(SPL) (see figure 2).
 
-{% include img-figure url="/MUTOR/assets/images/unit3_fm-curve.png" description="fm curve2" width="450px" %}
+{% include img-figure url="./fm-curve.png" description="fm curve2" width="450px" %}
 Figure 2: The two points indicated on by the red arrows will be perceived with equal loudness.
 
 In general, we can see from the graph that the area around 2000-3000 Hz is the loudest—this tells us that our auditory system is the most sensitive to frequencies in this range. As we will see below, this is a top-down view of sound, i.e. there is nothing physically different about tones with the same amplitudes and with frequencies at 100 and 2000 Hz, but we perceive them differently due to the nature of our auditory system. Note that the loudness levels are in phones (see below).
