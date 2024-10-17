@@ -23,6 +23,7 @@ opposite direction that \"fill the gap\". Statistics also seems to play an
 important role, as our expectation seems to be correlated with the likelihood 
 of an event."
 
+animation: <iframe width="560" height="315" src="https://www.youtube.com/embed/XYLz6ncTJyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 authors: 
  - name: Psyche Loui
    website: "https://www.psycheloui.com"
