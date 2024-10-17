@@ -21,6 +21,8 @@ temporal evolution of a sound, particularly in the first few milliseconds
 before the spectrum stabilizes to some degree, has such a strong impact on 
 the way we perceive the timbre of a sound, that without it, we are often unable 
 to discern the source of an otherwise familiar sound."
+
+animation: <iframe width="560" height="315" src="https://www.youtube.com/embed/VThVf-lNkho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 authors: 
  - name: John MacCallum and Georg Hajdu
    website: "https://john-maccallum.com"
