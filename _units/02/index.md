@@ -181,6 +181,12 @@ To get a sense of the evolution of the auditory system, we will also compare the
 
 Finally we look at when the auditory system malfunctions. Types of hearing loss and their origins will be discussed. We will consider the importance of hearing protection, and explore various ways to protect your ears.
 
+{% include begin-figure description="Auditory Transduction (2002) by Brandon Pletsch" %}
+<div style="display: block; text-align: center; float: center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PeTriGTENoc?si=_6vZAaGMuBLSJ0s8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+{% include end-figure %}
+
 # The auditory pathway (ear & brain)
 
 The anatomy section of this unit will cover the peripheral and central auditory nervous systems, from the outer ear
@@ -212,12 +218,6 @@ The outer ear includes the pinna, the visible portion of the ear coming out of t
 The shape of the ear, as well as the head and shoulders, give rise to the Head Related Transfer Function (HRTF), a function which relates sound pressure level (dB) to frequency. The HRTF is unique for each individual but may be simulated (to some level of precision) by a dummy head. Recordings sometimes use microphones fitted to a dummy head so as to get a precise signal which takes into account some of the variability explained by the shape of the pinna, head and shoulders.
 
 In addition to the pinna, the outer ear includes the auditory canal and the ear drum. The auditory canal funnels sound from the pinna to the rest of the ear; it should be cleaned periodically as it is sometimes the site of earwax buildup which may be detrimental to hearing. The ear drum, also known as the tympanic membrane, receives vibrations of sound waves from the auditory canal, and sends vibrations through the rest of the ear. The tympanic membrane demarcates the outer ear from the middle ear.
-
-{% include begin-figure description="Auditory Transduction (2002) by Brandon Pletsch" %}
-<div style="display: block; text-align: center; float: center">
-<iframe width="560" height="315" src="https://youtu.be/PeTriGTENoc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-{% include end-figure %}
 
 # Middle Ear
 
