@@ -268,7 +268,7 @@ When the cochlea is excited by sound coming in, vibrations are sent through the 
 (Image by James Cheubg)
 {%comment %} Organ of Corti {% endcomment %}
 
-{% include img-figure url="/MUTOR/assets/images/organofcorti_states.png" description="States of the Organ of Corti" %}
+{% include img-figure url="./organofcorti_states.png" description="States of the Organ of Corti" %}
 (Image by James Cheung)
 
 In its resting state, the basilar and tectorial membranes are parallel, the stereocilia (tiny hairs on the surface of the inner and outer hair cells) are relaxed and close together, and the ion channels between the stereocilia are closed. When sound excites the cochlea, its vibrations are sent down the fluid of the cochlea so that the basilar membrane is deflected. When the basilar membrane moves, the inner hair cells in the basilar membrane change shape, and the stereocilia on the inner hair cells are stretched, thus opening up the ion channels in the inner hair cells and causing a chemical transduction to occur within the cells. The chemical transduction of the inner hair cells results in the generation of the nerve impulse, which passes down the nerve fibers of the auditory nerve as neural firings. Thus the Organ of Corti is responsible for transducing sound signals into biological nerve impulses, so that hearing can occur.
@@ -290,7 +290,7 @@ The cochlea is a coiled structure, contains the entire length of the basilar mem
 (Image by Janina Luckow. Adapted from: [Port, 2005](http://www.cs.indiana.edu/~port/teach/641/hearing.for.linguists.html))
 {% comment %} Drawing of the unrolled cochlea, showing the basilar membrane. {% endcomment %}
 
-{% include img-figure url="/MUTOR/assets/videos/animated_basilar.gif" description="Basilar Membrane Traveling Wave Animation" width="400px" %}
+{% include img-figure url="./animated_basilar.gif" description="Basilar Membrane Traveling Wave Animation" width="400px" %}
 (Animation source: [Port, 2005](http://www.cs.indiana.edu/~port/teach/641/hearing.for.linguists.html))
 {% comment %} ALSO, IT IS LOOKING HORRIBLE! {% endcomment %}
 
@@ -371,7 +371,7 @@ The lateral lemniscus is anatomically divided into the Ventral, Dorsal, and Inte
 
 The inferior colliculus is a collection of nuclei which receives input from the axons of the lateral lemniscus and is located in the midbrain. It operates as a site of early communication between the visual and auditory senses, as well as a feedback-providing mechanism which provides output to the cochlea.
 
-{% include img-figure url="/MUTOR/assets/images/ic.jpg" description="Inferior Colliculus" width="300px" %}
+{% include img-figure url="./ic.jpg" description="Inferior Colliculus" width="300px" %}
 (Image source: [University at Buffalo](http://serous.med.buffalo.edu/hearing/ic.html))
 {% comment %}  Cross-section of the midbrain, with the inferior colliculi highlighted in blue. {% endcomment %}
 
@@ -402,7 +402,7 @@ The medial geniculate nucleus (MGN) is located In the thalamus, and is the last 
 
 The medial geniculate nucleus contains a division that is tonotopically organized. The primary function of the medial geniculate nucleus is to relay auditory impulses to the cortex.
 
-{% include img-figure url="/MUTOR/assets/images/mgn.jpg" description="Medial Geniculus Nucleus" width="400px" %}
+{% include img-figure url="./mgn.jpg" description="Medial Geniculus Nucleus" width="400px" %}
 {% comment %} The medial geniculate nuclei, shown here in green.  {% endcomment %}
 (Image source: http://sylvius.com)
 
@@ -420,7 +420,7 @@ The auditory cortex includes primary and secondary auditory cortices. The primar
 {% endcomment %}
 
 
-{% include img-figure url="/MUTOR/assets/images/a1_a2.jpg" description="Auditory Cortex" width="400px" %}
+{% include img-figure url="./a1_a2.jpg" description="Auditory Cortex" width="400px" %}
 (Image source: [The University of Texas at Dallas](http://www.utdallas.edu/~tres/integ/sen5/display9_21.html))
 
 Primary and secondary auditory cortices. A1 is shown here in blue and A2 is in red. The primary auditory cortex is tonotopically organized.
@@ -590,7 +590,7 @@ Sensorineural hearing loss refers to damage in the cochlea or the auditory nerve
 Presbyacusis is the loss of hearing as a result of old age. The hearing loss quite common and is most prominent at high frequencies. While the healthy young individual can hear an optimal frequency range of 20-20,000Hz, The average 50 year old can no longer hear above 17,000Hz. Because of the shape of the audiogram, which relates audibility to frequency, the loss of high-frequency hearing due to sound exposure and old age is termed ski-slope hearing loss.
 
 
-{% include img-figure url="/MUTOR/assets/images/normalvsdamaged.jpg" description="Comparison Normal Hair Cell vs. Damaged Hair Cell" width="400px" %}
+{% include img-figure url="./normalvsdamaged.jpg" description="Comparison Normal Hair Cell vs. Damaged Hair Cell" width="400px" %}
 
 
 {% comment %}  
