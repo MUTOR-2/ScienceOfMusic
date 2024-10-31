@@ -492,7 +492,7 @@ Famous people suffering from hearing loss (Adapted from [H.E.A.R.](http://www.he
 - Cheryl Tiegs
 - Don Imus
 - Engelbert Humperdinck
-- Pete Townshend from The Who [speaks about hearing loss](https://youtu.be/G3GE0lGPvyE?si=7tKIPxBzpq_OGBN)_
+- Pete Townshend from The Who [speaks about hearing loss](https://youtu.be/G3GE0lGPvyE?si=7tKIPxBzpq_OGBN_)
 - Clive Barker
 - Dwight D. Eisenhower
 - Eric Clapton
