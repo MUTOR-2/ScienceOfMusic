@@ -466,8 +466,8 @@ While various animals are able to hear and have auditory systems, only a few spe
 
 While the act of music making is universal to all cultures in human society, only a few species of animals are known to make music systematically. Nonhuman species that sing include birds, whales, and monkeys.
 
-{% include begin-figure description="Sianmang vocalizing" %}
-{% include p/xsonogram src="/MUTOR/assets/audios/unit2-Siamang.mp3" %}
+{% include begin-figure description="Siamang vocalizing" %}
+{% include p/xsonogram src="./Siamang.mp3" %}
 {% include end-figure %}
 (Audio source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hylobates_syndactylus_calling_3588.ogg))
 
