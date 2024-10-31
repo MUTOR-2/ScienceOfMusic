@@ -213,6 +213,12 @@ The shape of the ear, as well as the head and shoulders, give rise to the Head R
 
 In addition to the pinna, the outer ear includes the auditory canal and the ear drum. The auditory canal funnels sound from the pinna to the rest of the ear; it should be cleaned periodically as it is sometimes the site of earwax buildup which may be detrimental to hearing. The ear drum, also known as the tympanic membrane, receives vibrations of sound waves from the auditory canal, and sends vibrations through the rest of the ear. The tympanic membrane demarcates the outer ear from the middle ear.
 
+{% include begin-figure description="Auditory Transduction (2002) by Brandon Pletsch" %}
+<div style="display: block; text-align: center; float: center">
+<iframe width="560" height="315" src="https://youtu.be/PeTriGTENoc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+{% include end-figure %}
+
 # Middle Ear
 
 The middle ear is a cavity between the tympanic membrane and the oval window of the cochlea. The middle ear consists of middle ear bones and the Eustachean tube.
