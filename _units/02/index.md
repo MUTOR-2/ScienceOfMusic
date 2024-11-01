@@ -359,10 +359,8 @@ Jeffress (1948) proposed a model of how the auditory system computes interaural 
 
 {% include img-figure url="./mso_coincidence_physiology.png" description="B. Physiological Implementation of Coincidence Detection" width="300px" %}
 (Image by James Cheung. Adapted from: {% include cite ref="joris_et_al" %})
-{% comment %} B. Coincidence detectors for computing interaural time differences /yin/jorissmithyin98.pdf) {% endcomment %}
+{% comment %} B. Coincidence detectors for computing interaural time differences (ITDs) were found in the MSO of the cat.  /yin/jorissmithyin98.pdf) {% endcomment %}
 {% comment %} LOOKS MOVED TO THE LEFT :/ {% endcomment %}
-
-(ITDs) were found in the MSO of the cat.
 {% comment %} CAN WE MAKE THIS COMMENT TO LOOK COOLER? {% endcomment %}
 
 ## Lateral Lemniscus
