@@ -271,7 +271,7 @@ Magnified diagram of the Organ of Corti, showing the basilar membrane, inner and
 When the cochlea is excited by sound coming in, vibrations are sent through the fluid-filled chambers, thus causing movement in the membranes in the Organ of Corti. The movements of the tectorial membrane excite the inner hair cells on the surface of the basilar membrane, thus causing the hair cells to open their channels and send nerve impulses on to the fibers of the auditory nerve.
 
 {% include img-figure url="./anatomy_organofcorti.png" description="Organ of Corti" %}
-(Image by James Cheubg)
+(Image by James Cheung)
 {%comment %} Organ of Corti {% endcomment %}
 
 {% include img-figure url="./organofcorti_states.png" description="States of the Organ of Corti" %}
