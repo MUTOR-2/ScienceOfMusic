@@ -211,7 +211,6 @@ A detailed look at each anatomical region of the auditory system must include bo
 {% include img-figure url="./anatomy_ear.png" description="The Ear" %}
 (Image by Janina Luckow. Adapted from: Rossing et al, 2001)
 {% comment %} Overview of the ear, showing the outer, middle, and inner ear.  {% endcomment %}
-{% comment %} I think one of this pictures doesn't correspond to the one Pyiche wanted to show. I kept both anyway. {% endcomment%}
 
 The outer ear includes the pinna, the visible portion of the ear coming out of the sides of the head. The pinna directs sound into the ear in a funnel-like manner, and the bony ridges of the pinna play an important role in sound localization. Sound waves approaching from the environment bounce off the bony ridges of the pinna such that the higher frequencies reflect off the bony ridges whereas the lower frequencies bend around the pinna. Using the information of how sounds are reflected along the pinna, localization of different frequencies is possible.
 
@@ -312,10 +311,7 @@ The observation of tonotopic mapping on the basilar membrane was first made by G
 # Brainstem Pathways
 
 The brainstem and midbrain include a set of neural regions which relay the nerve impulses passed into the central nervous system via the auditory nerve. Each of these relay centers consists of a group of neurons specialized for computations which are important to the auditory system, such as amplitude change detection and sound source localization.
-{% comment %}
-Image source not found. Taken down for the moment. Is the image essential?
-{% include img-figure url="/MUTOR/assets/images/brainstem_anat.png" description="Brainstem Anatomy" width="auto" height="500px" %}
-{% endcomment %}
+{% include img-figure url="./brainstem_anat.png" description="Brainstem Anatomy" width="auto" height="500px" %}
 
 {% include img-figure url="./anatomy_brainstem_diagram.png" description="Brainstem Diagram" width="400px" %}
 (Image by Janina Luckow. Adapted from: [University at Buffalo](http://serous.med.buffalo.edu/hearing/ic.html))
@@ -359,7 +355,7 @@ Jeffress (1948) proposed a model of how the auditory system computes interaural 
 {% comment %} Illustrations of the concepts of A) interaural time difference (ITD) and B) interaural level difference (ILD). {% endcomment %}
 
 {% include img-figure url="./mso_coincidence.jpg" description="A. Model of Coincidence Cetection" width="400px" %}
-(Image by Janina Luckow. Adapted frmo: [Jeffress, 1948](http://www.physiology.wisc.edu))
+(Image by Janina Luckow. Adapted from: [Jeffress, 1948](http://www.physiology.wisc.edu))
 
 {% include img-figure url="./mso_coincidence_physiology.png" description="B. Physiological Implementation of Coincidence Detection" width="300px" %}
 (Image by James Cheung. Adapted from: {% include cite ref="joris_et_al" %})
