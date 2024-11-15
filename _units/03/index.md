@@ -873,9 +873,9 @@ If someone very far away screams, most listeners will judge the scream a being l
 
 Listen to the following examples; in the first example, you will hear someone speaking at a normal volume and in the second, you will hear a scream. Although the spoken voice is much quieter than the scream, we are still able to tell that one is louder than the other.
 
-{% include p/xwaveform-spectroscope-small src="/MUTOR/assets/audios/unit3_larry1.wav" gain="1.0" %}
+{% include p/xwaveform-spectroscope-small src="./larry1.wav" gain="1.0" %}
 (Audio source: [The Big Lebowski](https://youtu.be/PztgWdMEJdg))
-{% include p/xwaveform-spectroscope-small src="/MUTOR/assets/audios/unit3_Psycho1.wav" gain="1.0" %}
+{% include p/xwaveform-spectroscope-small src="./Psycho1.wav" gain="1.0" %}
 
 
 An interesting experiment was carried out at the Center for New Music and Audio Technologies (CNMAT) at UC Berkeley. Two speakers were set up as in figure 5—one farther away from the listeners than the other. On top of each speaker was a light and a third speaker was hidden from the listeners. The listeners were asked to write down which speaker the sounds came from; although the sounds all came from the hidden speaker, the lights of the other two speakers would turn on giving the listeners the impression that the speaker with the light on had made the sound. In this case, although all of the sounds that the listeners heard were the same and originated from the same source, the listeners were fooled by the visual information they were receiving. This illustrates the strength that the visual system can have over the auditory system in the way that we perceive the world around us.
