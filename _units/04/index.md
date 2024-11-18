@@ -444,7 +444,7 @@ model. An example can be found in the opening sonority of Gy&ouml;rgy
 Ligeti's *Atmosph&egrave;res*, which is a massive cluster of semitones
 spanning a large part of the orchestral range. 
 
-{% include p/xwaveform-spectroscope-small src="/MUTOR/assets/audios/atmospheres.mp3" gain="1.0" %}
+{% include p/xwaveform-spectroscope-small src="./atmospheres.mp3" gain="1.0" %}
 
 If our simple additive model
 of roughness held, this should be an extremely dissonant chord, where in fact
