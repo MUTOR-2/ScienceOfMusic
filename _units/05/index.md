@@ -394,7 +394,7 @@ With the help of Krumhansl's model, when playing (tonal) music, it is possible t
 
 {% include begin-figure description="Modulation on the surface of the torus" %}
 <video width="435" height="343" controls>
-  <source src="/MUTOR/assets/videos/girl_from_ipanema_lbl.mp4" type="video/mp4">
+  <source src="./girl_from_ipanema_lbl.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 {% include end-figure %}
