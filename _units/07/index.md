@@ -292,7 +292,7 @@ expressive deviations of each performer.
 In addition to the rhythmogram and the score vs performance time
 map, various other rhythmic representations deserve mention. Desain
 and Honing describe a triangular space called the chronotopic map that represents all possible
-expressive deviations given a three-note rhythm.
+expressive deviations given a four-note rhythm.
 
 {% include img-figure url="./time_desain_honing.jpg" description="Desain & Honing: The Chronotopic Map" %}
 (Image by Janina Luckow. Adapted from: {% include cite ref="desain_and_honing" %} Perception.)
