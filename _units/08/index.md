@@ -309,10 +309,10 @@ Here are some examples of the way melodies fit in each corner of the texture spa
 1. high semblant motion, high onset synchrony (e..g Gregorian chant)
 {% include img-figure url="./texture_monody.png" description="Monody" width="300px" %}
 (Image by James Cheung)
-2. high semblant motion, low onset synchrony (e.g. a chorale)
+2. low semblant motion, high onset synchrony (e.g. a chorale)
 {% include img-figure url="./texture_homophony.png" description="Homophony" width="300px" %}
 (Image by James Cheung)
-3. low semblant motion, high onset synchrony (e.g. a canon)
+3. high semblant motion, low onset synchrony (e.g. a canon)
 {% include img-figure url="./texture_heterophony.png" description="Heterophony" width="300px" %}
 (Image by James Cheung)
 4. low semblant motion, low onset synchrony (e.g. a quadruple fugue)
